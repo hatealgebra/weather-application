@@ -1,0 +1,31 @@
+<script
+  async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClgDCgp_-zNpY-Q7jri6DAbyLHQrKWspI&language=en&libraries=places"
+></script>
+<script defer>
+  window.initMap = function () {
+    let map = new google.maps.Map(document.createElement("div"));
+    const service = new google.maps.places.PlacesService(map);
+    return service;
+  };
+
+  window.generateMap = function (lat, lng, place) {
+    const city = new google.maps.LatLng(lat, lng);
+    const infowindow = new google.maps.InfoWindow();
+    const map = new google.maps.Map(document.getElementById("modalMap"), {
+      center: city,
+      zoom: 15,
+    });
+    const request = {
+      query: place,
+      fields: ["name", "geometry"],
+    };
+    const service = new google.maps.places.PlacesService(map);
+    service.findPlaceFromQuery(request, function (results, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        for (var i = 0; i < results.length; i++) {}
+        map.setCenter(results[0].geometry.location);
+      }
+    });
+  };
+</script>

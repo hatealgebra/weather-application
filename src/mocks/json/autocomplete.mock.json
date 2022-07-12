@@ -1,0 +1,194 @@
+ [
+        {
+            "description": "Prague, Czechia",
+            "matched_substrings": [
+                {
+                    "length": 2,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+            "reference": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+            "structured_formatting": {
+                "main_text": "Prague",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 2,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Czechia"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Prague"
+                },
+                {
+                    "offset": 8,
+                    "value": "Czechia"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Providence, RI, USA",
+            "matched_substrings": [
+                {
+                    "length": 2,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJXXN-Q-BE5IkRJ7azSE1832k",
+            "reference": "ChIJXXN-Q-BE5IkRJ7azSE1832k",
+            "structured_formatting": {
+                "main_text": "Providence",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 2,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "RI, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Providence"
+                },
+                {
+                    "offset": 12,
+                    "value": "RI"
+                },
+                {
+                    "offset": 16,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Preston, UK",
+            "matched_substrings": [
+                {
+                    "length": 2,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJTTx7C8sMe0gRIYeyefsDh9Y",
+            "reference": "ChIJTTx7C8sMe0gRIYeyefsDh9Y",
+            "structured_formatting": {
+                "main_text": "Preston",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 2,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "UK"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Preston"
+                },
+                {
+                    "offset": 9,
+                    "value": "UK"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Prayagraj, Uttar Pradesh, India",
+            "matched_substrings": [
+                {
+                    "length": 2,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJn9QLssk0hTkRGgTUaoU3Igo",
+            "reference": "ChIJn9QLssk0hTkRGgTUaoU3Igo",
+            "structured_formatting": {
+                "main_text": "Prayagraj",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 2,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Uttar Pradesh, India"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Prayagraj"
+                },
+                {
+                    "offset": 11,
+                    "value": "Uttar Pradesh"
+                },
+                {
+                    "offset": 26,
+                    "value": "India"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Provo, UT, USA",
+            "matched_substrings": [
+                {
+                    "length": 2,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJv_ELk3GSTYcR71a1ACbxkB0",
+            "reference": "ChIJv_ELk3GSTYcR71a1ACbxkB0",
+            "structured_formatting": {
+                "main_text": "Provo",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 2,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "UT, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Provo"
+                },
+                {
+                    "offset": 7,
+                    "value": "UT"
+                },
+                {
+                    "offset": 11,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        }
+    ]

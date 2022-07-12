@@ -1,0 +1,24 @@
+import { Meta, Typeset } from "@storybook/addon-docs/blocks";
+
+import theme from "./themeDefault";
+
+<Meta title="Typography" />
+
+# Typography
+
+**Font:** Poppins, Oswaldd
+
+**Weights:** 100(thin), 300(light), 400(regular), 600(semi-bold), 700(bold)
+
+<Typeset
+  fontSizes={[
+    Number(theme.typography.size.label),
+    Number(theme.typography.size.body),
+    Number(theme.typography.size.h5),
+    Number(theme.typography.size.h4),
+    Number(theme.typography.size.h3),
+    Number(theme.typography.size.h2),
+    Number(theme.typography.size.h1),
+  ]}
+  fontWeight={theme.typography.weight.semibold}
+/>

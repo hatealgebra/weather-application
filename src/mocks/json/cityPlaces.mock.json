@@ -1,0 +1,977 @@
+ [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0755564,
+                    "lng": 14.4160467
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0769796302915,
+                        "lng": 14.4173856802915
+                    },
+                    "southwest": {
+                        "lat": 50.0742816697085,
+                        "lng": 14.4146877197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "name": "Church of St. Wenceslas at Zderaz",
+            "photos": [
+                {
+                    "height": 2815,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116721815776874219282\">Zbynda</a>"
+                    ],
+                    "photo_reference": "Aap_uEDSdMTRG7AqqyXiUatMmJyvgExWJFky-EasK4IEAtnaNlbec9hp73h2XWp6H3Mx-zM6pTm_5rslQS27dKRRf669WCxlM-Kfiia-TJDzoIxQ4KMAFDsqZj7AxARkHoZ9TNAsf4eZ4gkPQyxxnM3-8ZNm9KLUij9w_2zfdmlLJ53wzx4M",
+                    "width": 2112
+                }
+            ],
+            "place_id": "ChIJLeg6pfaUC0cRO_DwamraNvI",
+            "plus_code": {
+                "compound_code": "3CG8+6C Prague-Prague 2, Czechia",
+                "global_code": "9F2P3CG8+6C"
+            },
+            "rating": 4.5,
+            "reference": "ChIJLeg6pfaUC0cRO_DwamraNvI",
+            "scope": "GOOGLE",
+            "types": [
+                "church",
+                "tourist_attraction",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 59,
+            "vicinity": "6, Resslova 300, Praha 2"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0912081,
+                    "lng": 14.4342014
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0924863802915,
+                        "lng": 14.4355712802915
+                    },
+                    "southwest": {
+                        "lat": 50.0897884197085,
+                        "lng": 14.4328733197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "name": "St. Peter at Poříčí",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110870951225202866108\">Ales Krcal</a>"
+                    ],
+                    "photo_reference": "Aap_uEB5PY-iRhg05fB6dTw0Z-H60kVnX7tgf3zEr0vVro8Y7wMEMozEzC1ah26CHUn3yjsZPXde-a9HZR9Q1oW1Gye5REA7iP6J08tv7nrvWVaOet82kMFJuJGkORgZFmI4xFBg5MyqTLmafDRXEKgmE6YEn_CDbfGRC-vqcxmTXtgC1F0",
+                    "width": 1280
+                }
+            ],
+            "place_id": "ChIJcbCWlb-UC0cRnfVYz6KyJHs",
+            "plus_code": {
+                "compound_code": "3CRM+FM Prague, Czechia",
+                "global_code": "9F2P3CRM+FM"
+            },
+            "rating": 4.7,
+            "reference": "ChIJcbCWlb-UC0cRnfVYz6KyJHs",
+            "scope": "GOOGLE",
+            "types": [
+                "church",
+                "tourist_attraction",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 205,
+            "vicinity": "Biskupská, Praha 1-Petrská čtvrť"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 50.086154,
+                    "lng": 14.4208678
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0874373302915,
+                        "lng": 14.42221168029151
+                    },
+                    "southwest": {
+                        "lat": 50.0847393697085,
+                        "lng": 14.4195137197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "House at the Two Golden Bears",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 4160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108825491377773895789\">andrea andrea</a>"
+                    ],
+                    "photo_reference": "Aap_uEBBbfylePuLvvfPRIe_QGhMUQxorj8d4bEY18z6BUxTUEHXH285VZq8LWnqoL-XegabXtwK6eFbGvxCiCgl31ExU4V6wsU2vIMxBNITu2OTTD_SuJU5LJ2udHY05WB6vAR2CicpFVlrYFiUWWiK6ofcsRtuojopn0xXz-xOxzdBuLfp",
+                    "width": 3120
+                }
+            ],
+            "place_id": "ChIJZX32tO6UC0cR_j8HKMlbnzo",
+            "plus_code": {
+                "compound_code": "3CPC+F8 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CPC+F8"
+            },
+            "rating": 4.3,
+            "reference": "ChIJZX32tO6UC0cR_j8HKMlbnzo",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "premise",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 23,
+            "vicinity": "1, Kožná 475, Staré Město, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.08628909999999,
+                    "lng": 14.4207256
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0875074302915,
+                        "lng": 14.4220608802915
+                    },
+                    "southwest": {
+                        "lat": 50.0848094697085,
+                        "lng": 14.4193629197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "name": "Sex Machines Museum",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1040,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113128638418897466543\">Sex Machines Museum</a>"
+                    ],
+                    "photo_reference": "Aap_uEBm88ZZWJsDTPWTUjwTBqUdIpaUSjXlvRv1HwiT_ibxMFwJ1F8qhiUYPx3tyU2o-Oa7KUyV1jgDdT4qFTNt1GvADP0StU60l41Ls-0VmHYHSMKVJSolm8_fePJ5bapiihHoWgrtl1uPjrZvX5bRvugLZWcUVHn9Z5cAP0RQTHbpPVm9",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJ51raSumUC0cRqdz_SxE5F8U",
+            "plus_code": {
+                "compound_code": "3CPC+G7 Prague, Czechia",
+                "global_code": "9F2P3CPC+G7"
+            },
+            "rating": 4.1,
+            "reference": "ChIJ51raSumUC0cRqdz_SxE5F8U",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6812,
+            "vicinity": "Melantrichova 476/18"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 50.0804832,
+                    "lng": 14.4329963
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.08199218029149,
+                        "lng": 14.4340282802915
+                    },
+                    "southwest": {
+                        "lat": 50.07929421970849,
+                        "lng": 14.4313303197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "The State Opera",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 3096,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116097609996315527031\">Jan Čeřovský</a>"
+                    ],
+                    "photo_reference": "Aap_uEAXdZ6tLRD9Qs0YDQyXiHPZln4WLftiEr2sg_F99eg5Wwap5b0sWwqYdR-DntXOOEkVNikizRzW79eJ0IeiRhLQdzHSPnbSqQyQTT30eR2Afa59h-fCgLJJ56r_994o2KbLDDMoIl8cLRWHbLjqv-jSoh6Mcg5dF1NLi36wre-5XLvb",
+                    "width": 5504
+                }
+            ],
+            "place_id": "ChIJE5AKFJKUC0cRY2EE_Oh9MhY",
+            "plus_code": {
+                "compound_code": "3CJM+55 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CJM+55"
+            },
+            "rating": 4.6,
+            "reference": "ChIJE5AKFJKUC0cRY2EE_Oh9MhY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 932,
+            "vicinity": "Wilsonova 4, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0870215,
+                    "lng": 14.4207065
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0883254302915,
+                        "lng": 14.4221407802915
+                    },
+                    "southwest": {
+                        "lat": 50.0856274697085,
+                        "lng": 14.4194428197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Prague Astronomical Clock",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4247,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115485660678768601234\">Fred Booker</a>"
+                    ],
+                    "photo_reference": "Aap_uEA8I8MflLyPZFsN55OGOz4fsCn5q421lzKTX0u__RSLyxAcWVPkrudkTJDo5yxAz_A_ZENIFWumzIN3k3liiScx0PiuOTQuzJFvZQKMV39hN-dV3GOzJX0s9ghi623DrP1fRiLy5eFRgj4N-RBTbugNA3UtMjedUTiSOg_bjNOBVVQc",
+                    "width": 3302
+                }
+            ],
+            "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+            "plus_code": {
+                "compound_code": "3CPC+R7 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CPC+R7"
+            },
+            "rating": 4.6,
+            "reference": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "premise",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 40713,
+            "vicinity": "Staroměstské náměstí 1, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.087273,
+                    "lng": 14.4277887
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.08865123029151,
+                        "lng": 14.4290224802915
+                    },
+                    "southwest": {
+                        "lat": 50.08595326970851,
+                        "lng": 14.4263245197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "The Powder Tower",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1063,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103605557944242573995\">Nelson Joanine</a>"
+                    ],
+                    "photo_reference": "Aap_uECgkAjvAAP1HC0DpvP62TeM3iKJorSe0H6pazTJevNfA9xGnPbFOI9swlXBVnYUeM_yOpNkRgnZGUX5JW18h9FgVSbCyWV6q0cMvHjmqCBr9jbTogtgdXBL032OX7FBhqf0cErlyGJu4slRXdZ-yWMJn3WsiaA9joHMii39SLzqv5J0",
+                    "width": 1418
+                }
+            ],
+            "place_id": "ChIJBfIPBeuUC0cRphNG7F-4SZM",
+            "plus_code": {
+                "compound_code": "3CPH+W4 Prague, Czechia",
+                "global_code": "9F2P3CPH+W4"
+            },
+            "rating": 4.6,
+            "reference": "ChIJBfIPBeuUC0cRphNG7F-4SZM",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 26887,
+            "vicinity": "nám. Republiky 5, Staré Město"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.08772079999999,
+                    "lng": 14.4277908
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.08915948029149,
+                        "lng": 14.4292079302915
+                    },
+                    "southwest": {
+                        "lat": 50.08646151970849,
+                        "lng": 14.4265099697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Municipal House",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1180,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117290264136811457757\">Mister No</a>"
+                    ],
+                    "photo_reference": "Aap_uEAlW9T6LNkmveh0n1PfnB5eQNHmYsIS1Omh-PwLQYLpoZQgwN4aqHYRok7DFAx8nWTGmmEZmI3T8qO_JqLYCJIgRJ1XErwO_ECi3wrD4Rijgo9JhvxG-1Y32b0OlJUpxl2ArR-FQcQwk7IDJIa5cILSfV0TvsfYgREBPli27NER9JUv",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJL0C4HuuUC0cREJonDZJQMWo",
+            "plus_code": {
+                "compound_code": "3CQH+34 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CQH+34"
+            },
+            "rating": 4.6,
+            "reference": "ChIJL0C4HuuUC0cREJonDZJQMWo",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6312,
+            "vicinity": "náměstí Republiky 5, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.081047,
+                    "lng": 14.4511421
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0822452802915,
+                        "lng": 14.4524577302915
+                    },
+                    "southwest": {
+                        "lat": 50.0795473197085,
+                        "lng": 14.4497597697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Žižkov Television Tower",
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114063165315695839406\">Heike Ku</a>"
+                    ],
+                    "photo_reference": "Aap_uEDOCdZ64UkbLf292OaOsfz1jAhIE_xFdiBn6_rHGJL7P_lb6a26q_T0Mi-1G-hXsfx_S5z7Dtt6fyZoV2vAzuDc81DbqVEFUuLAObAXOPLgs3k57u88aG-z9IA3X4Y5nFEgJmNijSdRtTpE5j729npEm3gtMK7K5BMuCGO5IoVBdSGE",
+                    "width": 2268
+                }
+            ],
+            "place_id": "ChIJweACSJyUC0cRE4gGU06KHKY",
+            "plus_code": {
+                "compound_code": "3FJ2+CF Prague-Prague 3, Czechia",
+                "global_code": "9F2P3FJ2+CF"
+            },
+            "rating": 4.4,
+            "reference": "ChIJweACSJyUC0cRE4gGU06KHKY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "premise",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 12670,
+            "vicinity": "Mahlerovy sady 1, Praha 3"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0754031,
+                    "lng": 14.4141786
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0767521302915,
+                        "lng": 14.4154150802915
+                    },
+                    "southwest": {
+                        "lat": 50.0740541697085,
+                        "lng": 14.4127171197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Dancing House",
+            "photos": [
+                {
+                    "height": 3979,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115121219900952531681\">Jan Ledvina</a>"
+                    ],
+                    "photo_reference": "Aap_uEDRzUkU1B_n0dTvxR7zxrqMz9PgL_dN-8qr9jwtnwa6iGobKdAFX3DMBfiftiwBeG_DfR8WNihUoCJwZXwNq_u4kahOkFODVSeVx8DyNhTlTMRdu08HcT75G32gU74v0E-Wl-DwcJz4zzcszD-JbufixMoVcRInA_8itZX5Uj3Y1evo",
+                    "width": 5969
+                }
+            ],
+            "place_id": "ChIJFz83wvaUC0cRRDMLBTdlAZM",
+            "plus_code": {
+                "compound_code": "3CG7+5M Prague-Prague 2, Czechia",
+                "global_code": "9F2P3CG7+5M"
+            },
+            "rating": 4.2,
+            "reference": "ChIJFz83wvaUC0cRRDMLBTdlAZM",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 31841,
+            "vicinity": "Jiráskovo náměstí 1981/6, Praha 2"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 50.0859782,
+                    "lng": 14.4236651
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0874452302915,
+                        "lng": 14.4252089802915
+                    },
+                    "southwest": {
+                        "lat": 50.0847472697085,
+                        "lng": 14.4225110197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "The Estates Theatre",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 642,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118401562218010941746\">Sviatoslav Ashkenazy</a>"
+                    ],
+                    "photo_reference": "Aap_uEBnf1xcOzgFPfke3GL-GNz-xs93TMxi5HArKYg43KhLZWFlAY2tAkCLh4Al4EmqnnW923ACJVhoejXa0rIS8KBCyq_nlNEhZQkgs7qQZxAJPJEaj-_eB3HNuamNFPOK9zzxa6F94h4C5_ENjfmv8xCkBOXv4AYB-8f-dtdObUSkk8dy",
+                    "width": 877
+                }
+            ],
+            "place_id": "ChIJKatTv-iUC0cRCTSHs2hbV3Q",
+            "plus_code": {
+                "compound_code": "3CPF+9F Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CPF+9F"
+            },
+            "rating": 4.7,
+            "reference": "ChIJKatTv-iUC0cRCTSHs2hbV3Q",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2914,
+            "vicinity": "Železná, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.079929,
+                    "lng": 14.4316712
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0810899802915,
+                        "lng": 14.4328982302915
+                    },
+                    "southwest": {
+                        "lat": 50.0783920197085,
+                        "lng": 14.4302002697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "name": "New National Museum",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107308366657696443325\">Nová budova Národního muzea</a>"
+                    ],
+                    "photo_reference": "Aap_uECoTOorNnfLMRIWyU9M2nFtba8KiGNFZnw8nXVCzbyDmk1OgopoS6MJW4A58OPFDq-QGkbBNLrzsZ2wc2rzR6CDfnbR4jEk9unFz7c7zNYd7o0sxu5KUXANsBIlafWCopvxY9qzsv2NSEVRGcytO6_4L9Kl3f_mlKnXMSftl9mPaKWN",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJua9Ogo2UC0cRGmG8vsSar_I",
+            "plus_code": {
+                "compound_code": "3CHJ+XM Prague, Czechia",
+                "global_code": "9F2P3CHJ+XM"
+            },
+            "rating": 4.1,
+            "reference": "ChIJua9Ogo2UC0cRGmG8vsSar_I",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1458,
+            "vicinity": "Vinohradská 52/1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0877361,
+                    "lng": 14.4226854
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.08902243029149,
+                        "lng": 14.4241094802915
+                    },
+                    "southwest": {
+                        "lat": 50.08632446970849,
+                        "lng": 14.42141151970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "name": "Church of Our Lady before Týn",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1365,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102193498044145089995\">Alekseyy Tsvetkov</a>"
+                    ],
+                    "photo_reference": "Aap_uEAkNDXdp3wtHOnyhS3-rphpmKmVJm3K76_2-MiwynF-5FEFQgQJ57eZj_C-7-X9rMHCm8CK6U_sdaugugQpjGMOH1Oxk9Wri2qiFMefNopKDrDrxOFzyacJm1WErkiyedVxhDVckx4LEqjMQyuJ3YzsL5VICvIpwtKpx9jfP4h-n9AW",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJu2niIWeTC0cRHEJGY5xf_Io",
+            "plus_code": {
+                "compound_code": "3CQF+33 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CQF+33"
+            },
+            "rating": 4.6,
+            "reference": "ChIJu2niIWeTC0cRHEJGY5xf_Io",
+            "scope": "GOOGLE",
+            "types": [
+                "church",
+                "tourist_attraction",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4562,
+            "vicinity": "Staroměstské náměstí, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0875692,
+                    "lng": 14.4211874
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0888060302915,
+                        "lng": 14.4227029302915
+                    },
+                    "southwest": {
+                        "lat": 50.0861080697085,
+                        "lng": 14.4200049697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Old Town Square",
+            "photos": [
+                {
+                    "height": 9000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107675965067271033080\">Vitalij Kornijenko</a>"
+                    ],
+                    "photo_reference": "Aap_uEBMdG575vXiMfB0SyfKdN1STvTbxyfZzZjX8K4yO5ggXx5tyXnqL5L60W6NhSlCxawo677DTNZlBRP3-Q9MVdLXxIVzvJ0YavlPdCQgC5cN7RmdBLkzUUA6OyMNiEjqJUiOMC7J1nByXnV2Z6hq7Ug74J5T8aYGeB8O7g3rgnKvV5T9",
+                    "width": 12000
+                }
+            ],
+            "place_id": "ChIJIfpRNOmUC0cRxHIewgck75c",
+            "plus_code": {
+                "compound_code": "3CQC+2F Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CQC+2F"
+            },
+            "rating": 4.7,
+            "reference": "ChIJIfpRNOmUC0cRxHIewgck75c",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 62953,
+            "vicinity": "Staroměstské náměstí, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0810018,
+                    "lng": 14.413572
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0822404802915,
+                        "lng": 14.4148922302915
+                    },
+                    "southwest": {
+                        "lat": 50.0795425197085,
+                        "lng": 14.4121942697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "National Theatre",
+            "photos": [
+                {
+                    "height": 3200,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114346875949120427783\">VOX design</a>"
+                    ],
+                    "photo_reference": "Aap_uEAeHV2koGv3eVin-NabUo1FtqtFqhY1VDeO_Kck2AsuR_LcQSNBZm6Kt2oBtvXImjqrkCHjT6lrc82WROLrwJYCb1xAbAzqcO-CqyfC5ATH-5VrFIz0_01FDR9vKNuArv4fjcoi-_OJ76BU2f8KribHpeuL8SxXRcIVDTV1YMAn2RJ4",
+                    "width": 4800
+                }
+            ],
+            "place_id": "ChIJKatTv-iUC0cR_ptOFAQG8Z0",
+            "plus_code": {
+                "compound_code": "3CJ7+CC Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CJ7+CC"
+            },
+            "rating": 4.7,
+            "reference": "ChIJKatTv-iUC0cR_ptOFAQG8Z0",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8224,
+            "vicinity": "Národní 2, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0789482,
+                    "lng": 14.4309209
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.08122025000001,
+                        "lng": 14.4327142302915
+                    },
+                    "southwest": {
+                        "lat": 50.07819085,
+                        "lng": 14.4300162697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "name": "Národní muzeum",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103425953598647616159\">Petr Sojka</a>"
+                    ],
+                    "photo_reference": "Aap_uECHTa5yX0y-BbNNzKUpYsh2k5QZ_rIArgJtI7Tu9I-_Up-c6vrzd8NFoB3Awsi6KhG7BLw3GjEayOSSsilJfUyCRO1B7C1rS2L0YpHlWjSSQ3biQxcWDaG7dt3eT8P9E58kwfEyLJOkbVFneqPEFQhJ9WSUMNWnKzn77fCQBme9mtgY",
+                    "width": 1200
+                }
+            ],
+            "place_id": "ChIJua9Ogo2UC0cRpkk9dANajkI",
+            "plus_code": {
+                "compound_code": "3CHJ+H9 Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CHJ+H9"
+            },
+            "rating": 4.3,
+            "reference": "ChIJua9Ogo2UC0cRpkk9dANajkI",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15493,
+            "vicinity": "Václavské náměstí 68, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0644155,
+                    "lng": 14.4200237
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.06652039999999,
+                        "lng": 14.4250355
+                    },
+                    "southwest": {
+                        "lat": 50.06208800000001,
+                        "lng": 14.4183531
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "name": "Vyšehrad",
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104574013769661348847\">darko borovnica</a>"
+                    ],
+                    "photo_reference": "Aap_uEDauDoMDq5xmdoOor5P_Es24hCxCqj_0mVe5CA2sGWh5Kgq33FLzse514ImmGEnG7OQ0Z4s9o7679GF1fgakm4NVmVaXM-kmy8lD9AFjqcYkHF9LN_-xuewSemgQJWsIp7e-GZmk_iV0j0ggV4sTlS9mLYMv8r-1MrtSPVFYB3cQeTj",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJCd13PWeUC0cRZihTX2RPn0w",
+            "plus_code": {
+                "compound_code": "3C7C+Q2 Prague-Prague 2, Czechia",
+                "global_code": "9F2P3C7C+Q2"
+            },
+            "rating": 4.8,
+            "reference": "ChIJCd13PWeUC0cRZihTX2RPn0w",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 33207,
+            "vicinity": "V Pevnosti 159/5b, Praha 2"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0844519,
+                    "lng": 14.4274504
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0857624302915,
+                        "lng": 14.4287302802915
+                    },
+                    "southwest": {
+                        "lat": 50.0830644697085,
+                        "lng": 14.4260323197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "name": "Mucha Museum",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1577,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105252714680812646634\">Mucha Museum</a>"
+                    ],
+                    "photo_reference": "Aap_uEBpsSfZG5sDQkMpcLcERKApW01dN5A68paO0DQORcRqvqX5SeMzEH4gcJuLauwmYP8MyToHuK4VlmDNBNRiQBoM7mQiPZkRd73modQCqQaRFz-DHjcmxqWwWN2XhTpcholapRdlgsOAY9Fi3rgcyMjXkG-BM499gM4cuBnF3vQEIRC4",
+                    "width": 2362
+                }
+            ],
+            "place_id": "ChIJpbfxu-yUC0cR2uHQdym5Ffc",
+            "plus_code": {
+                "compound_code": "3CMG+QX Prague, Czechia",
+                "global_code": "9F2P3CMG+QX"
+            },
+            "rating": 4.1,
+            "reference": "ChIJpbfxu-yUC0cR2uHQdym5Ffc",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4261,
+            "vicinity": "Panská 7"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0847038,
+                    "lng": 14.4320204
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0860110802915,
+                        "lng": 14.4333008302915
+                    },
+                    "southwest": {
+                        "lat": 50.0833131197085,
+                        "lng": 14.4306028697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_jewish-71.png",
+            "name": "Jerusalem Synagogue",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2064,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109716530768574744261\">SHARLICOHEN</a>"
+                    ],
+                    "photo_reference": "Aap_uEAZGgVRwBmdWeshAC9DtFLr2YrVpI6_xZMEeT58-V1O39_XKdl2s5cXuaxOcU-AzvjDjPKaKh6d3xgzEX4o0aLEZViSmGnx3Qq8KN4gmRE99LkmNkiqCVNpPY5Pj1ydWtgW7x1uQblsrt6ac5CutlAluFP5wsJHEAChFV32CM7dvbid",
+                    "width": 3259
+                }
+            ],
+            "place_id": "ChIJO_W-fZOUC0cRramNCQnVkuA",
+            "plus_code": {
+                "compound_code": "3CMJ+VR Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CMJ+VR"
+            },
+            "rating": 4.5,
+            "reference": "ChIJO_W-fZOUC0cRramNCQnVkuA",
+            "scope": "GOOGLE",
+            "types": [
+                "synagogue",
+                "tourist_attraction",
+                "museum",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2340,
+            "vicinity": "Jeruzalémská 1310/7, Praha 1"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 50.0843165,
+                    "lng": 14.4174049
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 50.0855474302915,
+                        "lng": 14.4188574302915
+                    },
+                    "southwest": {
+                        "lat": 50.0828494697085,
+                        "lng": 14.4161594697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "name": "The Bethlehem Chapel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 896,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106322351093193663025\">Betlémská kaple</a>"
+                    ],
+                    "photo_reference": "Aap_uEA1JeA4dVtiOXp_ZXVN-So_m6Oq3IeQ-cILHH1jufMH765m9oMGgcGySF90JWRHnu6-Lk8ybMLzk1LBERgYKfXhlNk39p94-teZZI-6TEyjS7F8VxX1RcmkM-Ik6ofGigil7zsFaikZYddTzEaYcwRJValetUeT3pDv2Su648sbIynb",
+                    "width": 672
+                }
+            ],
+            "place_id": "ChIJNwfp_e6UC0cRvHU3twMGwgI",
+            "plus_code": {
+                "compound_code": "3CM8+PX Prague-Prague 1, Czechia",
+                "global_code": "9F2P3CM8+PX"
+            },
+            "rating": 4.5,
+            "reference": "ChIJNwfp_e6UC0cRvHU3twMGwgI",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "church",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1914,
+            "vicinity": "Betlémské náměstí 255/4, Praha 1"
+        }
+    ]

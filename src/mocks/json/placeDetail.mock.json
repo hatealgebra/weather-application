@@ -1,0 +1,264 @@
+{
+    "formatted_address": "Staroměstské nám. 1, 110 00 Praha 1-Staré Město, Czechia",
+    "geometry": {
+        "location": {
+            "lat": 50.0870215,
+            "lng": 14.4207065
+        },
+        "viewport": {
+            "south": 50.0856274697085,
+            "west": 14.4194428197085,
+            "north": 50.0883254302915,
+            "east": 14.4221407802915
+        }
+    },
+    "international_phone_number": "+420 236 002 629",
+    "name": "Prague Astronomical Clock",
+    "opening_hours": {
+        "open_now": true,
+        "periods": [
+            {
+                "close": {
+                    "day": 0,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 0,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 1,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 1,
+                    "time": "1100",
+                    "hours": 11,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 2,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 2,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 3,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 3,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 4,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 4,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 5,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 5,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            },
+            {
+                "close": {
+                    "day": 6,
+                    "time": "2200",
+                    "hours": 22,
+                    "minutes": 0
+                },
+                "open": {
+                    "day": 6,
+                    "time": "0900",
+                    "hours": 9,
+                    "minutes": 0
+                }
+            }
+        ],
+        "weekday_text": [
+            "Monday: 11:00 AM – 10:00 PM",
+            "Tuesday: 9:00 AM – 10:00 PM",
+            "Wednesday: 9:00 AM – 10:00 PM",
+            "Thursday: 9:00 AM – 10:00 PM",
+            "Friday: 9:00 AM – 10:00 PM",
+            "Saturday: 9:00 AM – 10:00 PM",
+            "Sunday: 9:00 AM – 10:00 PM"
+        ]
+    },
+    "photos": [
+        {
+            "height": 4247,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/115485660678768601234\">Fred Booker</a>"
+            ],
+            "width": 3302
+        },
+        {
+            "height": 480,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/103857643721641794666\">Mahfuzul Alam Siam</a>"
+            ],
+            "width": 721
+        },
+        {
+            "height": 2813,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/105579856131266169071\">Radek Beran</a>"
+            ],
+            "width": 5686
+        },
+        {
+            "height": 4032,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/115581345206003781998\">Ruslan Lekhman</a>"
+            ],
+            "width": 3024
+        },
+        {
+            "height": 4032,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/112628161559912042128\">Vladimír Černý</a>"
+            ],
+            "width": 3024
+        },
+        {
+            "height": 4032,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/118377568927347250689\">Nicola Capuano</a>"
+            ],
+            "width": 3024
+        },
+        {
+            "height": 6944,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/100689702418279679875\">Petr Landa</a>"
+            ],
+            "width": 9280
+        },
+        {
+            "height": 2592,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/101948851661343045565\">Andriy U</a>"
+            ],
+            "width": 3872
+        },
+        {
+            "height": 3456,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/109055762320332845604\">Nicola Bossi</a>"
+            ],
+            "width": 4608
+        },
+        {
+            "height": 3024,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/101832230927745334760\">Daniel Harabiš</a>"
+            ],
+            "width": 4032
+        }
+    ],
+    "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+    "rating": 4.6,
+    "reviews": [
+        {
+            "author_name": "Samuel Torres",
+            "author_url": "https://www.google.com/maps/contrib/110769001750152647562/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GhdCLkSzpvLwek48zk92UA-v7JzPxMSz90xOE1HKw=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "relative_time_description": "9 months ago",
+            "text": "A place with so much history and mystery... obligatory stop in this city",
+            "time": 1600447714
+        },
+        {
+            "author_name": "Paulo S Biezuner",
+            "author_url": "https://www.google.com/maps/contrib/110316624926603426342/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GjrfG900yqU7r7EYW9vfN4uC92BqhmomV-I26yWHQ=s128-c0x00000000-cc-rp-mo-ba6",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "I was lucky to return to Prague after the restoration of the astronomic clock. It's 600 years old and one of the oldest functional astronomical clocks in the world. As like other like that, it shows the relative positions of the Sun, Moon and Zodiac constellations. Although it's fast, the \"show\" is astonishing: Just above the main clock are two blue doors that open to reveal the \"The Walk of the Apostles\". Between 9 am and 9 pm, each hour, on the hour, the statues become partially animated with, for example, Death ringing his bell. And, as expected, it's always crowded around the place so it's hard to get a nice view.",
+            "time": 1621182482
+        },
+        {
+            "author_name": "m agarwal",
+            "author_url": "https://www.google.com/maps/contrib/114061997951570610110/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/AATXAJz8rvpkKfqDSSIb8tBhBOobCZp8LL9icIuYfi_S=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "One of the most popular tourist area of Prague is old town area with an Astronomical tower. During my 3 yrs of stay in Prague I have visited this area many times and was captivated by the beautiful sound coming out from the clock every hour. Today was the day when I reached to the top of this tower and was thrilled by the beautiful sight of Prague with it's historical buildings, aided by the perfect Sunny weather.",
+            "time": 1621801858
+        },
+        {
+            "author_name": "Roberto Gamero",
+            "author_url": "https://www.google.com/maps/contrib/114025100360641416246/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgiZjnNqVAeRHG3l5w7H-f_AaVe2DaH1ojgXWpXz3I=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "relative_time_description": "7 months ago",
+            "text": "Amazing historical clock! Every hour there is kind of an small show worth seeing and it is located at the very center of the city. It is always full of people so it is hard to take a good picture with no people on it but every picture you take of it is gonna be worth it.",
+            "time": 1605830282
+        },
+        {
+            "author_name": "hebe kuha",
+            "author_url": "https://www.google.com/maps/contrib/115298572383432591737/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/AOh14GgUYFeYS_qicbf2YSe3mBCl5C9X2YmDfCp5gcg3Ig=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "relative_time_description": "2 months ago",
+            "text": "The Astronomical Clock: Prague’s best-loved way to tell the time. I think Astronomical Clock is the great landmark of Old Town Square. Situated on the southern wall of Prague Town Hall, it is such an exciting sight that it has conceivably become the greatly beautiful capital city of the Czech Republic. The clock is unique in that, in addition to indicating the 24 hours of the day, the astronomical dial expresses the position of the sun and the moon in the sky, along with other astronomical information. However, the dial is not the unique feature of this complex, historic clock over 600 years old. It’s always the best idea if you can visit during night time.",
+            "time": 1619365129
+        }
+    ],
+    "types": [
+        "tourist_attraction",
+        "premise",
+        "point_of_interest",
+        "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=17400577118091478678",
+    "website": "https://www.prague.eu/cs/objekt/mista/188/staromestska-radnice-s-orlojem",
+    "html_attributions": []
+}
