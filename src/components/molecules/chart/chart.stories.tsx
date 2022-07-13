@@ -1,13 +1,13 @@
 import React from "react";
 import Chart, { ChartProps } from "./Chart";
-import weatherMockJSON from "../../../mocks/json/weatherOneCall.json";
+import cityMock from "../../../mocks/json/city.mock.json";
 import { Story } from "@storybook/react";
 
 const Template: Story<ChartProps> = (args) => <Chart {...args} />;
 
 export const WeatherChart = Template.bind({});
 WeatherChart.args = {
-  dataset: weatherMockJSON.hourly,
+  dataset: cityMock.weather_data.hourly,
 };
 
 export default {

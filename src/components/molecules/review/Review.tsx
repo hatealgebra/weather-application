@@ -31,7 +31,7 @@ export interface ReviewProps {
   photo: string;
   username: string;
   rating: number;
-  submitted: string;
+  submitted: number;
   text: string;
 }
 

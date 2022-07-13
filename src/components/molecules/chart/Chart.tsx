@@ -20,7 +20,7 @@ import ChartLabel from "./ChartLabel";
  */
 function Chart({ dataset }: ChartProps) {
   const getData = dataset
-    .map((data: Object) => ({
+    .map((data: ITodayWeather) => ({
       ...data,
       hour: `${getHour(data.dt)}`,
       dt: getHour(data.dt),
@@ -77,7 +77,7 @@ function Chart({ dataset }: ChartProps) {
 }
 
 export interface ChartProps {
-  dataset: any[];
+  dataset: ITodayWeather[];
 }
 
 export default Chart;

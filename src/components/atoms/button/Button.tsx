@@ -1,4 +1,5 @@
 import React from "react";
+
 import { StyledButton, ButtonText, LoadingText } from "./button.styled";
 
 const Button = ({
@@ -41,7 +42,7 @@ export interface ButtonProps {
   children?: any;
   containsIcon?: boolean;
   isLink?: boolean;
-  withIcon?: boolean;
+  withIcon?: React.ReactElement;
   onClick?: () => void;
   size?: "small" | "medium";
   isLoading?: boolean;

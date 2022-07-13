@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { Dispatch } from "react";
 
 import { FaMoon } from "react-icons/fa";
 
@@ -10,7 +10,7 @@ import { StyledMenuContainer } from "./mobileMenu.styled";
 
 import MyCitiesList from "../../molecules/myCitiesList/MyCitiesList";
 import { GrClose } from "react-icons/gr";
-import { ButtonRow } from "../../atoms/block/Block";
+import { ButtonRow, FlexContainer } from "../../atoms/block/Block";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
   return (
@@ -42,8 +42,8 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
 }
 
 export interface MobileMenuProps {
-  showMenu?: boolean;
-  setShowMenu: void;
+  showMenu: boolean;
+  setShowMenu: Dispatch<boolean>;
 }
 
 export default MobileMenu;

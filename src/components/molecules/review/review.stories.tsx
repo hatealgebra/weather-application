@@ -11,7 +11,7 @@ GoogleReview.args = {
   username: "Frank Vogel",
   rating: 4,
   text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia architecto quaerat ab quos, quod minima voluptates, id explicabo molestias voluptatem debitis fugit qui assumenda, eum omnis vitae exercitationem similique.",
-  submitted: "10.11.1994",
+  submitted: 1657744012,
 };
 
 export default {

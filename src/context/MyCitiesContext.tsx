@@ -1,7 +1,7 @@
-import React, { createContext, useReducer } from "react";
+import React, { createContext, DispatchWithoutAction, useReducer } from "react";
 
 import { ICityContext } from "./CityContext";
-import autocompleteMock from "../mocks/json/autocomplete.mock.json";
+import placeDetailMock from "../mocks/json/placeDetail.mock.json";
 
 export enum MyCitiesActionTypes {
   ADD_CITY = "ADD",
@@ -17,8 +17,13 @@ const initialState: ICityContext[] = [];
 
 const MyCitiesContext = createContext<{
   myCitiesState: ICityContext[];
-  dispatchMyCitiesMockMyCitiesState: React.Dispatch<IMyCitiesAction>;
+  dispatchMyCitiesState: React.Dispatch<IMyCitiesAction>;
 }>({ myCitiesState: initialState, dispatchMyCitiesState: () => {} });
+
+const MyCitiesMockContext = createContext<{
+  myCitiesStateMock: ICityContext[];
+  dispatchMyCitiesStateMock: DispatchWithoutAction;
+}>({ myCitiesStateMock: initialState, dispatchMyCitiesStateMock: () => {} });
 
 const MyCitiesReducer = (state = initialState, action: IMyCitiesAction) => {
   switch (action.type) {
@@ -59,16 +64,16 @@ export const MyCitiesProviderMock = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [myCitiesStateMock, dispatchMyCitiesMock] = useReducer(
+  const [myCitiesStateMock, dispatchMyCitiesStateMock] = useReducer(
     MyCitiesReducer,
-    autocompleteMock
+    [placeDetailMock, placeDetailMock]
   );
   return (
-    <MyCitiesContext.Provider
-      value={{ myCitiesStateMock, dispatchMyCitiesMock }}
+    <MyCitiesMockContext.Provider
+      value={{ myCitiesStateMock, dispatchMyCitiesStateMock }}
     >
       {children}
-    </MyCitiesContext.Provider>
+    </MyCitiesMockContext.Provider>
   );
 };
 

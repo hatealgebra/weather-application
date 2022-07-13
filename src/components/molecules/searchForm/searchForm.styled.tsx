@@ -31,9 +31,11 @@ export const StyledSearchInput = styled.div`
   flex-direction: row;
   align-items: center;
 `;
-export const StyledAutocompleteWrapper = styled.ul.attrs((props) => ({
-  "data-testid": "autocomplete-container",
-}))`
+export const StyledAutocompleteWrapper = styled.ul.attrs<{ show?: boolean }>(
+  (props) => ({
+    "data-testid": "autocomplete-container",
+  })
+)<{ show?: boolean }>`
   top: 1px;
   z-index: 98;
   position: relative;

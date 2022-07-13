@@ -8,7 +8,7 @@ export const fetchWeatherData = async (lat: number, lng: number) => {
   const oneCallResponse = await axios.get(oneCallEndpoint(lat, lng));
   const { current, daily, hourly } = oneCallResponse.data;
   return {
-    today: current,
+    current: current,
     daily: daily,
     hourly: hourly,
   };

@@ -4,6 +4,7 @@ import { EmptyStar, FullStar } from "./rating.styled";
 import { IoAccessibility } from "react-icons/io5";
 
 import { StyledRatingContainer } from "./rating.styled";
+import themeDefault from "../../particles/themeDefault";
 
 /**
  *
@@ -29,7 +30,7 @@ export const showPopularity = (total: number, color: string) => {
     if (i + 1 <= nrFigures) {
       return (
         <IoAccessibility
-          color={color || "black"}
+          color={color || themeDefault.color.primary}
           key={i}
           title="figure"
           data-testid="full-figure"
@@ -59,14 +60,14 @@ const Rating = ({ rating, className, variant, color }: RatingProps) => {
     case "figure":
       return (
         <StyledRatingContainer className={className}>
-          {showPopularity(rating, color)}
+          {showPopularity(rating, color || "gold")}
         </StyledRatingContainer>
       );
 
     default:
       return (
         <StyledRatingContainer>
-          {showPopularity(rating, color)}
+          {showPopularity(rating, color || "gold")}
         </StyledRatingContainer>
       );
   }
@@ -76,7 +77,7 @@ export interface RatingProps {
   rating: number;
   className?: string;
   variant: "star" | "figure";
-  color: string;
+  color?: string;
 }
 
 export default Rating;

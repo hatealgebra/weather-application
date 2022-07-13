@@ -4,7 +4,7 @@ import CityContext, {
   ICityContext,
   SET_CITY_FROM_FAV,
 } from "../../../context/CityContext";
-import MyCitiesContext, {,
+import MyCitiesContext, {
   MyCitiesActionTypes,
 } from "../../../context/MyCitiesContext";
 import Button from "../../atoms/button/Button";
@@ -25,7 +25,10 @@ function MyCitiesList() {
   };
 
   const removeCity = (cityData: ICityContext) => {
-    dispatchMyCitiesState({ type: MyCitiesActionTypes.REMOVE_CITY, payload: cityData });
+    dispatchMyCitiesState({
+      type: MyCitiesActionTypes.REMOVE_CITY,
+      payload: cityData,
+    });
   };
 
   return (
@@ -40,15 +43,15 @@ function MyCitiesList() {
             left={
               <img
                 alt={`Country flag of ${favCity.base_data.country.long_name}`}
-                src={`https://www.countryflags.io/${favCity.short_country}/shiny/32.png`}
+                src={`https://www.countryflags.io/${favCity.base_data.country.short_name}/shiny/32.png`}
               />
             }
             right={
               <>
                 <ButtonToggle
                   toggleOn={
-                    cityState.base_data.city_id === favCity.base_data.city_id &&
-                    true
+                    cityState!.base_data.city_id ===
+                      favCity.base_data.city_id && true
                   }
                   setToggleOn={() => setCity(favCity)}
                 />
@@ -68,7 +71,7 @@ function MyCitiesList() {
               </>
             }
           >
-            {favCity.city}
+            {favCity.base_data.city_name}
           </ListItem>
         ))
       ) : (

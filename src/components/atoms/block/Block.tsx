@@ -12,7 +12,7 @@ export const AppContainer = styled.div`
   position: relative;
 `;
 
-export const Section = styled.section<{ scrollable: boolean }>`
+export const Section = styled.section<{ scrollable?: boolean }>`
   margin: 15px auto 10px auto;
   position: relative;
   img {

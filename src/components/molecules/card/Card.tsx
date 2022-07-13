@@ -1,4 +1,4 @@
-import React, { Dispatch, useState } from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
 
 import Button from "../../atoms/button/Button";
 import genericPlace from "../../../assets/images/generic-place.jpg";
@@ -13,10 +13,14 @@ import {
 } from "./card.styled";
 import Caption from "../../atoms/caption/Caption";
 
-import { ADD_PLACE_DETAIL } from "../../../context/CityContext";
+import {
+  ADD_PLACE_DETAIL,
+  ICityReducerAction,
+} from "../../../context/CityContext";
 import { getPlaceDetail } from "../../../services/API/google";
 import { FlexContainer } from "../../atoms/block/Block";
 
+// component that shows interesting place from the city and it is clickable
 function Card({
   cityDispatch,
   setShowModal,
@@ -37,7 +41,7 @@ function Card({
         type: ADD_PLACE_DETAIL,
         payload: { place_id: place_id, place_data: placeDetail },
       });
-      setShowModal(placeDetail, true);
+      setShowModal({ place_data: placeDetail, status: true });
     } catch (e) {
       console.log(e);
     } finally {
@@ -83,8 +87,10 @@ export interface CardProps {
   types: string[];
   rating: number;
   vicinity: string;
-  setShowModal: (place_data: any, status: boolean) => void;
-  cityDispatch: Dispatch<any>;
+  setShowModal: Dispatch<
+    SetStateAction<{ place_data: IPlaceDetailResponse; status: boolean }>
+  >;
+  cityDispatch: Dispatch<ICityReducerAction>;
 }
 
 export default Card;

@@ -1,6 +1,6 @@
 import React from "react";
-import ForecastList from "../../../molecules/forecastList/ForecastList";
-import PopularPlaces from "../../../molecules/popularPlaces/PopularPlaces";
+import ForecastList from "../../molecules/forecastList/ForecastList";
+import PopularPlaces from "../../molecules/popularPlaces/PopularPlaces";
 
 import AppSection from "./AppSection";
 

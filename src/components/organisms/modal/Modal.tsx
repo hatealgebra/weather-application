@@ -1,7 +1,5 @@
-import React from "react";
-import dateformat from "dateformat";
+import React, { Dispatch, SetStateAction } from "react";
 
-import Heading from "../../atoms/heading/Heading";
 import {
   StyledModalPhoto,
   StyledOpening,
@@ -10,16 +8,16 @@ import {
   StyledPlaceModalContainer,
 } from "./modal.styled";
 import Button from "../../atoms/button/Button";
-import { FlexContainer, Box, ButtonRow } from "../../atoms/blocks/Containers";
 import Caption from "../../atoms/caption/Caption";
 import Link from "../../atoms/link/Link";
 import genericPlacePhoto from "../../../assets/images/generic-place.jpg";
 
 import { ImClock } from "react-icons/im";
-import { transformType } from "../../../utils/commonUtils/commonUtils";
+
 import Rating from "../../atoms/rating/Rating";
-import Review, { ReviewProps } from "../../molecules/review/Review";
+import Review from "../../molecules/review/Review";
 import { GrClose } from "react-icons/gr";
+import { FlexContainer, Box } from "../../atoms/block/Block";
 
 function Modal({ active, variant, data, setShowModal }: ModalProps) {
   switch (variant) {
@@ -37,12 +35,19 @@ function Modal({ active, variant, data, setShowModal }: ModalProps) {
         reviews,
       } = data;
 
+      const closeModal = () => {
+        setShowModal((prevState) => {
+          const newState = { ...prevState, status: false };
+          return Object.assign({}, newState);
+        });
+      };
+
       return (
         <StyledPlaceModalBackground data-testid="placeModal" active={active}>
           <StyledPlaceModalContainer>
             <Button
               className="modal__close-btb"
-              onClick={() => setShowModal(false)}
+              onClick={() => closeModal()}
               appearance="tertiary"
               containsIcon
               size="small"
@@ -50,10 +55,8 @@ function Modal({ active, variant, data, setShowModal }: ModalProps) {
               <GrClose />
             </Button>
 
-            <StyledModalPhoto photo={photos[0]?.getUrl || genericPlacePhoto}>
-              <Heading className="modal-hero__heading" level={3}>
-                {name}
-              </Heading>
+            <StyledModalPhoto photo={photos[0].getUrl!() || genericPlacePhoto}>
+              <h3 className="modal-hero__heading">{name}</h3>
               <Rating
                 variant="star"
                 className="modal-hero__rating"
@@ -76,19 +79,19 @@ function Modal({ active, variant, data, setShowModal }: ModalProps) {
               </p>
               <FlexContainer between>
                 <Link>Website</Link>
-                <StyledOpening between>
+                <StyledOpening>
                   <ImClock />
                   <p data-testid="test-opening"></p>
                 </StyledOpening>
               </FlexContainer>
               <Box>
-                <Heading level={4}>Direction</Heading>
+                <h4>Direction</h4>
                 <Caption>{formatted_address}</Caption>
                 <StyledPlaceMap></StyledPlaceMap>
               </Box>
               <Box>
-                <Heading level={4}>Reviews</Heading>
-                {reviews.map((review: ReviewProps, i: number) => (
+                <h4>Reviews</h4>
+                {reviews.map((review: IReviewComment, i: number) => (
                   <Review
                     key={i}
                     photo={review.profile_photo_url}
@@ -102,9 +105,8 @@ function Modal({ active, variant, data, setShowModal }: ModalProps) {
               <Button
                 className="modal__close-btn"
                 appearance="primary"
-                withIcon
                 size="small"
-                onClick={() => setShowModal(false)}
+                onClick={() => closeModal()}
               >
                 close
               </Button>
@@ -120,8 +122,10 @@ function Modal({ active, variant, data, setShowModal }: ModalProps) {
 export interface ModalProps {
   active?: boolean;
   variant: string;
-  data: object | [];
-  seShowModal: () => void;
+  data: IPlaceDetailResponse;
+  setShowModal: Dispatch<
+    SetStateAction<{ place_data: IPlaceDetailResponse; status: boolean }>
+  >;
 }
 
 export default Modal;

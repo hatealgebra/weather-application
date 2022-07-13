@@ -4,13 +4,14 @@ import ForecastList from "../../molecules/forecastList/ForecastList";
 import PopularPlaces from "../../molecules/popularPlaces/PopularPlaces";
 import CityContext from "../../../context/CityContext";
 import PageTemplate from "../../templates/Page.template";
-import AppSection from "../../organisms/appSection/appSection/AppSection";
+
 import Chart from "../../molecules/chart/Chart";
 import Header from "../../organisms/header/Header";
 import WeatherStatsList from "../../molecules/weatherStatsList/WeatherStatsList";
+import AppSection from "../../organisms/appSection/AppSection";
 
 function HomePage() {
-  const { cityState, dispatchCityState } = useContext(CityContext);
+  const { cityState } = useContext(CityContext);
 
   // useEffect(() => {
   //   if (cityState === "") {
@@ -40,7 +41,9 @@ function HomePage() {
     <PageTemplate header={<Header variant="mobile" />}>
       <AppSection today boldHeading="today's" heading="Weather">
         <WeatherStatsList />
-        <Chart dataset={cityState?.weather_data} />
+        <Chart
+          dataset={(cityState !== null && cityState.weather_data.hourly) || []}
+        />
       </AppSection>
       <AppSection boldHeading="Week" heading="Forecast">
         <ForecastList />

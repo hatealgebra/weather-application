@@ -4,7 +4,10 @@ export const getTemp = (temperature: number) => {
   return `${Math.round(temperature)}°C`;
 };
 
-export const convertTo12Clock = (timestamp: number) => {
+export const convertTo12Clock = (timestamp: number | undefined) => {
+  if (!timestamp) {
+    return "NaN";
+  }
   const time = getHour(timestamp);
   return time > 12 ? `${time - 12} PM` : `${time} AM`;
 };
@@ -17,7 +20,10 @@ export const getPressure = (pressure: number) => {
   return `${pressure} hPa`;
 };
 
-export const getRain = (rainProb: number) => {
+export const getRain = (rainProb: number | undefined) => {
+  if (!rainProb) {
+    return "NaN";
+  }
   return `${Math.round(rainProb * 100)}%`;
 };
 

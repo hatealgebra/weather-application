@@ -6,7 +6,7 @@
  * @param {IPlaceDetailResponse} cityData -> city data
  * @return {object} Name, country name and country short-name
  */
-export const setCityBaseData = (cityData: IPlaceDetailResponse): object => {
+export const setCityBaseData = (cityData: ICityResponse): object => {
   const { address_components, place_id, photos } = cityData;
 
   const cityName = address_components!.filter((component) => {

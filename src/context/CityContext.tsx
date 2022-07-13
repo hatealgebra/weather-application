@@ -3,11 +3,7 @@ import React, { createContext, useReducer } from "react";
 import weatherOneCall from "../mocks/json/weatherOneCall.json";
 import cityPlaces from "../mocks/json/cityPlaces.mock.json";
 
-import {
-  setCityBaseData,
-  sortTopPOI,
-  filterPhotoMin,
-} from "../utils/city.utils";
+import { setCityBaseData, sortTopPOI } from "../utils/city.utils";
 
 enum CityActionTypes {
   SET_CITY_DATA = "SET_CITY_DATA",
@@ -36,8 +32,8 @@ export interface ICityContext {
     country: { long_name: string; short_name: string };
     photo: Photo;
   };
-  weather_data: { daily: any[] };
-  nearby_places: google.maps.places.PlaceResult[];
+  weather_data: WeatherData;
+  nearby_places: IPlaceDetailResponse[];
 }
 
 export interface ICityReducerAction {
@@ -58,6 +54,7 @@ const cityReducer = (
 ) => {
   switch (action.type) {
     case SET_CITY_DATA:
+      console.log(action.payload);
       return {
         base_data: setCityBaseData(action.payload.cityBaseData),
         weather_data: action.payload.weather_data,

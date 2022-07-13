@@ -1,12 +1,12 @@
-import { bool, string } from "prop-types";
-import React from "react";
+import React, { useContext } from "react";
 
 import { RiAddCircleFill } from "react-icons/ri";
-import PhotoContainer from "../../../molecules/photoContainer/PhotoContainer";
+import PhotoContainer from "../../molecules/photoContainer/PhotoContainer";
 import { StyledTodayContainer } from "./appSection.styled";
-import HeroHeading from "../../../molecules/heroHeading/HeroHeading";
-import Button from "../../../atoms/button/Button";
-import { ButtonRow, Section } from "../../../atoms/block/Block";
+import HeroHeading from "../../molecules/heroHeading/HeroHeading";
+import Button from "../../atoms/button/Button";
+import { ButtonRow, Section } from "../../atoms/block/Block";
+import CityContext, { ICityContext } from "../../../context/CityContext";
 
 function AppSection({
   today,
@@ -15,6 +15,13 @@ function AppSection({
   heading,
   children,
 }: AppSectionProps) {
+  const { cityState } = useContext(CityContext);
+
+  const { base_data, weather_data } = cityState || ({} as ICityContext);
+  const { city_name, country } = base_data;
+  const { current } = weather_data;
+
+  // Weather types
   return (
     <>
       {today && (
@@ -23,7 +30,14 @@ function AppSection({
       <Section>
         {today && (
           <StyledTodayContainer>
-            <HeroHeading />
+            {cityState !== null && (
+              <HeroHeading
+                temp={current.temp}
+                main={current.weather[0].main}
+                cityName={city_name}
+                shortCountry={country.short_name}
+              />
+            )}
             <ButtonRow>
               <Button
                 appearance="secondary"
@@ -52,12 +66,5 @@ export interface AppSectionProps {
   isLoading?: boolean;
   children: React.ReactNode;
 }
-
-AppSection.propTypes = {
-  boldHeading: string.isRequired,
-  heading: string.isRequired,
-  today: bool,
-  isLoading: bool,
-};
 
 export default AppSection;

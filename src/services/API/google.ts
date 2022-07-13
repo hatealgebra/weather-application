@@ -150,6 +150,7 @@ const getPlacePhoto = (place_id: string) => {
         result: [photos: []],
         status: google.maps.places.PlacesServiceStatus
       ) => {
+        console.log(result);
         resolve(result);
         reject(status);
       }

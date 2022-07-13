@@ -3,12 +3,12 @@ import React from "react";
 import AutoComplete from "./AutoComplete";
 
 const predictions = [
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457647 },
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457648 },
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457649 },
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457650 },
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457651 },
-  { cityName: "Prague", countryName: "Czech Republic", placeId: 676457652 },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457647" },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457648" },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457649" },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457650" },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457651" },
+  { cityName: "Prague", countryName: "Czech Republic", place_id: "676457652" },
 ];
 
 export const AutocompleteDefault = () => (

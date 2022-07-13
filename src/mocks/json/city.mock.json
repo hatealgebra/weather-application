@@ -1,0 +1,2305 @@
+{
+  "cityBaseData": {
+    "address_components": [
+      {
+        "long_name": "Prague",
+        "short_name": "Prague",
+        "types": ["locality", "political"]
+      },
+      {
+        "long_name": "Hlavní město Praha",
+        "short_name": "Hlavní město Praha",
+        "types": ["administrative_area_level_2", "political"]
+      },
+      {
+        "long_name": "Prague",
+        "short_name": "Prague",
+        "types": ["administrative_area_level_1", "political"]
+      },
+      {
+        "long_name": "Czechia",
+        "short_name": "CZ",
+        "types": ["country", "political"]
+      }
+    ],
+    "formatted_address": "Prague, Czechia",
+    "geometry": {
+      "location": {
+        "lat": 50.0755381,
+        "lng": 14.4378005
+      },
+      "viewport": {
+        "south": 49.94193629313551,
+        "west": 14.22445333640556,
+        "north": 50.17740304550632,
+        "east": 14.7067945452399
+      }
+    },
+    "name": "Prague",
+    "photos": [
+      {
+        "height": 937,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116568414927295234897\">Julio FERNANDEZ CASANOVA</a>"
+        ],
+        "width": 723
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109029916838143248873\">Татьяна Дорожко</a>"
+        ],
+        "width": 4032
+      },
+      {
+        "height": 705,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104920821717178986083\">Vasıf Yüceliş</a>"
+        ],
+        "width": 1010
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104210913787594179341\">Denys</a>"
+        ],
+        "width": 2268
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109077461531759133530\">Maksymilian Światłoń</a>"
+        ],
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117528889106678847761\">Ivan Grabowski</a>"
+        ],
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102154480175530649767\">Radim Svoboda</a>"
+        ],
+        "width": 3000
+      },
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108835048978068425297\">KIZILATEŞ Kızılateş</a>"
+        ],
+        "width": 775
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115791453394125251168\">Alejandra Díaz</a>"
+        ],
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100294432012366637579\">Nicholas Carrington</a>"
+        ],
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+    "types": ["locality", "political"],
+    "url": "https://maps.google.com/?q=Prague,+Czechia&ftid=0x470b939c0970798b:0x400af0f66164090",
+    "vicinity": "Prague",
+    "website": "http://www.praha.eu/",
+    "html_attributions": []
+  },
+  "weather_data": {
+    "today": {
+      "dt": 1657740858,
+      "sunrise": 1657681614,
+      "sunset": 1657739317,
+      "temp": 24.45,
+      "feels_like": 24.1,
+      "pressure": 1018,
+      "humidity": 44,
+      "dew_point": 11.42,
+      "uvi": 0,
+      "clouds": 0,
+      "visibility": 10000,
+      "wind_speed": 4.12,
+      "wind_deg": 250,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ]
+    },
+    "daily": [
+      {
+        "dt": 1657710000,
+        "sunrise": 1657681614,
+        "sunset": 1657739317,
+        "moonrise": 1657741080,
+        "moonset": 1657677360,
+        "moon_phase": 0.5,
+        "temp": {
+          "day": 27.05,
+          "min": 13.87,
+          "max": 28.15,
+          "night": 23.76,
+          "eve": 24.65,
+          "morn": 16.26
+        },
+        "feels_like": {
+          "day": 26.75,
+          "night": 23.39,
+          "eve": 24.37,
+          "morn": 15.69
+        },
+        "pressure": 1020,
+        "humidity": 37,
+        "dew_point": 10.83,
+        "wind_speed": 5.13,
+        "wind_deg": 288,
+        "wind_gust": 8.08,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 58,
+        "pop": 0,
+        "uvi": 6.29
+      },
+      {
+        "dt": 1657796400,
+        "sunrise": 1657768078,
+        "sunset": 1657825667,
+        "moonrise": 1657830060,
+        "moonset": 1657768500,
+        "moon_phase": 0.53,
+        "temp": {
+          "day": 27.22,
+          "min": 16.53,
+          "max": 27.22,
+          "night": 16.53,
+          "eve": 19.47,
+          "morn": 19.51
+        },
+        "feels_like": {
+          "day": 27.19,
+          "night": 16.69,
+          "eve": 19.61,
+          "morn": 19.19
+        },
+        "pressure": 1016,
+        "humidity": 43,
+        "dew_point": 13.24,
+        "wind_speed": 6.39,
+        "wind_deg": 342,
+        "wind_gust": 11.98,
+        "weather": [
+          {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": 86,
+        "pop": 1,
+        "rain": 4.5,
+        "uvi": 5.53
+      },
+      {
+        "dt": 1657882800,
+        "sunrise": 1657854544,
+        "sunset": 1657912014,
+        "moonrise": 1657918320,
+        "moonset": 1657860180,
+        "moon_phase": 0.56,
+        "temp": {
+          "day": 19.32,
+          "min": 11.45,
+          "max": 22.37,
+          "night": 16.02,
+          "eve": 20.47,
+          "morn": 13.42
+        },
+        "feels_like": {
+          "day": 18.61,
+          "night": 15.04,
+          "eve": 19.72,
+          "morn": 12.8
+        },
+        "pressure": 1020,
+        "humidity": 50,
+        "dew_point": 8.63,
+        "wind_speed": 4.04,
+        "wind_deg": 313,
+        "wind_gust": 7.18,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 59,
+        "pop": 0.77,
+        "uvi": 6.52
+      },
+      {
+        "dt": 1657969200,
+        "sunrise": 1657941011,
+        "sunset": 1657998359,
+        "moonrise": 1658006040,
+        "moonset": 1657951920,
+        "moon_phase": 0.6,
+        "temp": {
+          "day": 20.68,
+          "min": 11.15,
+          "max": 20.75,
+          "night": 14.26,
+          "eve": 17.89,
+          "morn": 13.22
+        },
+        "feels_like": {
+          "day": 19.98,
+          "night": 13.31,
+          "eve": 17.22,
+          "morn": 12.24
+        },
+        "pressure": 1020,
+        "humidity": 45,
+        "dew_point": 8.29,
+        "wind_speed": 5.04,
+        "wind_deg": 315,
+        "wind_gust": 8.18,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 97,
+        "pop": 0,
+        "uvi": 5.09
+      },
+      {
+        "dt": 1658055600,
+        "sunrise": 1658027480,
+        "sunset": 1658084701,
+        "moonrise": 1658093580,
+        "moonset": 1658043480,
+        "moon_phase": 0.64,
+        "temp": {
+          "day": 22.06,
+          "min": 10.67,
+          "max": 22.45,
+          "night": 15.97,
+          "eve": 19.29,
+          "morn": 14.39
+        },
+        "feels_like": {
+          "day": 21.18,
+          "night": 15.16,
+          "eve": 18.68,
+          "morn": 13.43
+        },
+        "pressure": 1025,
+        "humidity": 33,
+        "dew_point": 4.95,
+        "wind_speed": 4.88,
+        "wind_deg": 334,
+        "wind_gust": 6.66,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "clouds": 48,
+        "pop": 0,
+        "uvi": 6.65
+      },
+      {
+        "dt": 1658142000,
+        "sunrise": 1658113950,
+        "sunset": 1658171040,
+        "moonrise": 1658180880,
+        "moonset": 1658134680,
+        "moon_phase": 0.68,
+        "temp": {
+          "day": 25.18,
+          "min": 13.39,
+          "max": 25.6,
+          "night": 18.46,
+          "eve": 22.82,
+          "morn": 17.78
+        },
+        "feels_like": {
+          "day": 24.85,
+          "night": 18.08,
+          "eve": 22.62,
+          "morn": 17.21
+        },
+        "pressure": 1022,
+        "humidity": 42,
+        "dew_point": 11.12,
+        "wind_speed": 4.37,
+        "wind_deg": 312,
+        "wind_gust": 7.05,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 76,
+        "pop": 0,
+        "uvi": 6.53
+      },
+      {
+        "dt": 1658228400,
+        "sunrise": 1658200422,
+        "sunset": 1658257378,
+        "moonrise": 0,
+        "moonset": 1658225700,
+        "moon_phase": 0.71,
+        "temp": {
+          "day": 29.83,
+          "min": 15.5,
+          "max": 31.65,
+          "night": 21.93,
+          "eve": 27.29,
+          "morn": 20.26
+        },
+        "feels_like": {
+          "day": 28.74,
+          "night": 21.67,
+          "eve": 27.37,
+          "morn": 19.93
+        },
+        "pressure": 1018,
+        "humidity": 32,
+        "dew_point": 11.32,
+        "wind_speed": 2.3,
+        "wind_deg": 250,
+        "wind_gust": 4.38,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "clouds": 3,
+        "pop": 0,
+        "uvi": 7
+      },
+      {
+        "dt": 1658314800,
+        "sunrise": 1658286895,
+        "sunset": 1658343713,
+        "moonrise": 1658268180,
+        "moonset": 1658316540,
+        "moon_phase": 0.75,
+        "temp": {
+          "day": 34.01,
+          "min": 18.41,
+          "max": 35.11,
+          "night": 22.72,
+          "eve": 29.37,
+          "morn": 22.88
+        },
+        "feels_like": {
+          "day": 32.97,
+          "night": 22.61,
+          "eve": 29.41,
+          "morn": 22.66
+        },
+        "pressure": 1015,
+        "humidity": 28,
+        "dew_point": 12.95,
+        "wind_speed": 3.24,
+        "wind_deg": 176,
+        "wind_gust": 5.53,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "clouds": 12,
+        "pop": 0.07,
+        "uvi": 7
+      }
+    ],
+    "hourly": [
+      {
+        "dt": 1657738800,
+        "temp": 23.9,
+        "feels_like": 23.55,
+        "pressure": 1018,
+        "humidity": 46,
+        "dew_point": 11.59,
+        "uvi": 0,
+        "clouds": 13,
+        "visibility": 10000,
+        "wind_speed": 2.75,
+        "wind_deg": 239,
+        "wind_gust": 4.5,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657742400,
+        "temp": 24.45,
+        "feels_like": 24.1,
+        "pressure": 1018,
+        "humidity": 44,
+        "dew_point": 11.42,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 2.88,
+        "wind_deg": 249,
+        "wind_gust": 5,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657746000,
+        "temp": 23.76,
+        "feels_like": 23.39,
+        "pressure": 1018,
+        "humidity": 46,
+        "dew_point": 11.46,
+        "uvi": 0,
+        "clouds": 15,
+        "visibility": 10000,
+        "wind_speed": 2.62,
+        "wind_deg": 243,
+        "wind_gust": 4.45,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657749600,
+        "temp": 23.04,
+        "feels_like": 22.63,
+        "pressure": 1018,
+        "humidity": 47,
+        "dew_point": 11.13,
+        "uvi": 0,
+        "clouds": 32,
+        "visibility": 10000,
+        "wind_speed": 2.73,
+        "wind_deg": 244,
+        "wind_gust": 5.16,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657753200,
+        "temp": 21.95,
+        "feels_like": 21.48,
+        "pressure": 1018,
+        "humidity": 49,
+        "dew_point": 10.76,
+        "uvi": 0,
+        "clouds": 49,
+        "visibility": 10000,
+        "wind_speed": 2.86,
+        "wind_deg": 243,
+        "wind_gust": 5.4,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657756800,
+        "temp": 20.33,
+        "feels_like": 19.8,
+        "pressure": 1018,
+        "humidity": 53,
+        "dew_point": 10.45,
+        "uvi": 0,
+        "clouds": 67,
+        "visibility": 10000,
+        "wind_speed": 2.81,
+        "wind_deg": 242,
+        "wind_gust": 4.59,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657760400,
+        "temp": 18.2,
+        "feels_like": 17.64,
+        "pressure": 1018,
+        "humidity": 60,
+        "dew_point": 10.02,
+        "uvi": 0,
+        "clouds": 97,
+        "visibility": 10000,
+        "wind_speed": 2.63,
+        "wind_deg": 239,
+        "wind_gust": 3.84,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657764000,
+        "temp": 18.98,
+        "feels_like": 18.42,
+        "pressure": 1018,
+        "humidity": 57,
+        "dew_point": 10.18,
+        "uvi": 0,
+        "clouds": 98,
+        "visibility": 10000,
+        "wind_speed": 2.27,
+        "wind_deg": 233,
+        "wind_gust": 3.59,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657767600,
+        "temp": 19.07,
+        "feels_like": 18.52,
+        "pressure": 1018,
+        "humidity": 57,
+        "dew_point": 10.24,
+        "uvi": 0,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 1.99,
+        "wind_deg": 239,
+        "wind_gust": 2.67,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657771200,
+        "temp": 18.92,
+        "feels_like": 18.46,
+        "pressure": 1017,
+        "humidity": 61,
+        "dew_point": 11.1,
+        "uvi": 0.12,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 1.66,
+        "wind_deg": 236,
+        "wind_gust": 1.89,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657774800,
+        "temp": 19.51,
+        "feels_like": 19.19,
+        "pressure": 1018,
+        "humidity": 64,
+        "dew_point": 12.32,
+        "uvi": 0.44,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 1.54,
+        "wind_deg": 250,
+        "wind_gust": 3.57,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657778400,
+        "temp": 20.89,
+        "feels_like": 20.55,
+        "pressure": 1018,
+        "humidity": 58,
+        "dew_point": 12.22,
+        "uvi": 1.12,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 1.88,
+        "wind_deg": 273,
+        "wind_gust": 3.97,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657782000,
+        "temp": 22.08,
+        "feels_like": 21.78,
+        "pressure": 1018,
+        "humidity": 55,
+        "dew_point": 12.41,
+        "uvi": 2.45,
+        "clouds": 87,
+        "visibility": 10000,
+        "wind_speed": 1.86,
+        "wind_deg": 304,
+        "wind_gust": 3.07,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657785600,
+        "temp": 23.44,
+        "feels_like": 23.2,
+        "pressure": 1017,
+        "humidity": 52,
+        "dew_point": 12.78,
+        "uvi": 3.99,
+        "clouds": 89,
+        "visibility": 10000,
+        "wind_speed": 1.34,
+        "wind_deg": 285,
+        "wind_gust": 2.44,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657789200,
+        "temp": 24.07,
+        "feels_like": 23.86,
+        "pressure": 1017,
+        "humidity": 51,
+        "dew_point": 13.04,
+        "uvi": 5.53,
+        "clouds": 93,
+        "visibility": 10000,
+        "wind_speed": 1.52,
+        "wind_deg": 297,
+        "wind_gust": 2.67,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657792800,
+        "temp": 25.82,
+        "feels_like": 25.66,
+        "pressure": 1016,
+        "humidity": 46,
+        "dew_point": 13.18,
+        "uvi": 4.54,
+        "clouds": 85,
+        "visibility": 10000,
+        "wind_speed": 2.78,
+        "wind_deg": 283,
+        "wind_gust": 4.64,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657796400,
+        "temp": 27.22,
+        "feels_like": 27.19,
+        "pressure": 1016,
+        "humidity": 43,
+        "dew_point": 13.24,
+        "uvi": 4.85,
+        "clouds": 86,
+        "visibility": 10000,
+        "wind_speed": 2.81,
+        "wind_deg": 293,
+        "wind_gust": 6.19,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657800000,
+        "temp": 27.15,
+        "feels_like": 27.31,
+        "pressure": 1015,
+        "humidity": 46,
+        "dew_point": 14.22,
+        "uvi": 4.61,
+        "clouds": 88,
+        "visibility": 10000,
+        "wind_speed": 1.02,
+        "wind_deg": 323,
+        "wind_gust": 5.13,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657803600,
+        "temp": 24.7,
+        "feels_like": 24.69,
+        "pressure": 1015,
+        "humidity": 56,
+        "dew_point": 15.18,
+        "uvi": 3.5,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 2.07,
+        "wind_deg": 356,
+        "wind_gust": 3.64,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.13
+      },
+      {
+        "dt": 1657807200,
+        "temp": 24.39,
+        "feels_like": 24.4,
+        "pressure": 1014,
+        "humidity": 58,
+        "dew_point": 15.39,
+        "uvi": 2.57,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 2.86,
+        "wind_deg": 47,
+        "wind_gust": 3.43,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.19
+      },
+      {
+        "dt": 1657810800,
+        "temp": 25.02,
+        "feels_like": 25.04,
+        "pressure": 1013,
+        "humidity": 56,
+        "dew_point": 15.26,
+        "uvi": 1.62,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 2.86,
+        "wind_deg": 91,
+        "wind_gust": 2.47,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.13
+      },
+      {
+        "dt": 1657814400,
+        "temp": 25.54,
+        "feels_like": 25.56,
+        "pressure": 1013,
+        "humidity": 54,
+        "dew_point": 15.31,
+        "uvi": 0.16,
+        "clouds": 95,
+        "visibility": 10000,
+        "wind_speed": 2.71,
+        "wind_deg": 10,
+        "wind_gust": 4.1,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "pop": 0.42,
+        "rain": {
+          "1h": 0.12
+        }
+      },
+      {
+        "dt": 1657818000,
+        "temp": 19.47,
+        "feels_like": 19.61,
+        "pressure": 1015,
+        "humidity": 82,
+        "dew_point": 16.09,
+        "uvi": 0.06,
+        "clouds": 95,
+        "visibility": 10000,
+        "wind_speed": 6.39,
+        "wind_deg": 342,
+        "wind_gust": 11.98,
+        "weather": [
+          {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10d"
+          }
+        ],
+        "pop": 0.67,
+        "rain": {
+          "1h": 1.11
+        }
+      },
+      {
+        "dt": 1657821600,
+        "temp": 17.66,
+        "feels_like": 17.75,
+        "pressure": 1015,
+        "humidity": 87,
+        "dew_point": 15.3,
+        "uvi": 0.02,
+        "clouds": 96,
+        "visibility": 10000,
+        "wind_speed": 1.99,
+        "wind_deg": 337,
+        "wind_gust": 8.58,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "pop": 0.94,
+        "rain": {
+          "1h": 0.92
+        }
+      },
+      {
+        "dt": 1657825200,
+        "temp": 16.99,
+        "feels_like": 17.09,
+        "pressure": 1015,
+        "humidity": 90,
+        "dew_point": 15.18,
+        "uvi": 0,
+        "clouds": 63,
+        "visibility": 10000,
+        "wind_speed": 1.66,
+        "wind_deg": 245,
+        "wind_gust": 3.26,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "pop": 1,
+        "rain": {
+          "1h": 0.76
+        }
+      },
+      {
+        "dt": 1657828800,
+        "temp": 16.66,
+        "feels_like": 16.84,
+        "pressure": 1016,
+        "humidity": 94,
+        "dew_point": 15.38,
+        "uvi": 0,
+        "clouds": 82,
+        "visibility": 9095,
+        "wind_speed": 2.06,
+        "wind_deg": 239,
+        "wind_gust": 3.42,
+        "weather": [
+          {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10n"
+          }
+        ],
+        "pop": 0.97,
+        "rain": {
+          "1h": 1.16
+        }
+      },
+      {
+        "dt": 1657832400,
+        "temp": 16.53,
+        "feels_like": 16.69,
+        "pressure": 1016,
+        "humidity": 94,
+        "dew_point": 15.36,
+        "uvi": 0,
+        "clouds": 88,
+        "visibility": 10000,
+        "wind_speed": 3.19,
+        "wind_deg": 241,
+        "wind_gust": 5.56,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "pop": 0.97,
+        "rain": {
+          "1h": 0.43
+        }
+      },
+      {
+        "dt": 1657836000,
+        "temp": 16.25,
+        "feels_like": 16.38,
+        "pressure": 1017,
+        "humidity": 94,
+        "dew_point": 15.03,
+        "uvi": 0,
+        "clouds": 89,
+        "visibility": 10000,
+        "wind_speed": 3.22,
+        "wind_deg": 260,
+        "wind_gust": 7.18,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.77
+      },
+      {
+        "dt": 1657839600,
+        "temp": 15.33,
+        "feels_like": 15.32,
+        "pressure": 1017,
+        "humidity": 92,
+        "dew_point": 13.85,
+        "uvi": 0,
+        "clouds": 73,
+        "visibility": 10000,
+        "wind_speed": 2.84,
+        "wind_deg": 281,
+        "wind_gust": 6.13,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.77
+      },
+      {
+        "dt": 1657843200,
+        "temp": 14.33,
+        "feels_like": 14.06,
+        "pressure": 1017,
+        "humidity": 86,
+        "dew_point": 11.87,
+        "uvi": 0,
+        "clouds": 63,
+        "visibility": 10000,
+        "wind_speed": 2.47,
+        "wind_deg": 293,
+        "wind_gust": 3.67,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.77
+      },
+      {
+        "dt": 1657846800,
+        "temp": 13.13,
+        "feels_like": 12.64,
+        "pressure": 1018,
+        "humidity": 82,
+        "dew_point": 9.91,
+        "uvi": 0,
+        "clouds": 7,
+        "visibility": 10000,
+        "wind_speed": 2.38,
+        "wind_deg": 292,
+        "wind_gust": 3.36,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657850400,
+        "temp": 12.11,
+        "feels_like": 11.49,
+        "pressure": 1018,
+        "humidity": 81,
+        "dew_point": 8.65,
+        "uvi": 0,
+        "clouds": 14,
+        "visibility": 10000,
+        "wind_speed": 2.31,
+        "wind_deg": 290,
+        "wind_gust": 3.26,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657854000,
+        "temp": 11.45,
+        "feels_like": 10.77,
+        "pressure": 1019,
+        "humidity": 81,
+        "dew_point": 8.19,
+        "uvi": 0,
+        "clouds": 12,
+        "visibility": 10000,
+        "wind_speed": 2.22,
+        "wind_deg": 278,
+        "wind_gust": 3.09,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657857600,
+        "temp": 11.69,
+        "feels_like": 11.03,
+        "pressure": 1020,
+        "humidity": 81,
+        "dew_point": 8.42,
+        "uvi": 0.13,
+        "clouds": 14,
+        "visibility": 10000,
+        "wind_speed": 2.06,
+        "wind_deg": 281,
+        "wind_gust": 3.5,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657861200,
+        "temp": 13.42,
+        "feels_like": 12.8,
+        "pressure": 1020,
+        "humidity": 76,
+        "dew_point": 9.14,
+        "uvi": 0.45,
+        "clouds": 18,
+        "visibility": 10000,
+        "wind_speed": 1.97,
+        "wind_deg": 294,
+        "wind_gust": 5.19,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657864800,
+        "temp": 15.07,
+        "feels_like": 14.46,
+        "pressure": 1021,
+        "humidity": 70,
+        "dew_point": 9.46,
+        "uvi": 1.13,
+        "clouds": 20,
+        "visibility": 10000,
+        "wind_speed": 3.32,
+        "wind_deg": 316,
+        "wind_gust": 5.84,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657868400,
+        "temp": 16.08,
+        "feels_like": 15.49,
+        "pressure": 1021,
+        "humidity": 67,
+        "dew_point": 9.66,
+        "uvi": 2.19,
+        "clouds": 24,
+        "visibility": 10000,
+        "wind_speed": 3.93,
+        "wind_deg": 319,
+        "wind_gust": 5.62,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657872000,
+        "temp": 17.3,
+        "feels_like": 16.7,
+        "pressure": 1021,
+        "humidity": 62,
+        "dew_point": 9.78,
+        "uvi": 3.55,
+        "clouds": 26,
+        "visibility": 10000,
+        "wind_speed": 4.04,
+        "wind_deg": 313,
+        "wind_gust": 5.5,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657875600,
+        "temp": 18.59,
+        "feels_like": 17.97,
+        "pressure": 1020,
+        "humidity": 56,
+        "dew_point": 9.62,
+        "uvi": 4.91,
+        "clouds": 34,
+        "visibility": 10000,
+        "wind_speed": 3.92,
+        "wind_deg": 307,
+        "wind_gust": 6.14,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657879200,
+        "temp": 19.12,
+        "feels_like": 18.45,
+        "pressure": 1020,
+        "humidity": 52,
+        "dew_point": 8.95,
+        "uvi": 6.1,
+        "clouds": 50,
+        "visibility": 10000,
+        "wind_speed": 3.91,
+        "wind_deg": 306,
+        "wind_gust": 6.15,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657882800,
+        "temp": 19.32,
+        "feels_like": 18.61,
+        "pressure": 1020,
+        "humidity": 50,
+        "dew_point": 8.63,
+        "uvi": 6.52,
+        "clouds": 59,
+        "visibility": 10000,
+        "wind_speed": 2.93,
+        "wind_deg": 319,
+        "wind_gust": 4.86,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657886400,
+        "temp": 20.42,
+        "feels_like": 19.72,
+        "pressure": 1020,
+        "humidity": 46,
+        "dew_point": 8.31,
+        "uvi": 6.2,
+        "clouds": 61,
+        "visibility": 10000,
+        "wind_speed": 2.32,
+        "wind_deg": 335,
+        "wind_gust": 4.69,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657890000,
+        "temp": 21.46,
+        "feels_like": 20.76,
+        "pressure": 1019,
+        "humidity": 42,
+        "dew_point": 7.84,
+        "uvi": 5.26,
+        "clouds": 65,
+        "visibility": 10000,
+        "wind_speed": 2.51,
+        "wind_deg": 349,
+        "wind_gust": 5.08,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657893600,
+        "temp": 21.92,
+        "feels_like": 21.19,
+        "pressure": 1018,
+        "humidity": 39,
+        "dew_point": 7.02,
+        "uvi": 3.87,
+        "clouds": 67,
+        "visibility": 10000,
+        "wind_speed": 2.18,
+        "wind_deg": 359,
+        "wind_gust": 4.43,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657897200,
+        "temp": 22.37,
+        "feels_like": 21.6,
+        "pressure": 1018,
+        "humidity": 36,
+        "dew_point": 6.32,
+        "uvi": 2.45,
+        "clouds": 67,
+        "visibility": 10000,
+        "wind_speed": 2.62,
+        "wind_deg": 0,
+        "wind_gust": 4.59,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657900800,
+        "temp": 22.06,
+        "feels_like": 21.29,
+        "pressure": 1018,
+        "humidity": 37,
+        "dew_point": 6.55,
+        "uvi": 1.27,
+        "clouds": 62,
+        "visibility": 10000,
+        "wind_speed": 2.94,
+        "wind_deg": 1,
+        "wind_gust": 4.45,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657904400,
+        "temp": 20.47,
+        "feels_like": 19.72,
+        "pressure": 1018,
+        "humidity": 44,
+        "dew_point": 7.68,
+        "uvi": 0.53,
+        "clouds": 69,
+        "visibility": 10000,
+        "wind_speed": 2.45,
+        "wind_deg": 14,
+        "wind_gust": 4.17,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657908000,
+        "temp": 19.26,
+        "feels_like": 18.52,
+        "pressure": 1019,
+        "humidity": 49,
+        "dew_point": 7.92,
+        "uvi": 0.16,
+        "clouds": 74,
+        "visibility": 10000,
+        "wind_speed": 1.67,
+        "wind_deg": 27,
+        "wind_gust": 2.55,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      }
+    ]
+  },
+  "nearby_places": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.07539441358546,
+          "lng": 14.43774512198797
+        },
+        "viewport": {
+          "south": 50.0740473697085,
+          "west": 14.4363733697085,
+          "north": 50.0767453302915,
+          "east": 14.4390713302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Náměstí Míru",
+      "place_id": "ChIJe_lmb4-UC0cRdmBF9os7deQ",
+      "reference": "ChIJe_lmb4-UC0cRdmBF9os7deQ",
+      "scope": "GOOGLE",
+      "types": ["route"],
+      "vicinity": "Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0756294,
+          "lng": 14.4379472
+        },
+        "viewport": {
+          "south": 50.0743250697085,
+          "west": 14.4364927697085,
+          "north": 50.0770230302915,
+          "east": 14.4391907302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Valdauf Karel, JUDr., advokát",
+      "place_id": "ChIJhayeeo-UC0cReEkyUxgBlEE",
+      "plus_code": {
+        "compound_code": "3CGQ+75 Prague, Czechia",
+        "global_code": "9F2P3CGQ+75"
+      },
+      "reference": "ChIJhayeeo-UC0cReEkyUxgBlEE",
+      "scope": "GOOGLE",
+      "types": ["lawyer", "point_of_interest", "establishment"],
+      "vicinity": "Vinohradská 37, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Radek Mikuláš, MR. Photographer",
+      "place_id": "ChIJM8ABNXuTC0cRwc6dk1DEQVE",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJM8ABNXuTC0cRwc6dk1DEQVE",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Todes Reboot",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 573,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105319035873676842584\">Todes Reboot s.r.o.</a>"
+          ],
+          "width": 1019
+        }
+      ],
+      "place_id": "ChIJj-DSJe2UC0cRi69HQH8OczE",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJj-DSJe2UC0cRi69HQH8OczE",
+      "scope": "GOOGLE",
+      "types": ["accounting", "finance", "point_of_interest", "establishment"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0756294,
+          "lng": 14.4379472
+        },
+        "viewport": {
+          "south": 50.0743250697085,
+          "west": 14.4364927697085,
+          "north": 50.0770230302915,
+          "east": 14.4391907302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "National house of Vinohrady",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1365,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107539324146341051993\">Národní dům na Vinohradech</a>"
+          ],
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJ4wOkeo-UC0cRmDIaHZJXEPw",
+      "plus_code": {
+        "compound_code": "3CGQ+75 Prague-Prague 2, Czechia",
+        "global_code": "9F2P3CGQ+75"
+      },
+      "rating": 4.5,
+      "reference": "ChIJ4wOkeo-UC0cRmDIaHZJXEPw",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1199,
+      "vicinity": "Náměstí Míru 820/9, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0756442,
+          "lng": 14.4379184
+        },
+        "viewport": {
+          "south": 50.0742893697085,
+          "west": 14.43647596970849,
+          "north": 50.07698733029149,
+          "east": 14.4391739302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "FANatic ​​Studio",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100755657093675393634\">Tomáš Lukš</a>"
+          ],
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJgayeeo-UC0cRKg6cH7FMtMQ",
+      "plus_code": {
+        "compound_code": "3CGQ+75 Prague-Prague 2, Czechia",
+        "global_code": "9F2P3CGQ+75"
+      },
+      "rating": 4.6,
+      "reference": "ChIJgayeeo-UC0cRKg6cH7FMtMQ",
+      "scope": "GOOGLE",
+      "types": ["spa", "gym", "point_of_interest", "health", "establishment"],
+      "user_ratings_total": 62,
+      "vicinity": "9, Náměstí Míru 820, Vinohrady, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741891197085,
+          "west": 14.4364515197085,
+          "north": 50.0768870802915,
+          "east": 14.4391494802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Raveshop.cz",
+      "photos": [
+        {
+          "height": 1920,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111022368072908791390\">Jonathan Guttman</a>"
+          ],
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJf8AxBiasE0cRBPr4xl0S8wM",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "rating": 4.3,
+      "reference": "ChIJf8AxBiasE0cRBPr4xl0S8wM",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "store", "establishment"],
+      "user_ratings_total": 12,
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0756294,
+          "lng": 14.4379472
+        },
+        "viewport": {
+          "south": 50.0743250697085,
+          "west": 14.4364927697085,
+          "north": 50.0770230302915,
+          "east": 14.4391907302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "Contemporary - space for dancing",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3744,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111788044621614124765\">Contemporary</a>"
+          ],
+          "width": 5616
+        }
+      ],
+      "place_id": "ChIJtfeoeo-UC0cRHNgveIc-bUA",
+      "plus_code": {
+        "compound_code": "3CGQ+75 Prague, Czechia",
+        "global_code": "9F2P3CGQ+75"
+      },
+      "rating": 4.4,
+      "reference": "ChIJtfeoeo-UC0cRHNgveIc-bUA",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 11,
+      "vicinity": "Národní dům na, Náměstí Míru 820/9, Vinohrady",
+      "html_attributions": []
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Ovelos, pozemní stavby a.s.",
+      "permanently_closed": true,
+      "place_id": "ChIJIUzHlWaWC0cRHbTrfqtysGY",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "rating": 3,
+      "reference": "ChIJIUzHlWaWC0cRHbTrfqtysGY",
+      "scope": "GOOGLE",
+      "types": ["general_contractor", "point_of_interest", "establishment"],
+      "user_ratings_total": 7,
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Wedding little differently",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 731,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105827304585743935059\">Svatba trochu jinak</a>"
+          ],
+          "width": 1024
+        }
+      ],
+      "place_id": "ChIJo-LBP-OUC0cR09w7AbATS-Q",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "rating": 4.8,
+      "reference": "ChIJo-LBP-OUC0cR09w7AbATS-Q",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 4,
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Restartfirmy.eu",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 811,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101657315622581754361\">Restartfirmy.eu (Ekonomický servis, s.r.o.)</a>"
+          ],
+          "width": 901
+        }
+      ],
+      "place_id": "ChIJr-_d_MrsC0cRpJ4pgg5ONt8",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "rating": 5,
+      "reference": "ChIJr-_d_MrsC0cRpJ4pgg5ONt8",
+      "scope": "GOOGLE",
+      "types": ["finance", "point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Koučink, psychoterapie, mentorink, supervize",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 681,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104476513096800159539\">Koučink, psychoterapie, mentorink, supervize</a>"
+          ],
+          "width": 1024
+        }
+      ],
+      "place_id": "ChIJGQD00MuUC0cRn03Lpm45aAc",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "rating": 5,
+      "reference": "ChIJGQD00MuUC0cRn03Lpm45aAc",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "health", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "EVENTBOX",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 540,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116795303177373476805\">EVENTBOX</a>"
+          ],
+          "width": 960
+        }
+      ],
+      "place_id": "ChIJvxq_1e-UC0cRGGiLZg7skxI",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJvxq_1e-UC0cRGGiLZg7skxI",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0756294,
+          "lng": 14.4379472
+        },
+        "viewport": {
+          "south": 50.0743250697085,
+          "west": 14.4364927697085,
+          "north": 50.0770230302915,
+          "east": 14.4391907302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Ponte reality s.r.o.",
+      "place_id": "ChIJhayeeo-UC0cREZXAOUTwIsw",
+      "plus_code": {
+        "compound_code": "3CGQ+75 Prague-Prague 2, Czechia",
+        "global_code": "9F2P3CGQ+75"
+      },
+      "rating": 5,
+      "reference": "ChIJhayeeo-UC0cREZXAOUTwIsw",
+      "scope": "GOOGLE",
+      "types": ["real_estate_agency", "point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "9, Náměstí Míru 820, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Education and training of dogs",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1152,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112406750151406114253\">Výchova a výcvik psů</a>"
+          ],
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJn9SqvRqTC0cRtXX_7THZLo4",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJn9SqvRqTC0cRtXX_7THZLo4",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "Hostel one home",
+      "place_id": "ChIJP8DHAM2VC0cRhCvO71qKvGI",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague-Prague 2, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJP8DHAM2VC0cRhCvO71qKvGI",
+      "scope": "GOOGLE",
+      "types": ["lodging", "point_of_interest", "establishment"],
+      "vicinity": "Náměstí Míru, Vinohrady, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "airsoftteam",
+      "place_id": "ChIJxe4WiyeVC0cRzLcTqpF_hAQ",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJxe4WiyeVC0cRzLcTqpF_hAQ",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "airsoft",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "Hotel Aquitaine",
+      "place_id": "ChIJYZ8dILiVC0cRdYP6Ebg20bk",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague-Prague 2, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJYZ8dILiVC0cRdYP6Ebg20bk",
+      "scope": "GOOGLE",
+      "types": ["lodging", "point_of_interest", "establishment"],
+      "vicinity": "Náměstí Míru 120 00, Praha 2",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 50.0741890697085,
+          "west": 14.4364502697085,
+          "north": 50.07688703029149,
+          "east": 14.4391482302915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Studio Cella",
+      "place_id": "ChIJV3wquoiVC0cRp6ozUi7Zxx4",
+      "plus_code": {
+        "compound_code": "3CGQ+64 Prague, Czechia",
+        "global_code": "9F2P3CGQ+64"
+      },
+      "reference": "ChIJV3wquoiVC0cRp6ozUi7Zxx4",
+      "scope": "GOOGLE",
+      "types": ["general_contractor", "point_of_interest", "establishment"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "viewport": {
+          "south": 49.94193629313551,
+          "west": 14.22445333640556,
+          "north": 50.17740304550632,
+          "east": 14.7067945452399
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Prague",
+      "photos": [
+        {
+          "height": 937,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116568414927295234897\">Julio FERNANDEZ CASANOVA</a>"
+          ],
+          "width": 723
+        }
+      ],
+      "place_id": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+      "reference": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+      "scope": "GOOGLE",
+      "types": ["locality", "political"],
+      "vicinity": "Prague",
+      "html_attributions": []
+    }
+  ]
+}

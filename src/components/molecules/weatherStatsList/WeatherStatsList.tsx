@@ -14,13 +14,9 @@ import WeatherStat from "../../atoms/weatherStat/WeatherStat";
 import { StyledWeatherStatsList } from "./weatherStatsList.styled";
 
 function WeatherStatsList() {
-  const { cityState, dispatchCityState } = useContext(CityContext);
+  const { cityState } = useContext(CityContext);
 
-  if (
-    !cityState ||
-    !("weather_data" in cityState) ||
-    !cityState.weather_data.current
-  ) {
+  if (!cityState || !("weather_data" in cityState) || !cityState.weather_data) {
     return (
       <StyledWeatherStatsList>
         <Missing
@@ -41,7 +37,7 @@ function WeatherStatsList() {
       <WeatherStat type="sunset" data={convertTo12Clock(current.sunset)} />
       <WeatherStat type="wind" data={getWindSpeed(current.wind_speed)} />
       <WeatherStat type="pressure" data={getPressure(current.pressure)} />
-      <WeatherStat type="rain" data={getRain(current.rain)} />
+      <WeatherStat type="rain" data={getRain(current.rain!["1h"])} />
       <WeatherStat type="humidity" data={getHumidity(current.humidity)} />
     </StyledWeatherStatsList>
   );

@@ -31,7 +31,7 @@ function SearchForm() {
   const [inputCity, setInputCity] = useState("");
   const [autocompleteOn, setAutocompleteOn] = useState(false);
 
-  const { cityState, dispatchCityState } = useContext(CityContext);
+  const { dispatchCityState } = useContext(CityContext);
 
   useEffect(() => {
     const getPredictions = async (input: string) => {
