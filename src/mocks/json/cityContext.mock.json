@@ -1,0 +1,2157 @@
+{
+  "base_data": {
+    "city_id": "ChIJRcbZaklDXz4RYlEphFBu5r0",
+    "city_name": "Dubai",
+    "geometry": {
+      "lat": 25.2048493,
+      "lng": 55.2707828
+    },
+    "country": {
+      "long_name": "United Arab Emirates",
+      "short_name": "AE"
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108845207301796772855\">Muhammad Umar</a>"
+        ],
+        "width": 4032,
+        "getUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ]
+  },
+  "weather_data": {
+    "current": {
+      "dt": 1657821344,
+      "sunrise": 1657762638,
+      "sunset": 1657811506,
+      "temp": 37.94,
+      "feels_like": 40.78,
+      "pressure": 993,
+      "humidity": 34,
+      "dew_point": 19.36,
+      "uvi": 0,
+      "clouds": 0,
+      "visibility": 10000,
+      "wind_speed": 2.06,
+      "wind_deg": 10,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ]
+    },
+    "daily": [
+      {
+        "dt": 1657785600,
+        "sunrise": 1657762638,
+        "sunset": 1657811506,
+        "moonrise": 1657815120,
+        "moonset": 1657763700,
+        "moon_phase": 0.52,
+        "temp": {
+          "day": 36.48,
+          "min": 32.37,
+          "max": 37.94,
+          "night": 37.33,
+          "eve": 35.56,
+          "morn": 32.37
+        },
+        "feels_like": {
+          "day": 43.48,
+          "night": 41.51,
+          "eve": 42.56,
+          "morn": 39.37
+        },
+        "pressure": 994,
+        "humidity": 53,
+        "dew_point": 24.38,
+        "wind_speed": 5.61,
+        "wind_deg": 297,
+        "wind_gust": 5.97,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 51,
+        "pop": 0.01,
+        "uvi": 11.44
+      },
+      {
+        "dt": 1657872000,
+        "sunrise": 1657849065,
+        "sunset": 1657897891,
+        "moonrise": 1657904520,
+        "moonset": 1657854360,
+        "moon_phase": 0.56,
+        "temp": {
+          "day": 37.15,
+          "min": 32.48,
+          "max": 37.6,
+          "night": 35.75,
+          "eve": 37.49,
+          "morn": 32.49
+        },
+        "feels_like": {
+          "day": 44.15,
+          "night": 41.65,
+          "eve": 42.28,
+          "morn": 39.49
+        },
+        "pressure": 995,
+        "humidity": 51,
+        "dew_point": 24.32,
+        "wind_speed": 10.37,
+        "wind_deg": 94,
+        "wind_gust": 11.97,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": 3,
+        "pop": 0.25,
+        "rain": 0.16,
+        "uvi": 11.27
+      },
+      {
+        "dt": 1657958400,
+        "sunrise": 1657935493,
+        "sunset": 1657984276,
+        "moonrise": 1657993560,
+        "moonset": 1657944900,
+        "moon_phase": 0.6,
+        "temp": {
+          "day": 37.58,
+          "min": 32.87,
+          "max": 37.71,
+          "night": 35.43,
+          "eve": 36.39,
+          "morn": 32.88
+        },
+        "feels_like": {
+          "day": 42.92,
+          "night": 40.51,
+          "eve": 43.22,
+          "morn": 39.88
+        },
+        "pressure": 995,
+        "humidity": 41,
+        "dew_point": 20.61,
+        "wind_speed": 6.42,
+        "wind_deg": 344,
+        "wind_gust": 6.64,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 87,
+        "pop": 0,
+        "uvi": 11.27
+      },
+      {
+        "dt": 1658044800,
+        "sunrise": 1658021920,
+        "sunset": 1658070659,
+        "moonrise": 1658082180,
+        "moonset": 1658035200,
+        "moon_phase": 0.64,
+        "temp": {
+          "day": 37.8,
+          "min": 33.36,
+          "max": 37.97,
+          "night": 35.29,
+          "eve": 35.32,
+          "morn": 33.36
+        },
+        "feels_like": {
+          "day": 44.8,
+          "night": 40.57,
+          "eve": 42.32,
+          "morn": 38.99
+        },
+        "pressure": 997,
+        "humidity": 44,
+        "dew_point": 22.35,
+        "wind_speed": 7.14,
+        "wind_deg": 197,
+        "wind_gust": 9.55,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 99,
+        "pop": 0,
+        "uvi": 10.29
+      },
+      {
+        "dt": 1658131200,
+        "sunrise": 1658108348,
+        "sunset": 1658157041,
+        "moonrise": 1658170680,
+        "moonset": 1658125260,
+        "moon_phase": 0.67,
+        "temp": {
+          "day": 34.76,
+          "min": 32.91,
+          "max": 34.76,
+          "night": 33.19,
+          "eve": 33.29,
+          "morn": 33.05
+        },
+        "feels_like": {
+          "day": 40.49,
+          "night": 40.19,
+          "eve": 40.29,
+          "morn": 36.39
+        },
+        "pressure": 999,
+        "humidity": 51,
+        "dew_point": 22.6,
+        "wind_speed": 6.61,
+        "wind_deg": 186,
+        "wind_gust": 8.85,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+          }
+        ],
+        "clouds": 14,
+        "pop": 0,
+        "uvi": 11.59
+      },
+      {
+        "dt": 1658217600,
+        "sunrise": 1658194777,
+        "sunset": 1658243422,
+        "moonrise": 1658259060,
+        "moonset": 1658215140,
+        "moon_phase": 0.71,
+        "temp": {
+          "day": 35.29,
+          "min": 33.19,
+          "max": 36.37,
+          "night": 34.09,
+          "eve": 34.5,
+          "morn": 34.16
+        },
+        "feels_like": {
+          "day": 42.29,
+          "night": 41.09,
+          "eve": 41.5,
+          "morn": 41.16
+        },
+        "pressure": 998,
+        "humidity": 59,
+        "dew_point": 25.37,
+        "wind_speed": 6.28,
+        "wind_deg": 353,
+        "wind_gust": 6.47,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "clouds": 10,
+        "pop": 0,
+        "uvi": 11.83
+      },
+      {
+        "dt": 1658304000,
+        "sunrise": 1658281205,
+        "sunset": 1658329802,
+        "moonrise": 0,
+        "moonset": 1658304840,
+        "moon_phase": 0.75,
+        "temp": {
+          "day": 37.01,
+          "min": 33.33,
+          "max": 37.94,
+          "night": 34.48,
+          "eve": 33.99,
+          "morn": 34.18
+        },
+        "feels_like": {
+          "day": 44.01,
+          "night": 41.48,
+          "eve": 40.99,
+          "morn": 41.18
+        },
+        "pressure": 997,
+        "humidity": 56,
+        "dew_point": 25.93,
+        "wind_speed": 5.46,
+        "wind_deg": 330,
+        "wind_gust": 6.41,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": 53,
+        "pop": 0,
+        "uvi": 12
+      },
+      {
+        "dt": 1658390400,
+        "sunrise": 1658367634,
+        "sunset": 1658416180,
+        "moonrise": 1658347380,
+        "moonset": 1658394600,
+        "moon_phase": 0.77,
+        "temp": {
+          "day": 36.73,
+          "min": 33.8,
+          "max": 38.38,
+          "night": 34.64,
+          "eve": 34.56,
+          "morn": 34.81
+        },
+        "feels_like": {
+          "day": 43.73,
+          "night": 41.64,
+          "eve": 41.56,
+          "morn": 41.81
+        },
+        "pressure": 997,
+        "humidity": 58,
+        "dew_point": 26.1,
+        "wind_speed": 5.26,
+        "wind_deg": 334,
+        "wind_gust": 5.7,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "clouds": 9,
+        "pop": 0,
+        "uvi": 12
+      }
+    ],
+    "hourly": [
+      {
+        "dt": 1657818000,
+        "temp": 37.5,
+        "feels_like": 41.47,
+        "pressure": 993,
+        "humidity": 38,
+        "dew_point": 20.77,
+        "uvi": 0,
+        "clouds": 19,
+        "visibility": 10000,
+        "wind_speed": 0.96,
+        "wind_deg": 286,
+        "wind_gust": 1.13,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657821600,
+        "temp": 37.94,
+        "feels_like": 40.78,
+        "pressure": 993,
+        "humidity": 34,
+        "dew_point": 19.36,
+        "uvi": 0,
+        "clouds": 0,
+        "visibility": 10000,
+        "wind_speed": 1.67,
+        "wind_deg": 264,
+        "wind_gust": 1.76,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657825200,
+        "temp": 37.33,
+        "feels_like": 41.51,
+        "pressure": 993,
+        "humidity": 39,
+        "dew_point": 21.04,
+        "uvi": 0,
+        "clouds": 18,
+        "visibility": 10000,
+        "wind_speed": 2.63,
+        "wind_deg": 275,
+        "wind_gust": 2.66,
+        "weather": [
+          {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657828800,
+        "temp": 36.36,
+        "feels_like": 42.26,
+        "pressure": 993,
+        "humidity": 46,
+        "dew_point": 22.88,
+        "uvi": 0,
+        "clouds": 38,
+        "visibility": 10000,
+        "wind_speed": 3.22,
+        "wind_deg": 294,
+        "wind_gust": 3.33,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657832400,
+        "temp": 35.28,
+        "feels_like": 42.28,
+        "pressure": 993,
+        "humidity": 53,
+        "dew_point": 24.24,
+        "uvi": 0,
+        "clouds": 50,
+        "visibility": 10000,
+        "wind_speed": 2.74,
+        "wind_deg": 293,
+        "wind_gust": 2.85,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657836000,
+        "temp": 34.19,
+        "feels_like": 41.19,
+        "pressure": 993,
+        "humidity": 60,
+        "dew_point": 25.31,
+        "uvi": 0,
+        "clouds": 53,
+        "visibility": 10000,
+        "wind_speed": 2.47,
+        "wind_deg": 305,
+        "wind_gust": 2.62,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657839600,
+        "temp": 32.97,
+        "feels_like": 39.97,
+        "pressure": 993,
+        "humidity": 67,
+        "dew_point": 26,
+        "uvi": 0,
+        "clouds": 56,
+        "visibility": 10000,
+        "wind_speed": 2.68,
+        "wind_deg": 337,
+        "wind_gust": 2.76,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657843200,
+        "temp": 32.6,
+        "feels_like": 39.6,
+        "pressure": 993,
+        "humidity": 70,
+        "dew_point": 26.28,
+        "uvi": 0,
+        "clouds": 49,
+        "visibility": 10000,
+        "wind_speed": 3.37,
+        "wind_deg": 355,
+        "wind_gust": 3.69,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657846800,
+        "temp": 32.48,
+        "feels_like": 39.48,
+        "pressure": 994,
+        "humidity": 71,
+        "dew_point": 26.53,
+        "uvi": 0,
+        "clouds": 9,
+        "visibility": 10000,
+        "wind_speed": 2.99,
+        "wind_deg": 16,
+        "wind_gust": 3.34,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657850400,
+        "temp": 32.49,
+        "feels_like": 39.49,
+        "pressure": 995,
+        "humidity": 71,
+        "dew_point": 26.41,
+        "uvi": 0,
+        "clouds": 5,
+        "visibility": 10000,
+        "wind_speed": 2.8,
+        "wind_deg": 39,
+        "wind_gust": 3.13,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657854000,
+        "temp": 33.11,
+        "feels_like": 40.11,
+        "pressure": 995,
+        "humidity": 67,
+        "dew_point": 26.06,
+        "uvi": 0.66,
+        "clouds": 3,
+        "visibility": 10000,
+        "wind_speed": 2.35,
+        "wind_deg": 60,
+        "wind_gust": 2.51,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657857600,
+        "temp": 34.08,
+        "feels_like": 41.08,
+        "pressure": 995,
+        "humidity": 62,
+        "dew_point": 25.6,
+        "uvi": 2.1,
+        "clouds": 2,
+        "visibility": 10000,
+        "wind_speed": 1.88,
+        "wind_deg": 73,
+        "wind_gust": 1.87,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657861200,
+        "temp": 35.31,
+        "feels_like": 42.31,
+        "pressure": 996,
+        "humidity": 58,
+        "dew_point": 25.35,
+        "uvi": 4.48,
+        "clouds": 3,
+        "visibility": 10000,
+        "wind_speed": 1.28,
+        "wind_deg": 97,
+        "wind_gust": 1.69,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657864800,
+        "temp": 36.48,
+        "feels_like": 43.48,
+        "pressure": 996,
+        "humidity": 54,
+        "dew_point": 25.18,
+        "uvi": 7.29,
+        "clouds": 3,
+        "visibility": 10000,
+        "wind_speed": 0.71,
+        "wind_deg": 108,
+        "wind_gust": 1.51,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657868400,
+        "temp": 37.24,
+        "feels_like": 44.24,
+        "pressure": 996,
+        "humidity": 49,
+        "dew_point": 24.19,
+        "uvi": 9.94,
+        "clouds": 4,
+        "visibility": 10000,
+        "wind_speed": 1.97,
+        "wind_deg": 1,
+        "wind_gust": 2.45,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657872000,
+        "temp": 37.15,
+        "feels_like": 44.15,
+        "pressure": 995,
+        "humidity": 51,
+        "dew_point": 24.32,
+        "uvi": 11.27,
+        "clouds": 3,
+        "visibility": 10000,
+        "wind_speed": 3.18,
+        "wind_deg": 355,
+        "wind_gust": 3.35,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657875600,
+        "temp": 37.39,
+        "feels_like": 44.39,
+        "pressure": 995,
+        "humidity": 50,
+        "dew_point": 24.18,
+        "uvi": 11.01,
+        "clouds": 4,
+        "visibility": 10000,
+        "wind_speed": 3.68,
+        "wind_deg": 338,
+        "wind_gust": 4.07,
+        "weather": [
+          {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657879200,
+        "temp": 37.13,
+        "feels_like": 44.13,
+        "pressure": 994,
+        "humidity": 53,
+        "dew_point": 24.69,
+        "uvi": 9.07,
+        "clouds": 26,
+        "visibility": 10000,
+        "wind_speed": 4.95,
+        "wind_deg": 326,
+        "wind_gust": 4.75,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657882800,
+        "temp": 36.48,
+        "feels_like": 43.48,
+        "pressure": 994,
+        "humidity": 58,
+        "dew_point": 25.92,
+        "uvi": 6.39,
+        "clouds": 40,
+        "visibility": 10000,
+        "wind_speed": 5.73,
+        "wind_deg": 337,
+        "wind_gust": 6.45,
+        "weather": [
+          {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+          }
+        ],
+        "pop": 0.08
+      },
+      {
+        "dt": 1657886400,
+        "temp": 35.22,
+        "feels_like": 41.61,
+        "pressure": 995,
+        "humidity": 51,
+        "dew_point": 23.39,
+        "uvi": 3.61,
+        "clouds": 50,
+        "visibility": 10000,
+        "wind_speed": 10.37,
+        "wind_deg": 94,
+        "wind_gust": 11.97,
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "pop": 0.21,
+        "rain": {
+          "1h": 0.16
+        }
+      },
+      {
+        "dt": 1657890000,
+        "temp": 37.44,
+        "feels_like": 42.17,
+        "pressure": 994,
+        "humidity": 40,
+        "dew_point": 20.89,
+        "uvi": 1.52,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 7.1,
+        "wind_deg": 124,
+        "wind_gust": 7.66,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.25
+      },
+      {
+        "dt": 1657893600,
+        "temp": 37.49,
+        "feels_like": 42.28,
+        "pressure": 994,
+        "humidity": 40,
+        "dew_point": 20.92,
+        "uvi": 0.39,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 4.9,
+        "wind_deg": 139,
+        "wind_gust": 5.57,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.09
+      },
+      {
+        "dt": 1657897200,
+        "temp": 37.6,
+        "feels_like": 42.96,
+        "pressure": 994,
+        "humidity": 41,
+        "dew_point": 20.83,
+        "uvi": 0,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 2.28,
+        "wind_deg": 98,
+        "wind_gust": 3.25,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0.09
+      },
+      {
+        "dt": 1657900800,
+        "temp": 37.1,
+        "feels_like": 41.84,
+        "pressure": 995,
+        "humidity": 41,
+        "dew_point": 21.09,
+        "uvi": 0,
+        "clouds": 96,
+        "visibility": 10000,
+        "wind_speed": 2.42,
+        "wind_deg": 105,
+        "wind_gust": 3.77,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.04
+      },
+      {
+        "dt": 1657904400,
+        "temp": 36.84,
+        "feels_like": 41.27,
+        "pressure": 995,
+        "humidity": 41,
+        "dew_point": 21.28,
+        "uvi": 0,
+        "clouds": 97,
+        "visibility": 10000,
+        "wind_speed": 2.79,
+        "wind_deg": 137,
+        "wind_gust": 3.65,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.04
+      },
+      {
+        "dt": 1657908000,
+        "temp": 36.57,
+        "feels_like": 41.08,
+        "pressure": 995,
+        "humidity": 42,
+        "dew_point": 21.38,
+        "uvi": 0,
+        "clouds": 97,
+        "visibility": 10000,
+        "wind_speed": 3.28,
+        "wind_deg": 174,
+        "wind_gust": 3.89,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0.04
+      },
+      {
+        "dt": 1657911600,
+        "temp": 35.75,
+        "feels_like": 41.65,
+        "pressure": 995,
+        "humidity": 48,
+        "dew_point": 22.37,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 0.86,
+        "wind_deg": 217,
+        "wind_gust": 1.23,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657915200,
+        "temp": 35.43,
+        "feels_like": 40.9,
+        "pressure": 995,
+        "humidity": 48,
+        "dew_point": 22.28,
+        "uvi": 0,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 0.81,
+        "wind_deg": 48,
+        "wind_gust": 1.06,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657918800,
+        "temp": 35.19,
+        "feels_like": 39.59,
+        "pressure": 995,
+        "humidity": 46,
+        "dew_point": 21.35,
+        "uvi": 0,
+        "clouds": 88,
+        "visibility": 10000,
+        "wind_speed": 2.36,
+        "wind_deg": 44,
+        "wind_gust": 2.56,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657922400,
+        "temp": 34.22,
+        "feels_like": 39.23,
+        "pressure": 995,
+        "humidity": 51,
+        "dew_point": 22.08,
+        "uvi": 0,
+        "clouds": 74,
+        "visibility": 10000,
+        "wind_speed": 3.63,
+        "wind_deg": 41,
+        "wind_gust": 3.93,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657926000,
+        "temp": 33.36,
+        "feels_like": 40.36,
+        "pressure": 995,
+        "humidity": 60,
+        "dew_point": 23.99,
+        "uvi": 0,
+        "clouds": 72,
+        "visibility": 10000,
+        "wind_speed": 4.96,
+        "wind_deg": 27,
+        "wind_gust": 5.98,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657929600,
+        "temp": 32.87,
+        "feels_like": 39.87,
+        "pressure": 995,
+        "humidity": 65,
+        "dew_point": 25.2,
+        "uvi": 0,
+        "clouds": 77,
+        "visibility": 10000,
+        "wind_speed": 4.57,
+        "wind_deg": 35,
+        "wind_gust": 5.67,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657933200,
+        "temp": 32.91,
+        "feels_like": 39.91,
+        "pressure": 995,
+        "humidity": 66,
+        "dew_point": 25.44,
+        "uvi": 0,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 4.02,
+        "wind_deg": 33,
+        "wind_gust": 5.12,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657936800,
+        "temp": 32.88,
+        "feels_like": 39.88,
+        "pressure": 996,
+        "humidity": 66,
+        "dew_point": 25.59,
+        "uvi": 0,
+        "clouds": 99,
+        "visibility": 10000,
+        "wind_speed": 3.43,
+        "wind_deg": 44,
+        "wind_gust": 4.14,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657940400,
+        "temp": 33.61,
+        "feels_like": 40.61,
+        "pressure": 996,
+        "humidity": 60,
+        "dew_point": 24.76,
+        "uvi": 0.64,
+        "clouds": 78,
+        "visibility": 10000,
+        "wind_speed": 3.26,
+        "wind_deg": 49,
+        "wind_gust": 3.96,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657944000,
+        "temp": 34.64,
+        "feels_like": 40.99,
+        "pressure": 996,
+        "humidity": 53,
+        "dew_point": 23.49,
+        "uvi": 2.09,
+        "clouds": 77,
+        "visibility": 10000,
+        "wind_speed": 3.51,
+        "wind_deg": 49,
+        "wind_gust": 3.93,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657947600,
+        "temp": 35.53,
+        "feels_like": 41.54,
+        "pressure": 996,
+        "humidity": 49,
+        "dew_point": 22.61,
+        "uvi": 4.47,
+        "clouds": 77,
+        "visibility": 10000,
+        "wind_speed": 2.94,
+        "wind_deg": 45,
+        "wind_gust": 3.32,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657951200,
+        "temp": 36.37,
+        "feels_like": 42.29,
+        "pressure": 996,
+        "humidity": 46,
+        "dew_point": 21.91,
+        "uvi": 7.29,
+        "clouds": 81,
+        "visibility": 10000,
+        "wind_speed": 2.42,
+        "wind_deg": 40,
+        "wind_gust": 2.76,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657954800,
+        "temp": 37.1,
+        "feels_like": 42.7,
+        "pressure": 996,
+        "humidity": 43,
+        "dew_point": 21.16,
+        "uvi": 9.94,
+        "clouds": 78,
+        "visibility": 10000,
+        "wind_speed": 2.48,
+        "wind_deg": 16,
+        "wind_gust": 2.54,
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657958400,
+        "temp": 37.58,
+        "feels_like": 42.92,
+        "pressure": 995,
+        "humidity": 41,
+        "dew_point": 20.61,
+        "uvi": 11.27,
+        "clouds": 87,
+        "visibility": 10000,
+        "wind_speed": 3.12,
+        "wind_deg": 352,
+        "wind_gust": 2.78,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657962000,
+        "temp": 37.71,
+        "feels_like": 43.21,
+        "pressure": 995,
+        "humidity": 41,
+        "dew_point": 20.73,
+        "uvi": 11.02,
+        "clouds": 91,
+        "visibility": 10000,
+        "wind_speed": 4.93,
+        "wind_deg": 342,
+        "wind_gust": 4.16,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657965600,
+        "temp": 37.14,
+        "feels_like": 44.14,
+        "pressure": 995,
+        "humidity": 48,
+        "dew_point": 22.58,
+        "uvi": 9.03,
+        "clouds": 94,
+        "visibility": 10000,
+        "wind_speed": 5.96,
+        "wind_deg": 344,
+        "wind_gust": 5.42,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657969200,
+        "temp": 36.72,
+        "feels_like": 43.72,
+        "pressure": 994,
+        "humidity": 51,
+        "dew_point": 23.66,
+        "uvi": 6.36,
+        "clouds": 95,
+        "visibility": 10000,
+        "wind_speed": 6.42,
+        "wind_deg": 344,
+        "wind_gust": 6.18,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657972800,
+        "temp": 36.36,
+        "feels_like": 43.36,
+        "pressure": 994,
+        "humidity": 52,
+        "dew_point": 23.68,
+        "uvi": 3.59,
+        "clouds": 96,
+        "visibility": 10000,
+        "wind_speed": 6.4,
+        "wind_deg": 342,
+        "wind_gust": 6.64,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657976400,
+        "temp": 36.35,
+        "feels_like": 43.35,
+        "pressure": 995,
+        "humidity": 51,
+        "dew_point": 23.17,
+        "uvi": 1.51,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 5.62,
+        "wind_deg": 13,
+        "wind_gust": 6.09,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657980000,
+        "temp": 36.39,
+        "feels_like": 43.22,
+        "pressure": 995,
+        "humidity": 48,
+        "dew_point": 22.21,
+        "uvi": 0.39,
+        "clouds": 100,
+        "visibility": 10000,
+        "wind_speed": 4.51,
+        "wind_deg": 28,
+        "wind_gust": 5.02,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657983600,
+        "temp": 36.02,
+        "feels_like": 41.88,
+        "pressure": 995,
+        "humidity": 47,
+        "dew_point": 22.13,
+        "uvi": 0,
+        "clouds": 88,
+        "visibility": 10000,
+        "wind_speed": 3.22,
+        "wind_deg": 33,
+        "wind_gust": 3.89,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "pop": 0
+      },
+      {
+        "dt": 1657987200,
+        "temp": 36.35,
+        "feels_like": 41.82,
+        "pressure": 996,
+        "humidity": 45,
+        "dew_point": 21.86,
+        "uvi": 0,
+        "clouds": 90,
+        "visibility": 10000,
+        "wind_speed": 2.87,
+        "wind_deg": 77,
+        "wind_gust": 4.28,
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+          }
+        ],
+        "pop": 0
+      }
+    ]
+  },
+  "nearby_places": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 25.20470368556102,
+          "lng": 55.27054985760439
+        },
+        "viewport": {
+          "south": 25.20016739999994,
+          "west": 55.26742710000001,
+          "north": 25.20923820000006,
+          "east": 55.2736755
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Sheikh Zayed Road",
+      "place_id": "ChIJAXZYiodCXz4RIrqr7Kc2GUQ",
+      "reference": "ChIJAXZYiodCXz4RIrqr7Kc2GUQ",
+      "scope": "GOOGLE",
+      "types": ["route"],
+      "vicinity": "Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "icon_background_color": "#FF9E67",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "name": "Noon & Kabab",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1564,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115978292624257680521\">Lukas Nawrat</a>"
+          ],
+          "width": 302,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJb26xKihoXz4RoCBTJ4MoSyM",
+      "rating": 3.6,
+      "reference": "ChIJb26xKihoXz4RoCBTJ4MoSyM",
+      "scope": "GOOGLE",
+      "types": ["restaurant", "point_of_interest", "food", "establishment"],
+      "user_ratings_total": 36,
+      "vicinity": "food court, outlet mall Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+      "name": "Dubai Free Zone Business Guide",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2592,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107250623915727678010\">Julio Mario Bernal</a>"
+          ],
+          "width": 388,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJVVVVFU9DXz4RiCVWXxU3-JA",
+      "rating": 4.2,
+      "reference": "ChIJVVVVFU9DXz4RiCVWXxU3-JA",
+      "scope": "GOOGLE",
+      "types": [
+        "local_government_office",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 29,
+      "vicinity": "Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      "icon_background_color": "#909CE1",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+      "name": "Furnished Rentals - Al Seef Tower 2",
+      "place_id": "ChIJo5YtOqdsXz4RRC0cv7ap1pQ",
+      "reference": "ChIJo5YtOqdsXz4RRC0cv7ap1pQ",
+      "scope": "GOOGLE",
+      "types": ["lodging", "point_of_interest", "establishment"],
+      "vicinity": "CBD 34 - Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Ittiba Computers LLC",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJ30EIIxVDXz4RYyLRxgKnNVE",
+      "plus_code": {
+        "compound_code": "673C+W8 Dubai - United Arab Emirates",
+        "global_code": "7HQQ673C+W8"
+      },
+      "rating": 4.7,
+      "reference": "ChIJ30EIIxVDXz4RYyLRxgKnNVE",
+      "scope": "GOOGLE",
+      "types": [
+        "electronics_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 17,
+      "vicinity": "M11, ROCKY BUILDING, 16TH STREET, IN FRONT OF HYDE PARK HOTEL, NEXT TO AL GHUBAIBA BUS STATION - دبي",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "SKY JEWELLERY",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2592,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100056087748981539629\">SKY JEWELLERY</a>"
+          ],
+          "width": 387,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJ1fAyDURDXz4RBfTmv1WJx5s",
+      "rating": 4.5,
+      "reference": "ChIJ1fAyDURDXz4RBfTmv1WJx5s",
+      "scope": "GOOGLE",
+      "types": ["jewelry_store", "point_of_interest", "store", "establishment"],
+      "user_ratings_total": 6,
+      "vicinity": "Al Daghaya Street - Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Free Zone Business Directory Dubai",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 300,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111973428964630411156\">Free Zone Business Directory Dubai</a>"
+          ],
+          "width": 500,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJv-_h3E5DXz4R4gmD4nZqK0o",
+      "rating": 3,
+      "reference": "ChIJv-_h3E5DXz4R4gmD4nZqK0o",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 2,
+      "vicinity": "Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "ISO Consultants",
+      "photos": [
+        {
+          "height": 656,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110519041035996014318\">ISO Consultants</a>"
+          ],
+          "width": 177,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJ_YHqYGRpXz4Ro7NbBPnHPho",
+      "rating": 1,
+      "reference": "ChIJ_YHqYGRpXz4Ro7NbBPnHPho",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "202, Eat & Drink Restaurant Building",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Aon Fire Protection Engineering Corporation",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJI9Y_vcxcXz4RCVMGQxXLPg0",
+      "plus_code": {
+        "compound_code": "673C+W8 Dubai - United Arab Emirates",
+        "global_code": "7HQQ673C+W8"
+      },
+      "rating": 5,
+      "reference": "ChIJI9Y_vcxcXz4RCVMGQxXLPg0",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "Al Reem Tower Suite 704, 7th Floor",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+      "name": "MPowerMe",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 720,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111548648254357676283\">MPowerMe</a>"
+          ],
+          "width": 128,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJRcbZaklDXz4REhG6JhZ-ZhM",
+      "plus_code": {
+        "compound_code": "673C+W8 Dubai - United Arab Emirates",
+        "global_code": "7HQQ673C+W8"
+      },
+      "rating": 5,
+      "reference": "ChIJRcbZaklDXz4REhG6JhZ-ZhM",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "DMCC DMCC office complex",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Dubai Trademark Copyrights and Patents",
+      "place_id": "ChIJv-_h3E5DXz4RKFtdBFeUO8E",
+      "reference": "ChIJv-_h3E5DXz4RKFtdBFeUO8E",
+      "scope": "GOOGLE",
+      "types": ["finance", "point_of_interest", "establishment"],
+      "vicinity": "Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "AL MAJDAL TRADING CO. (L.L.C.)",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJZ-UHez9DXz4RLzDMuJ99hOI",
+      "rating": 5,
+      "reference": "ChIJZ-UHez9DXz4RLzDMuJ99hOI",
+      "scope": "GOOGLE",
+      "types": [
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "Ibn Al Talib St - Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 25.2035003197085,
+          "west": 55.2694338197085,
+          "north": 25.20619828029151,
+          "east": 55.2721317802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "YOU Global",
+      "permanently_closed": true,
+      "place_id": "ChIJj7YUWmtkXz4R5-GN_-18Cpc",
+      "reference": "ChIJj7YUWmtkXz4R5-GN_-18Cpc",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Dubai Pest Control Services",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 548,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111615217337021990185\">Dubai Pest Control Services</a>"
+          ],
+          "width": 828,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJx4YO8odCXz4R8DYtKejPWtM",
+      "rating": 1,
+      "reference": "ChIJx4YO8odCXz4R8DYtKejPWtM",
+      "scope": "GOOGLE",
+      "types": [
+        "home_goods_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "PObox34633",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "BESCO",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 799,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112011333729118587838\">BESCO</a>"
+          ],
+          "width": 639,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJx4YO8odCXz4Rzq3h5-a5fto",
+      "rating": 5,
+      "reference": "ChIJx4YO8odCXz4Rzq3h5-a5fto",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "POBOX : 40888, DUBAI , DWTC 0605",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "ebuynsell.com",
+      "opening_hours": {
+        "open_now": true
+      },
+      "place_id": "ChIJx4YO8odCXz4Rz1bIYFCs3pE",
+      "reference": "ChIJx4YO8odCXz4Rz1bIYFCs3pE",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "AI Jazeera Al Hamra,, RAKIA building,5th floor, Ras Al Khaimah,",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "SEE WORLD HOLIDAY",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJx4YO8odCXz4RcQbT7bioZd8",
+      "rating": 1,
+      "reference": "ChIJx4YO8odCXz4RcQbT7bioZd8",
+      "scope": "GOOGLE",
+      "types": ["travel_agency", "point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "Emoirates Road, National Paints - دبي",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Fabbyshop UAE",
+      "place_id": "ChIJx4YO8odCXz4RQ5DkcrQYBmA",
+      "reference": "ChIJx4YO8odCXz4RQ5DkcrQYBmA",
+      "scope": "GOOGLE",
+      "types": ["point_of_interest", "establishment"],
+      "vicinity": "Fabbydeals UAE P.O.Box: 113729 Dubai, U.A.E. Dubai",
+      "html_attributions": []
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.204849,
+          "lng": 55.27078299999999
+        },
+        "viewport": {
+          "south": 25.2035000197085,
+          "west": 55.2694340197085,
+          "north": 25.2061979802915,
+          "east": 55.2721319802915
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Al Amani Rent A Car",
+      "place_id": "ChIJYZBxedtcXz4RUV3PlNM-I10",
+      "rating": 1,
+      "reference": "ChIJYZBxedtcXz4RUV3PlNM-I10",
+      "scope": "GOOGLE",
+      "types": ["car_rental", "point_of_interest", "establishment"],
+      "user_ratings_total": 1,
+      "vicinity": "Behind Dnata airline centre Deria",
+      "html_attributions": []
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 25.2048493,
+          "lng": 55.2707828
+        },
+        "viewport": {
+          "south": 24.79348418590246,
+          "west": 54.89045432509004,
+          "north": 25.35856066265986,
+          "east": 55.56452157241026
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "Dubai",
+      "photos": [
+        {
+          "height": 634,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115455114095176588980\">Guido Douven</a>"
+          ],
+          "width": 960,
+          "getUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "place_id": "ChIJRcbZaklDXz4RYlEphFBu5r0",
+      "reference": "ChIJRcbZaklDXz4RYlEphFBu5r0",
+      "scope": "GOOGLE",
+      "types": ["locality", "political"],
+      "vicinity": "Dubai",
+      "html_attributions": []
+    }
+  ]
+}

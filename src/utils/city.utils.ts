@@ -7,7 +7,9 @@
  * @return {object} Name, country name and country short-name
  */
 export const setCityBaseData = (cityData: ICityResponse): object => {
-  const { address_components, place_id, photos } = cityData;
+  const { address_components, place_id, photos, geometry } = cityData;
+  const { location } = geometry;
+  const { lat, lng } = location;
 
   const cityName = address_components!.filter((component) => {
     if (component.types) {
@@ -25,12 +27,13 @@ export const setCityBaseData = (cityData: ICityResponse): object => {
   });
   return {
     city_id: place_id,
-    name: cityName[0].long_name,
+    city_name: cityName[0].long_name,
+    geometry: { lat: lat(), lng: lng() },
     country: {
       long_name: countryData[0].long_name,
       short_name: countryData[0].short_name,
     },
-    photo: filterPhotoMin(photos, 1200, 1200),
+    photos: filterPhotoMin(photos, 1200, 1200),
   };
 };
 
@@ -53,12 +56,47 @@ export const sortTopPOI = (nearbyPlaces: google.maps.places.PlaceResult[]) => {
  * @return  {Object} just return first photo that applies to the rules based on the passed arguments
  */
 export const filterPhotoMin = (
-  photos: Photo[],
+  photos: IPhotoPlace[],
   photoHeight: number,
   photoWidth: number
 ): Object => {
-  const photo = photos
+  const filteredPhotos = photos
     .filter((photo) => photo.height > photoHeight && photo.width > photoWidth)
+    .map((photo) => {
+      const photoSrc = photo.getUrl();
+      return { ...photo, getUrl: photoSrc };
+    })
     .slice(0, 1);
-  return photo;
+  return filteredPhotos;
+};
+
+/**
+ * Functions modifies property getUrl for calling the string of the photo. So right now, when photo is showed, it does it straight from the string and not calling from function
+ * 
+
+ * @param  {IPlaceDetailResponse[]} places
+ * @return {IPlaceDetailResponse} Return modified with array, that has value at GetUrl property set to string and not getUrl
+ */
+export const changeGetUrlArray = (places: IPlaceDetailResponse[]) => {
+  console.log(places);
+  return places.map((place) => {
+    const updatedPhotos = place.photos?.map((photo) => modifyGetUrl(photo));
+    const updatedObject = { ...place, photos: updatedPhotos };
+    return updatedObject;
+  });
+};
+
+export const changeGetUrlPlace = (place: IPlaceDetailResponse) => {
+  if (place.photos) {
+    return {
+      ...place,
+      photos: place.photos.map((photo) => modifyGetUrl(photo)),
+    };
+  }
+  return place;
+};
+
+export const modifyGetUrl = (photo: IPhotoPlace) => {
+  const photoSrc = photo.getUrl();
+  return { ...photo, getUrl: photoSrc };
 };

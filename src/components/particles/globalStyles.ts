@@ -1,9 +1,12 @@
+import "@fontsource/poppins";
+import "@fontsource/oswald";
+import "@fontsource/yellowtail"; // Defaults to weight 400.
+
 import { createGlobalStyle } from "styled-components";
 import theme from "./themeDefault";
 
 export const GlobalStyles = createGlobalStyle`
-   @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 * {
@@ -14,32 +17,33 @@ export const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
 }
 
-html {font-size: 90%;
+html {font-size: 90%; box-sizing: border-box;}
 
 
 @media only screen and (min-width: 600px){
-    font-size: 105%;
+    font-size: 100%;
 }
 @media only screen and (min-width: 801px){
-    font-size: 110%;
+    font-size: 105%;
 }
 @media only screen and (min-width: 1200px){
-    font-size: 120%;
+    font-size: 110%;
 }
 @media only screen and (min-width: 1600px){
-    font-size: 130%;
+    font-size: 115%;
 }
 
-} 
+}
 
 body {
   background: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: 1.3;
   padding: 0 !important;
   color: ${theme.color.black};
-
+  overflow-x:hidden;
+  width: 100%;
 }
 
 .lock-scroll-body{
@@ -50,6 +54,10 @@ body {
   position: relative;
 }
 
+button {
+  font-family: "Poppins";
+}
+
 button, a {
     cursor: pointer;
 }
@@ -58,16 +66,19 @@ button, a {
 
 h1 {
   margin-top: 0;
-  font-size: 2.488rem;
-  font-weight: ${theme.typography.weight.semibold}
+  font-size: 3.2rem;
+  font-weight: ${theme.typography.weight.bold}
+
 }
 
-h2 {font-size: 2.074rem;
+h2 {
+  font-size: ${theme.typography.size.h2};
   font-weight: 100;
   margin: 0.3em auto;
   text-transform: capitalize;
   span {
-    font-weight: ${theme.typography.weight.semibold};
+    display: inline-block;
+    font-weight: ${theme.typography.weight.black};
     margin-right: 10px;
     text-transform: capitalize;
   }
@@ -96,7 +107,7 @@ line-height: 1.6;
 .small, .text_small {font-size: ${theme.typography.size.label};}
 
 .number{
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald";
   font-weight: 600;
 }
 

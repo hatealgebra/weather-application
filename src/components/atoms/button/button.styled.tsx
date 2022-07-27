@@ -59,7 +59,7 @@ export const StyledButton = styled.button<ButtonProps>`
 
   ${({ containsIcon, size, theme }) =>
     containsIcon &&
-    ` 
+    `
     background-color: white;
     padding: ${size === "small" ? "7" : "12"}px;
     border-radius: 50%;
@@ -79,9 +79,10 @@ export const StyledButton = styled.button<ButtonProps>`
     withIcon &&
     css`
       span {
-        font-weight: 600;
+        font-weight: 500;
         svg {
-          vertical-align: center;
+          position: relative;
+          top: 2px;
           margin-right: 5px;
           color: ${theme.color.secondary};
           stroke-width: 0.3;

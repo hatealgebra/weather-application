@@ -10,7 +10,6 @@ const Template: Story<ModalProps> = (args) => <Modal {...args} />;
 
 export const PlaceModal = Template.bind({});
 PlaceModal.args = {
-  variant: "place",
   data: placeDetail,
   active: true,
   setShowModal: () => action("Modal was closed!"),

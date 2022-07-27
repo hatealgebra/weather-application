@@ -37,6 +37,7 @@ export const StyledListItem = styled.li<ListItemProps>`
 
 export const StyledLeft = styled.span`
   flex: 0 1 auto;
+
   & > * {
     vertical-align: middle;
   }

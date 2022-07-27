@@ -3,17 +3,16 @@ import Caption from "../caption/Caption";
 
 export const ForecastDayInfo = styled.li`
   border: thin solid ${({ theme }) => theme.color.border};
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   border-radius: 15px;
   height: auto;
   margin-top: 10px;
-  max-width: 310px;
-  overflow: hidden;
+  width: 325px;
 `;
 
 export const DayContainer = styled.div`
-  height: 70px;
+  height: auto;
   margin: auto 0;
   display: grid;
   grid-template-columns: auto 1fr;

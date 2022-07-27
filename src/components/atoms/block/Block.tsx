@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AppContainer = styled.div`
   margin: auto;
   height: 100%;
-  max-width: 1300px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -12,10 +11,17 @@ export const AppContainer = styled.div`
   position: relative;
 `;
 
-export const Section = styled.section<{ scrollable?: boolean }>`
-  margin: 15px auto 10px auto;
+export const Section = styled.section<{
+  scrollable?: boolean;
+  noPadding?: boolean;
+}>`
+  padding: ${({ noPadding }) =>
+    noPadding ? "30px 0px 10px 0px" : "30px 10px 10px 10px"};
   position: relative;
-  img {
+  h2 {
+    margin-left: 10px;
+  }
+  a img {
     margin-right: 10px;
   }
   .section-content {
@@ -27,6 +33,14 @@ export const Section = styled.section<{ scrollable?: boolean }>`
       scrollable
         ? "margin-left: calc(-50vw + 50%);margin-right: calc(-50vw + 50%);"
         : ""};
+  }
+
+  ${({ theme }) => theme.breakpoint.tablet} {
+    padding: ${({ noPadding }) =>
+      noPadding ? "35px 0px 10px 0px" : "35px 5% 30px 5%"};
+    h2 {
+      margin-left: ${({ noPadding }) => noPadding && "5%"};
+    }
   }
 `;
 

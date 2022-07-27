@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const StyledPlacesContainer = styled.div`
   display: flex;
+  gap: 5px;
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 0 5% 1% 0;
@@ -21,5 +22,9 @@ export const StyledPlacesContainer = styled.div`
 
   & > div {
     margin-right: 10px;
+  }
+
+  & > div:nth-of-type(1) {
+    margin-left: 5%;
   }
 `;

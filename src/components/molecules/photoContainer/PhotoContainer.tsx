@@ -2,15 +2,16 @@ import React from "react";
 
 import { StyledPhotoWrapper, StyledCoverImage } from "./photoContainer.styled";
 
-function PhotoContainer({ source }: PhotoContainerProps) {
+function PhotoContainer({ source, className }: PhotoContainerProps) {
   return (
-    <StyledPhotoWrapper>
+    <StyledPhotoWrapper className={className}>
       <StyledCoverImage src={source} />
     </StyledPhotoWrapper>
   );
 }
 
 export interface PhotoContainerProps {
+  className?: string;
   source: string;
 }
 

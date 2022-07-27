@@ -22,7 +22,7 @@ function Avatar({ size, onClick, src, className }: AvatarProps) {
   return (
     <StyledAvatar
       className={className || "avatar"}
-      src={src || avatarGeneric}
+      src={src === undefined ? avatarGeneric : src}
       size={size || "small"}
       onClick={onClick}
     />

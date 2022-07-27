@@ -1,9 +1,21 @@
 import React from "react";
+import { Story } from "@storybook/react";
+import { MyCitiesProviderMock } from "../../../context/MyCitiesContext";
 import HomePage from "./Homepage";
+import { CityProviderMock } from "../../../context/CityContext";
+import { MsgProvider } from "../../../context/MsgContext";
 
-export const Homepage = () => <HomePage />;
+export const Homepage = () => (
+  <MsgProvider>
+    <MyCitiesProviderMock>
+      <CityProviderMock>
+        <HomePage />
+      </CityProviderMock>
+    </MyCitiesProviderMock>
+  </MsgProvider>
+);
 
 export default {
   component: HomePage,
-  title: "Pages/HomePage",
+  title: "pages/HomePage",
 };

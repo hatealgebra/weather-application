@@ -4,7 +4,7 @@ export const StyledPhotoWrapper = styled.div`
   position: relative;
   height: 58vh;
   width: 100%;
-  max-height: 800px;
+  max-height: 1000px;
 `;
 
 export const StyledCoverImage = styled.img`

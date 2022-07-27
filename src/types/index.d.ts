@@ -1,5 +1,9 @@
 export {};
 
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.svg";
+
 declare global {
   interface Window {
     initMap: any; // 👈️ turn off type checking
@@ -20,7 +24,7 @@ declare global {
     formatted_address: string;
     geometry: IGeometry;
     name: string;
-    photos: Photo[];
+    photos: IPhotoPlace[];
     place_id: string;
     types: string[];
     url: string;
@@ -38,7 +42,7 @@ declare global {
     formatted_address: string;
     geometry: IGeometry;
     name: string;
-    photos: Photo[];
+    photos: IPhotoPlace[];
     place_id: string;
     types: string[];
     url: string;
@@ -73,11 +77,11 @@ declare global {
   }
 
   export interface IGeometry {
-    location: Location | any;
+    location: IGPSCoords | any;
     viewport: Viewport;
   }
 
-  export interface Location {
+  export interface IGPSCoords {
     lat: number;
     lng: number;
   }
@@ -87,13 +91,6 @@ declare global {
     west: number;
     north: number;
     east: number;
-  }
-
-  export interface Photo {
-    height: number;
-    html_attributions: string[];
-    width: number;
-    getUrl?: CallableFunction;
   }
 
   // Weather types
@@ -164,6 +161,53 @@ declare global {
     pop?: number;
     sunrise?: number;
     sunset?: number;
-    rain?: { "1h": number };
+    rain?: { "1h": number } | number;
+  }
+
+  export interface IGPSCoords {
+    lat: number;
+    lng: number;
+  }
+
+  export interface Viewport {
+    south: number;
+    west: number;
+    north: number;
+    east: number;
+  }
+
+  export interface Geometry {
+    location: IGPSCoords;
+    viewport: Viewport;
+  }
+
+  export interface OpeningHours {
+    open_now: boolean;
+  }
+
+  export interface IPhotoPlace {
+    height: number;
+    html_attributions: string[];
+    width: number;
+    getUrl: any;
+  }
+
+  export interface INearbyPlaceResponse {
+    business_status?: string;
+    geometry: Geometry;
+    icon: string;
+    icon_background_color: string;
+    icon_mask_base_uri: string;
+    name: string;
+    opening_hours?: OpeningHours;
+    photos?: IPhotoPlace[];
+    place_id: string;
+    rating?: number;
+    reference: string;
+    scope: string;
+    types: string[];
+    user_ratings_total?: number;
+    vicinity: string;
+    html_attributions: any[];
   }
 }

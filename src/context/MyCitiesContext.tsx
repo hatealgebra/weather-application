@@ -1,7 +1,8 @@
-import React, { createContext, DispatchWithoutAction, useReducer } from "react";
+import React, { createContext, useReducer } from "react";
 
 import { ICityContext } from "./CityContext";
-import placeDetailMock from "../mocks/json/placeDetail.mock.json";
+
+import cityMock from "../mocks/json/cityContext.mock.json";
 
 export enum MyCitiesActionTypes {
   ADD_CITY = "ADD",
@@ -15,6 +16,8 @@ interface IMyCitiesAction {
 
 const initialState: ICityContext[] = [];
 
+const mockInitialState: ICityContext[] = [cityMock, cityMock, cityMock];
+
 const MyCitiesContext = createContext<{
   myCitiesState: ICityContext[];
   dispatchMyCitiesState: React.Dispatch<IMyCitiesAction>;
@@ -22,8 +25,11 @@ const MyCitiesContext = createContext<{
 
 const MyCitiesMockContext = createContext<{
   myCitiesStateMock: ICityContext[];
-  dispatchMyCitiesStateMock: DispatchWithoutAction;
-}>({ myCitiesStateMock: initialState, dispatchMyCitiesStateMock: () => {} });
+  dispatchMyCitiesStateMock: React.Dispatch<IMyCitiesAction>;
+}>({
+  myCitiesStateMock: mockInitialState,
+  dispatchMyCitiesStateMock: () => {},
+});
 
 const MyCitiesReducer = (state = initialState, action: IMyCitiesAction) => {
   switch (action.type) {
@@ -66,7 +72,7 @@ export const MyCitiesProviderMock = ({
 }) => {
   const [myCitiesStateMock, dispatchMyCitiesStateMock] = useReducer(
     MyCitiesReducer,
-    [placeDetailMock, placeDetailMock]
+    mockInitialState
   );
   return (
     <MyCitiesMockContext.Provider

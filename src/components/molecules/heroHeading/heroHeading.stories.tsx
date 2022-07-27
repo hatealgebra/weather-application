@@ -9,8 +9,16 @@ CityHero.args = {
   temp: 9,
   main: "cloudy",
   cityName: "Prague",
+  longCountry: "Czech Republic",
   shortCountry: "cz",
 };
+CityHero.decorators = [
+  (Story) => (
+    <div style={{ margin: "20px" }}>
+      <Story />
+    </div>
+  ),
+];
 
 export default {
   component: HeroHeading,

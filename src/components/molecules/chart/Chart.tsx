@@ -32,14 +32,14 @@ function Chart({ dataset }: ChartProps) {
   return (
     <AreaChartContainer>
       <ResponsiveContainer
-        aspect={1.9}
+        aspect={3.5}
         height="100%"
         minWidth="500px"
         width="99%"
       >
         <LineChart
           data={getData}
-          margin={{ top: 0, left: 0, right: 0, bottom: 0 }}
+          margin={{ top: 0, left: 5, right: 5, bottom: 0 }}
         >
           <XAxis
             fontSize="12px"

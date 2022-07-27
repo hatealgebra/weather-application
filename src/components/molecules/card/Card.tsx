@@ -1,7 +1,6 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
 
 import Button from "../../atoms/button/Button";
-import genericPlace from "../../../assets/images/generic-place.jpg";
 
 import { FaStar } from "react-icons/fa";
 import { GoPrimitiveDot } from "react-icons/go";
@@ -19,8 +18,10 @@ import {
 } from "../../../context/CityContext";
 import { getPlaceDetail } from "../../../services/API/google";
 import { FlexContainer } from "../../atoms/block/Block";
+import { changeGetUrlPlace } from "../../../utils/city.utils";
 
 // component that shows interesting place from the city and it is clickable
+// fixme card design
 function Card({
   cityDispatch,
   setShowModal,
@@ -37,11 +38,15 @@ function Card({
     setIsLoadingModal(true);
     try {
       const placeDetail = await getPlaceDetail(place_id);
+      const updatedPlace = changeGetUrlPlace(placeDetail);
       cityDispatch({
         type: ADD_PLACE_DETAIL,
-        payload: { place_id: place_id, place_data: placeDetail },
+        payload: {
+          place_id: place_id,
+          place_data: updatedPlace,
+        },
       });
-      setShowModal({ place_data: placeDetail, status: true });
+      setShowModal({ place_data: updatedPlace, status: true });
     } catch (e) {
       console.log(e);
     } finally {
@@ -51,21 +56,22 @@ function Card({
 
   return (
     <StyledCardContainer data-testid="place-card">
-      <StyledPlacePhoto
-        src={photo ? photo : genericPlace}
-        alt={`photo of ${name}`}
-      />
+      <StyledPlacePhoto src={photo} alt={`photo of ${name}`} />
       <StyledPlaceInfo>
         <h3 className="place__name">{name}</h3>
-        <FlexContainer className="place__row">
-          <div>
-            <FaStar className="place__star-rating" fontSize="12px" />
-            <Caption className="place__caption">{rating}</Caption>
-          </div>
-          <GoPrimitiveDot className="place__dot" />
-          <Caption>{types && types.map((type) => `# ${type}`)}</Caption>
+        <FlexContainer style={{ gap: "1px" }}>
+          <FaStar className="place__star-rating" fontSize="15px" />
+          <Caption className="place__caption">{rating}</Caption>
         </FlexContainer>
-        <p>{vicinity}</p>
+        <Caption className="place__types">
+          {types &&
+            types.map((type) => (
+              <div>
+                <GoPrimitiveDot className="place__dot" />
+                {type.replaceAll("_", " ")}
+              </div>
+            ))}
+        </Caption>
       </StyledPlaceInfo>
       <StyledModalBtnContainer>
         <Button

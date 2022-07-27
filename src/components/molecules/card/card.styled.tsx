@@ -7,10 +7,10 @@ export const StyledCardContainer = styled.div`
   width: 100%;
   max-width: 300px;
   /* min-height: auto; */
-  flex: 0 0 260px;
+  flex: 0 0 270px;
   padding-bottom: 10px;
-  border-radius: 15px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   .place {
     &__name {
@@ -21,18 +21,34 @@ export const StyledCardContainer = styled.div`
       display: flex;
       align-items: center;
       margin: 3px 0;
+      align-items: flex-start;
+      gap: 5px;
     }
     &__star-rating {
       color: ${({ theme }) => theme.color.primary};
-      margin-right: 2px;
+      margin: 0 2px 0 5px;
     }
     &__dot {
       color: ${({ theme }) => theme.color.primary};
       margin: 0 3px;
       height: 0.6em;
     }
+    &__types {
+      margin-top: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
     &__caption {
       text-transform: capitalize;
+      font-size: ${({ theme }) => theme.typography.size.h5};
+      align-self: center;
+      position: relative;
+      bottom: 2px;
+    }
+    &__description {
+      margin-top: 10px;
+      font-style: italic;
     }
   }
 `;
@@ -40,7 +56,7 @@ export const StyledCardContainer = styled.div`
 export const StyledPlacePhoto = styled.img`
   cursor: pointer;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
   width: 100%;
   height: 220px;
 `;
@@ -49,6 +65,7 @@ export const StyledPlaceInfo = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: 10px;
   padding: 10px 10px 10px 15px;
 `;
 

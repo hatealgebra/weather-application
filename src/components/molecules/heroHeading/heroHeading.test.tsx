@@ -6,7 +6,13 @@ import setupTest from "../../../utils/test.utils";
 describe("Testing Hero Heading", () => {
   test("Rendering correct data", () => {
     const { getByRole, getByTestId, getByText } = setupTest(
-      <HeroHeading cityName="Paris" temp={8.6} main="rainy" shortCountry="cz" />
+      <HeroHeading
+        cityName="Paris"
+        temp={8.6}
+        main="rainy"
+        longCountry="Czech republic"
+        shortCountry="cz"
+      />
     );
     expect(getByRole("heading")).toHaveTextContent(/paris/i);
     expect(getByTestId("bigNumber")).toHaveTextContent("9°");

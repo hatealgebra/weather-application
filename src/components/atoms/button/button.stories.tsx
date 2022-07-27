@@ -22,6 +22,9 @@ export const All = () => (
     <Button appearance="primary">Button</Button>
     <Button appearance="secondary">Secondary</Button>
     <Button appearance="tertiary">Tertiary </Button>
+    <Button appearance="tertiary" noBorder>
+      Text like{" "}
+    </Button>
   </>
 );
 

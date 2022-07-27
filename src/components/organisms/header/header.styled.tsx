@@ -14,13 +14,14 @@ export const StyledHeaderWrapper = styled.div<{ border?: boolean }>`
   height: 60px;
   top: 0px;
   padding: 0.5em 0.1em;
+  margin: auto;
   box-sizing: border-box;
-  width: 100%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1200px;
   position: relative;
   transition: ease 0.2s;
   box-shadow: ${({ border }) =>

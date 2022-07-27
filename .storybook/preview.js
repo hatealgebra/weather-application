@@ -4,15 +4,18 @@ import { addDecorator } from "@storybook/react";
 import { GlobalStyles } from "../src/components/particles/globalStyles";
 
 import { MsgProvider } from "../src/context/MsgContext";
-import { CityProvider } from "../src/context/CityContext";
+import { CityProviderMock } from "../src/context/CityContext";
+import { MyCitiesProviderMock } from "../src/context/MyCitiesContext";
 
 const StorybookGlobalWrapper = (storyFn) => (
   <ThemeProvider theme={theme}>
     <MsgProvider>
-      <CityProvider>
-        <GlobalStyles />
-        {storyFn()}
-      </CityProvider>
+      <CityProviderMock>
+        <MyCitiesProviderMock>
+          <GlobalStyles />
+          {storyFn()}
+        </MyCitiesProviderMock>
+      </CityProviderMock>
     </MsgProvider>
   </ThemeProvider>
 );

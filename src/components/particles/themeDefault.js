@@ -8,13 +8,13 @@ const themeDefault = {
   // Scale 1.200 - Major Third
   typography: {
     size: {
-      h1: 39,
-      h2: 33,
-      h3: 27,
-      h4: 23,
-      h5: 17,
-      body: 16,
-      label: 12,
+      h1: "3.2rem",
+      h2: "2.974rem",
+      h3: "1.728rem",
+      h4: "1.44rem",
+      h5: "1.2rem",
+      body: "1rem",
+      label: "0.833rem",
     },
     weight: {
       thin: 100,
@@ -24,6 +24,7 @@ const themeDefault = {
       medium: 500,
       semibold: 600,
       bold: 700,
+      black: 900,
     },
   },
   color: {
@@ -46,11 +47,11 @@ const themeDefault = {
     big_shadow: "0px 5px 15px 3px rgba(0, 0, 0, .25)",
   },
   breakpoint: {
-    mobile: "only screen and (max-width: 600px)",
-    tablet: "only screen and (min-width: 600px)",
-    landscapeTablet: "only screen and (min-width: 786px)",
-    laptop: "only screen and (min-width: 992px)",
-    desktopMedia: "only screen and (min-width: 1200px)",
+    mobile: "@media only screen and (max-width: 600px)",
+    tablet: "@media only screen and (min-width: 600px)",
+    landscapeTablet: "@media only screen and (min-width: 786px)",
+    laptop: "@media only screen and (min-width: 992px)",
+    desktopMedia: "@media only screen and (min-width: 1200px)",
   },
 };
 

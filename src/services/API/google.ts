@@ -1,7 +1,25 @@
 import axios from "axios";
+import { changeGetUrlArray } from "../../utils/city.utils";
 import apiKeys from "./keys";
 
 const MAPS_BASE_URL = "https://maps.googleapis.com/maps/api";
+
+const initMap = () => {
+  let map = new google.maps.Map(document.createElement("div"));
+  const service = new google.maps.places.PlacesService(map);
+  return service;
+};
+
+export const showPhoto = async (
+  photo_reference: string,
+  max_width: number,
+  max_height: number
+) => {
+  const response = axios.get(
+    `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photo_reference}&sensor=false&maxheight=${max_height}&maxwidth=${max_width}&key=${apiKeys.googleKey}`
+  );
+  return response;
+};
 
 // GOOGLE
 
@@ -16,7 +34,7 @@ export const reverseGeocode = async (lat: number, lng: number) => {
   const response = await axios.get(
     `${MAPS_BASE_URL}/geocode/json/latlng=${lat},${lng}&key=${apiKeys.googleKey}`
   );
-  return response.data.results;
+  return await response.data.results;
 };
 
 export /**
@@ -44,6 +62,8 @@ const getAutocompleteCity = (
         countryName: prediction.description.split(",").join(","),
         place_id: prediction.place_id,
       }));
+      console.log(results);
+      console.log(predictions);
       resolve(predictions);
       reject([]);
     });
@@ -78,10 +98,11 @@ const getPlaceDetail = async (place_id: String): Promise<any> => {
     ],
   };
   return new Promise((resolve, reject) => {
-    const service = window.initMap();
+    const service = initMap();
     service.getDetails(
       request,
       (result: [], status: google.maps.places.PlacesServiceStatus) => {
+        console.log(result);
         resolve(result);
         reject(status);
       }
@@ -91,7 +112,7 @@ const getPlaceDetail = async (place_id: String): Promise<any> => {
 
 export /**
  *
- *  Service that gets nearby places searched based on radius, location and type of the place.
+ *  Service that gets nearby places searched based on radius, location and ty pe of the place.
  * Returns either correct data or rejected with status. Part of the G Maps Javascript API
  *
  * @param {number} radius
@@ -111,11 +132,11 @@ const searchNearbyTouristPlaces = (
       lat: lat,
       lng: lng,
     },
-    type: [],
+    types: ["tourist_attraction"],
   };
 
   return new Promise((resolve, reject) => {
-    const service = window.initMap();
+    const service = initMap();
     service.nearbySearch(
       request,
       (
@@ -123,7 +144,8 @@ const searchNearbyTouristPlaces = (
         status: google.maps.places.PlacesServiceStatus,
         pagination: Object
       ) => {
-        resolve(result);
+        const updatedArrayWithGetUrl = changeGetUrlArray(result);
+        resolve(updatedArrayWithGetUrl);
         reject(status);
       }
     );
@@ -143,14 +165,13 @@ const getPlacePhoto = (place_id: string) => {
     fields: ["photo"],
   };
   return new Promise((resolve, reject) => {
-    const service = window.initMap();
+    const service = initMap();
     service.getDetails(
       request,
       (
         result: [photos: []],
         status: google.maps.places.PlacesServiceStatus
       ) => {
-        console.log(result);
         resolve(result);
         reject(status);
       }

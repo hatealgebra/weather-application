@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from "react";
 
-import weatherOneCall from "../mocks/json/weatherOneCall.json";
-import cityPlaces from "../mocks/json/cityPlaces.mock.json";
+import cityContextMock from "../mocks/json/cityContext.mock.json";
+import { searchNearbyTouristPlaces } from "../services/API/google";
 
 import { setCityBaseData, sortTopPOI } from "../utils/city.utils";
 
@@ -30,10 +30,10 @@ export interface ICityContext {
     city_id: string;
     city_name: string;
     country: { long_name: string; short_name: string };
-    photo: Photo;
+    photos: IPhotoPlace[];
   };
   weather_data: WeatherData;
-  nearby_places: IPlaceDetailResponse[];
+  nearby_places: INearbyPlaceResponse[];
 }
 
 export interface ICityReducerAction {
@@ -54,7 +54,6 @@ const cityReducer = (
 ) => {
   switch (action.type) {
     case SET_CITY_DATA:
-      console.log(action.payload);
       return {
         base_data: setCityBaseData(action.payload.cityBaseData),
         weather_data: action.payload.weather_data,
@@ -90,7 +89,10 @@ export const CityProviderMock = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [cityState, dispatchCityState] = useReducer(cityReducer, mockState);
+  const [cityState, dispatchCityState] = useReducer(
+    cityReducer,
+    cityContextMock
+  );
   return (
     <CityContext.Provider value={{ cityState, dispatchCityState }}>
       {children}
@@ -99,19 +101,3 @@ export const CityProviderMock = ({
 };
 
 export default CityContext;
-
-const mockState = {
-  base_data: {
-    gpsLocation: {
-      lat: 50.0755,
-      lng: 14.4378,
-    },
-    cityId: "jljlj313123",
-    city_name: "Prague",
-    country: { long_name: "Czech Republic", short_name: "cz" },
-    photo:
-      "https://images.unsplash.com/photo-1537104985612-681e48126f3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80",
-  },
-  weather_data: weatherOneCall,
-  nearby_places: cityPlaces,
-};

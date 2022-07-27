@@ -1,10 +1,4 @@
-import React, {
-  Dispatch,
-  FormEvent,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import React, { FormEvent, useContext, useEffect, useState } from "react";
 import Button from "../../atoms/button/Button";
 import {
   StyledWrapper,
@@ -55,19 +49,21 @@ function SearchForm() {
       const { lat, lng } = cityResults.geometry.location;
       const latitude = lat();
       const longitude = lng();
+      
       dispatchCityState({
         type: SET_CITY_DATA,
         payload: {
           cityBaseData: cityResults,
           weather_data: await fetchWeatherData(latitude, longitude),
           nearby_places: await searchNearbyTouristPlaces(
-            20,
+            50000,
             latitude,
             longitude
           ),
         },
       });
     } catch (e) {
+      console.log(e);
     } finally {
       setAutocompleteOn(false);
       setInputCity("");

@@ -6,14 +6,7 @@ import { getDay } from "../../../utils/commonUtils/common.utils";
 
 import ForecastItem from "../../atoms/forecastItem/ForecastItem";
 import Missing from "../../atoms/missing/Missing";
-
-export const StyledForecastList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-`;
+import { StyledForecastList } from "./forecastList.styled";
 
 function ForecastList() {
   const { cityState, dispatchCityState } = useContext(CityContext);
