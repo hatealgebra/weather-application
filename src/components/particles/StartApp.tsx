@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import CityContext, { SET_CITY_DATA } from "../../context/CityContext";
 import { geolocationAPI } from "../../services/API/geolocation";
 import {
@@ -8,6 +8,7 @@ import {
   searchNearbyTouristPlaces,
 } from "../../services/API/google";
 import { fetchWeatherData } from "../../services/API/openWeatherMap";
+import { getCityFromCoords } from "../../utils/helpers";
 import HomePage from "../pages/homepage/Homepage";
 
 const LoadingScreen = styled.div<{ isLoading: boolean }>`
@@ -178,30 +179,19 @@ const StartApp = () => {
   }, []);
 
   //   TODO typing
-
   const loadCity = async () => {
     try {
       const response: any = await geolocationAPI();
+      console.log(response);
       const { latitude, longitude } = response.coords;
-      const cityBaseData = await getPlaceDetail(
-        await reverseGeocode(latitude, longitude)
-      );
-      const cityWeatherData = await fetchWeatherData(latitude, longitude);
-      const nearbyPlaces = await searchNearbyTouristPlaces(
-        5000,
-        latitude,
-        longitude
-      );
-      dispatchCityState({
-        type: SET_CITY_DATA,
-        payload: {
-          cityBaseData: cityBaseData,
-          weather_data: cityWeatherData,
-          nearby_places: nearbyPlaces,
-        },
-      });
-    } catch (e) {
+      getCityFromCoords(latitude, longitude, dispatchCityState);
+    } catch (e: any) {
       console.log(e);
+      if (e.message === "User denied Geolocation") {
+        const latitude = 50.073658;
+        const longitude = 14.4185;
+        getCityFromCoords(latitude, longitude, dispatchCityState);
+      }
     } finally {
       setTimeout(() => setIsLoading(false), 5000);
     }

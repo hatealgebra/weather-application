@@ -37,15 +37,15 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
         </FlexContainer>
       </StyledHeaderWrapper>
       <ButtonRow>
-        <Link onClick={() => true} isButton>
+        {/* <Link onClick={() => true} isButton>
           About
-        </Link>
+        </Link> */}
         <Link isButton href="https://wwww.pavel-vondra.com">
           Portfolio
         </Link>
-        <Link isButton onClick={() => alert("Settings coming soon!")}>
+        {/* <Link isButton onClick={() => alert("Settings coming soon!")}>
           Settings
-        </Link>
+        </Link> */}
       </ButtonRow>
       <AboutApp />
     </StyledMenuContainer>
