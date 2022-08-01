@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const openWeatherKey = "9b951034770ee2a8db324305d397140a";
+const openWeatherKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
 const oneCallEndpoint = (lat: number, lng: number) =>
   `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lng}&units=metric&appid=${openWeatherKey}`;
 

@@ -1,8 +1,7 @@
 import axios from "axios";
 import { changeGetUrlArray } from "../../utils/city.utils";
-import apiKeys from "./keys";
 
-const MAPS_BASE_URL = "https://maps.googleapis.com/maps/api";
+const GoogleAPIKey = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const initMap = () => {
   let map = new google.maps.Map(document.createElement("div"));
@@ -16,7 +15,7 @@ export const showPhoto = async (
   max_height: number
 ) => {
   const response = axios.get(
-    `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photo_reference}&sensor=false&maxheight=${max_height}&maxwidth=${max_width}&key=${apiKeys.googleKey}`
+    `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photo_reference}&sensor=false&maxheight=${max_height}&maxwidth=${max_width}&key=${GoogleAPIKey}`
   );
   return response;
 };
