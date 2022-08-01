@@ -17,7 +17,6 @@ function PopularPlaces() {
     status: false,
   });
 
-  console.log(showModal);
   return (
     <StyledPlacesContainer>
       {cityState !== null &&

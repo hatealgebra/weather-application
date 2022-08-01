@@ -17,6 +17,9 @@ export const FooterContainer = styled.footer`
       }
     }
   }
+  p {
+    margin: auto;
+  }
 `;
 
 function Footer() {
@@ -42,3 +45,5 @@ function Footer() {
 }
 
 export default Footer;
+
+//  TODO write test

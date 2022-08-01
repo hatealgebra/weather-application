@@ -36,3 +36,5 @@ export interface ReviewProps {
 }
 
 export default Review;
+
+// TODO add test for component

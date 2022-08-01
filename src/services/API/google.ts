@@ -24,17 +24,26 @@ export const showPhoto = async (
 // GOOGLE
 
 /**
+//  TODO Comment this properly
  * * Turns GPS location to google reponse with responses that are at that area
  *
  * @param {number} lat
  * @param {number} lng
  * @return {object} Returns object from the response with all the results
  */
-export const reverseGeocode = async (lat: number, lng: number) => {
-  const response = await axios.get(
-    `${MAPS_BASE_URL}/geocode/json/latlng=${lat},${lng}&key=${apiKeys.googleKey}`
+export const reverseGeocode = async (
+  lat: number,
+  lng: number
+): Promise<string> => {
+  const geocoder = new google.maps.Geocoder();
+  const { results } = await geocoder.geocode({
+    location: { lat, lng },
+  });
+  const listOfCityType = results.filter(
+    (place) =>
+      place.types.includes("locality") && place.types.includes("political")
   );
-  return await response.data.results;
+  return listOfCityType[0].place_id;
 };
 
 export /**
@@ -62,8 +71,6 @@ const getAutocompleteCity = (
         countryName: prediction.description.split(",").join(","),
         place_id: prediction.place_id,
       }));
-      console.log(results);
-      console.log(predictions);
       resolve(predictions);
       reject([]);
     });
@@ -77,7 +84,7 @@ export /**
  * @param {string} place_id
  * @return {promise}  Promise
  */
-const getPlaceDetail = async (place_id: String): Promise<any> => {
+const getPlaceDetail = async (place_id: string): Promise<any> => {
   const request = {
     placeId: place_id,
     fields: [
@@ -99,14 +106,10 @@ const getPlaceDetail = async (place_id: String): Promise<any> => {
   };
   return new Promise((resolve, reject) => {
     const service = initMap();
-    service.getDetails(
-      request,
-      (result: [], status: google.maps.places.PlacesServiceStatus) => {
-        console.log(result);
-        resolve(result);
-        reject(status);
-      }
-    );
+    service.getDetails(request, (result, status) => {
+      resolve(result);
+      reject(status);
+    });
   });
 };
 
@@ -137,18 +140,11 @@ const searchNearbyTouristPlaces = (
 
   return new Promise((resolve, reject) => {
     const service = initMap();
-    service.nearbySearch(
-      request,
-      (
-        result: [],
-        status: google.maps.places.PlacesServiceStatus,
-        pagination: Object
-      ) => {
-        const updatedArrayWithGetUrl = changeGetUrlArray(result);
-        resolve(updatedArrayWithGetUrl);
-        reject(status);
-      }
-    );
+    service.nearbySearch(request, (result, status, pagination) => {
+      const updatedArrayWithGetUrl = changeGetUrlArray(result);
+      resolve(updatedArrayWithGetUrl);
+      reject(status);
+    });
   });
 };
 
@@ -166,15 +162,9 @@ const getPlacePhoto = (place_id: string) => {
   };
   return new Promise((resolve, reject) => {
     const service = initMap();
-    service.getDetails(
-      request,
-      (
-        result: [photos: []],
-        status: google.maps.places.PlacesServiceStatus
-      ) => {
-        resolve(result);
-        reject(status);
-      }
-    );
+    service.getDetails(request, (result, status) => {
+      resolve(result);
+      reject(status);
+    });
   });
 };

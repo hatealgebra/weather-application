@@ -8,9 +8,9 @@ import { Logo } from "../../atoms/logo/Logo";
 import { StyledHeaderWrapper } from "../header/header.styled";
 import { StyledMenuContainer } from "./mobileMenu.styled";
 
-import MyCitiesList from "../../molecules/myCitiesList/MyCitiesList";
 import { GrClose } from "react-icons/gr";
 import { ButtonRow, FlexContainer } from "../../atoms/block/Block";
+import AboutApp from "../../particles/AboutApp";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
   return (
@@ -18,8 +18,13 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
       <StyledHeaderWrapper>
         <Logo />
         <FlexContainer>
-          <Button size="small" appearance="secondary" withIcon={<FaMoon />}>
-            With Icon
+          <Button
+            onClick={() => alert("Night mode is coming soon!")}
+            size="small"
+            appearance="secondary"
+            withIcon={<FaMoon />}
+          >
+            Switch mode
           </Button>
           <Button
             appearance="tertiary"
@@ -32,11 +37,17 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
         </FlexContainer>
       </StyledHeaderWrapper>
       <ButtonRow>
-        <Link isButton>About</Link>
-        <Link isButton>Portfolio</Link>
-        <Link isButton>Settings</Link>
+        <Link onClick={() => true} isButton>
+          About
+        </Link>
+        <Link isButton href="https://wwww.pavel-vondra.com">
+          Portfolio
+        </Link>
+        <Link isButton onClick={() => alert("Settings coming soon!")}>
+          Settings
+        </Link>
       </ButtonRow>
-      <MyCitiesList />
+      <AboutApp />
     </StyledMenuContainer>
   );
 }
@@ -47,3 +58,6 @@ export interface MobileMenuProps {
 }
 
 export default MobileMenu;
+
+// TODO settings button? Layout of buttons?
+// TODO Write test

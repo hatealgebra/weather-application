@@ -7,6 +7,7 @@ import Caption from "../../atoms/caption/Caption";
 import Missing from "../../atoms/missing/Missing";
 import { Box } from "../../atoms/block/Block";
 
+// TODO When clicked on touch device, take full length of device, mainly for phone
 function AutoComplete({
   predictions,
   isLoading,
@@ -42,7 +43,13 @@ function AutoComplete({
                 />
               }
             >
-              {prediction.cityName}, <Caption>{prediction.countryName}</Caption>
+              {prediction.cityName},
+              <Caption>
+                {prediction.countryName
+                  .split(",")
+                  .filter((part, i) => i > 0 && part)
+                  .join(", ")}
+              </Caption>
             </ListItem>
           ))
         )}

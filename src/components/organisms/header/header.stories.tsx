@@ -6,7 +6,7 @@ const Template: Story<HeaderProps> = (args) => <Header {...args} />;
 
 export const MobileHeader = Template.bind({});
 MobileHeader.args = {
-  variant: "mobile",
+  isTouchDevice: true,
 };
 
 export default {

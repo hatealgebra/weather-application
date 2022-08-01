@@ -6,39 +6,15 @@ import CityContext from "../../../context/CityContext";
 import PageTemplate from "../../templates/Page.template";
 
 import Chart from "../../molecules/chart/Chart";
-import Header from "../../organisms/header/Header";
 import WeatherStatsList from "../../molecules/weatherStatsList/WeatherStatsList";
 import AppSection from "../../organisms/appSection/AppSection";
 import TodaySection from "../../organisms/appSection/TodaySection";
 import PhotoContainer from "../../molecules/photoContainer/PhotoContainer";
 
+// TODO When app loads, from the geolocation or default
+
 function HomePage() {
   const { cityState } = useContext(CityContext);
-  console.log(cityState);
-
-  // useEffect(() => {
-  //   if (cityState === "") {
-  //     loadCity(geolocationAPI());
-  //   }
-  // }, []);
-
-  // const loadCity = async (geolocationResponse) => {
-  //   let lat, lng;
-  //   try {
-  //     [lat, lng] = await geolocationResponse().coords;
-  //   } catch (e) {
-  //     [lat, lng] = [50.073658, 14.4185];
-  //   } finally {
-  //     const cityBaseData = await getCityInfo(reverseGeocode(lat, lng));
-  //     const cityWeatherData = await fetchWeatherData(lat, lng);
-  //     const nearbyPlaces = await searchNearbyTouristPlaces(lat, lng);
-  //     cityDispatch({
-  //       cityBaseData: cityBaseData,
-  //       cityWeatherData: cityWeatherData,
-  //       nearbyPlaces: nearbyPlaces,
-  //     });
-  //   }
-  // };
 
   return (
     <PageTemplate>

@@ -43,7 +43,7 @@ export const StyledButton = styled.button<ButtonProps>`
   color: ${({ appearance, theme }) =>
     appearance === "primary" ? "white" : theme.color.black};
   font-size: ${({ size }) => size === "small" && "small"};
-  padding: ${({ size }) => (size === "small" ? "10px 20px" : "12px 30px")};
+  padding: ${({ size }) => (size === "small" ? "10px 10px" : "12px 15px")};
   &:hover {
     box-shadow: ${({ theme, noBorder }) =>
       !noBorder && theme.shadow.border_shadow};

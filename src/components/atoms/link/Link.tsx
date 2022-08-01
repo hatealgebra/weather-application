@@ -7,6 +7,7 @@ function Link({
   isButton,
   children,
   noBorder,
+  onClick,
   color,
   ...props
 }: LinkProps) {
@@ -36,6 +37,7 @@ export interface LinkProps {
   children: string;
   color?: string;
   noBorder?: boolean;
+  onClick?: CallableFunction;
 }
 
 export default Link;

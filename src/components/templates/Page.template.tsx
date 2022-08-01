@@ -5,6 +5,10 @@ import Footer from "../organisms/footer/Footer";
 import Header from "../organisms/header/Header";
 import { Content, HeaderStyled } from "./page.template.styled";
 
+// TODO about in the mobile menu
+// TODO about in modal
+//  TODO test write
+
 function PageTemplate({ children }: PageTemplateProps) {
   const windowSize = useWindowSize();
 
@@ -13,7 +17,7 @@ function PageTemplate({ children }: PageTemplateProps) {
       <HeaderStyled>
         <Header
           data-testid="top-panel"
-          isTouchDevice={windowSize.width! < 700 ? true : false}
+          isTouchDevice={windowSize.width! < 1060 ? true : false}
         />
       </HeaderStyled>
       <Content data-testid="app-content">{children}</Content>

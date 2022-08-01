@@ -24,5 +24,6 @@ export const StyledStat = styled.li`
   }
   p {
     font-weight: 600;
+    margin: 0;
   }
 `;

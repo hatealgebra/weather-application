@@ -9,10 +9,8 @@ let map: google.maps.Map;
  * @param  {number|CallableFunction} lat = latitude
  * @param  {number|CallableFunction} lng = longitude
  */
-export function getMap(
-  lat: number | CallableFunction,
-  lng: number | CallableFunction
-): void {
+//  FIXME Typing of the parameters
+export function getMap(lat: any, lng: any): void {
   let place;
   if (typeof lat !== "number" && typeof lng !== "number") {
     place = new google.maps.LatLng(lat(), lng());

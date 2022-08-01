@@ -32,7 +32,7 @@ declare global {
     website: string;
     html_attributions: any[];
     rating: number;
-    rating_total: number;
+    rating_total?: number;
     opening_hours: IOpeningHours;
     reviews: IReviewComment[];
     international_phone_number?: string;

@@ -79,7 +79,7 @@ export const StyledModalPhoto = styled.div<{ photo: string }>`
     url(${({ photo }) => photo});
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 75%;
+  min-height: 60%;
   display: grid;
   row-gap: 20px;
   grid-template-areas:

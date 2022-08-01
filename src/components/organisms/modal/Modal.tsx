@@ -12,8 +12,6 @@ import Caption from "../../atoms/caption/Caption";
 import Link from "../../atoms/link/Link";
 import blueBackground from "../../../assets/images/blue-background.jpg";
 
-import { ImClock } from "react-icons/im";
-
 import Rating from "../../atoms/rating/Rating";
 import Review from "../../molecules/review/Review";
 import { GrClose } from "react-icons/gr";
@@ -26,7 +24,6 @@ function Modal({ active, data, setShowModal }: ModalProps) {
     rating,
     rating_total,
     geometry,
-    types,
     website,
     photos,
     formatted_address,
@@ -78,7 +75,7 @@ function Modal({ active, data, setShowModal }: ModalProps) {
             color="white"
             variant="figure"
             className="modal-hero__pop-rating"
-            rating={rating_total}
+            rating={rating_total || 0}
           />
           <Caption className="modal-hero__website-link">
             <Link color="white" href={website || "#"}>
@@ -140,3 +137,5 @@ export interface ModalProps {
 }
 
 export default Modal;
+
+//  TODO write tests

@@ -1,7 +1,6 @@
 import React, { createContext, useReducer } from "react";
 
 import cityContextMock from "../mocks/json/cityContext.mock.json";
-import { searchNearbyTouristPlaces } from "../services/API/google";
 
 import { setCityBaseData, sortTopPOI } from "../utils/city.utils";
 

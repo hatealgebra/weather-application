@@ -38,7 +38,7 @@ function WeatherStatsList() {
       <WeatherStat type="wind" data={getWindSpeed(current.wind_speed)} />
       <WeatherStat type="pressure" data={getPressure(current.pressure)} />
       {/* rain property is actually obect or number, wth */}
-      <WeatherStat type="rain" data={getRain(9)} />
+      <WeatherStat type="rain" data={getRain(current?.rain)} />
       <WeatherStat type="humidity" data={getHumidity(current.humidity)} />
     </StyledWeatherStatsList>
   );

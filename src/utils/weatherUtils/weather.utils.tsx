@@ -20,11 +20,14 @@ export const getPressure = (pressure: number) => {
   return `${pressure} hPa`;
 };
 
-export const getRain = (rainProb: number | undefined) => {
+export const getRain = (rainProb: number | { "1h": number } | undefined) => {
   if (!rainProb) {
     return "NaN";
+  } else if (typeof rainProb === "number") {
+    return `${Math.round(rainProb * 100)}%`;
+  } else {
+    return `${Math.round(rainProb["1h"] * 100)}%`;
   }
-  return `${Math.round(rainProb * 100)}%`;
 };
 
 export const getHumidity = (humidity: number) => `${Math.round(humidity)}%`;

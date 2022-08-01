@@ -9,6 +9,7 @@ import {
   LabelList,
 } from "recharts";
 import { getHour } from "../../../utils/commonUtils/common.utils";
+import useWindowSize from "../../../utils/hooks/useWindowSize";
 import { AreaChartContainer } from "./chart.styled";
 import ChartLabel from "./ChartLabel";
 
@@ -32,7 +33,7 @@ function Chart({ dataset }: ChartProps) {
   return (
     <AreaChartContainer>
       <ResponsiveContainer
-        aspect={3.5}
+        aspect={useWindowSize().width! > 600 ? 3.3 : 2}
         height="100%"
         minWidth="500px"
         width="99%"

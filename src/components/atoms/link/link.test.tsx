@@ -23,6 +23,6 @@ describe("link variants", () => {
 
   test("button link", () => {
     const { getByRole } = setupTest(<ButtonLink />);
-    expect(getByRole("button")).toHaveAttribute("href", "#");
+    expect(getByRole("link")).toHaveAttribute("href", "#");
   });
 });

@@ -10,9 +10,13 @@ import MobileMenu from "../mobileMenu/MobileMenu";
 import { FlexContainer } from "../../atoms/block/Block";
 import { FaMoon } from "react-icons/fa";
 import Link from "../../atoms/link/Link";
+import AboutModal from "../../molecules/aboutModal/AboutModal";
+
+// TODO modal about for desktop
 
 function Header({ isTouchDevice }: HeaderProps) {
   const [showMenu, setShowMenu] = useState(false);
+  const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (
     <StyledHeader>
@@ -30,10 +34,19 @@ function Header({ isTouchDevice }: HeaderProps) {
           </Button>
         ) : (
           <FlexContainer>
-            <Button noBorder appearance="tertiary" withIcon={<FaMoon />}>
+            <Button
+              onClick={() => alert("Still working on.")}
+              noBorder
+              appearance="tertiary"
+              withIcon={<FaMoon />}
+            >
               dark mode
             </Button>
-            <Button noBorder appearance="tertiary">
+            <Button
+              onClick={() => setIsOpenModal(true)}
+              noBorder
+              appearance="tertiary"
+            >
               About
             </Button>
             <Link isButton href="https://pavel-vondra.com" noBorder>
@@ -43,6 +56,7 @@ function Header({ isTouchDevice }: HeaderProps) {
         )}
       </StyledHeaderWrapper>
       <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu} />
+      <AboutModal isOpen={isOpenModal} setIsOpenModal={setIsOpenModal} />
     </StyledHeader>
   );
 }

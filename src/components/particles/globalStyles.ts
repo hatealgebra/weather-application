@@ -102,7 +102,9 @@ h5 {font-size: 1.2rem;
 p{ font-size: ${theme.typography.size.body};
 color: ${theme.color.black};
 font-weight: 300;
-line-height: 1.6;
+line-height: 1.8;
+margin: 20px 0;
+max-width: 500px;
 }
 .small, .text_small {font-size: ${theme.typography.size.label};}
 

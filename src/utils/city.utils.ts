@@ -77,8 +77,12 @@ export const filterPhotoMin = (
  * @param  {IPlaceDetailResponse[]} places
  * @return {IPlaceDetailResponse} Return modified with array, that has value at GetUrl property set to string and not getUrl
  */
-export const changeGetUrlArray = (places: IPlaceDetailResponse[]) => {
-  console.log(places);
+export const changeGetUrlArray = (
+  places: google.maps.places.PlaceResult[] | null
+) => {
+  if (!places) {
+    return places;
+  }
   return places.map((place) => {
     const updatedPhotos = place.photos?.map((photo) => modifyGetUrl(photo));
     const updatedObject = { ...place, photos: updatedPhotos };

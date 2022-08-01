@@ -66,7 +66,7 @@ function Card({
         <Caption className="place__types">
           {types &&
             types.map((type) => (
-              <div>
+              <div key={type}>
                 <GoPrimitiveDot className="place__dot" />
                 {type.replaceAll("_", " ")}
               </div>
