@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import styled from "styled-components";
 
 import CityContext from "../../../context/CityContext";
 import { getDay } from "../../../utils/commonUtils/common.utils";
@@ -9,7 +8,7 @@ import Missing from "../../atoms/missing/Missing";
 import { StyledForecastList } from "./forecastList.styled";
 
 function ForecastList() {
-  const { cityState, dispatchCityState } = useContext(CityContext);
+  const { cityState } = useContext(CityContext);
 
   return (
     <StyledForecastList>

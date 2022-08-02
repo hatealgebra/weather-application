@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 export const StyledMenuContainer = styled.div<{ showMenu: boolean }>`

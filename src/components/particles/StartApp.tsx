@@ -1,13 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
-import CityContext, { SET_CITY_DATA } from "../../context/CityContext";
+import CityContext from "../../context/CityContext";
 import { geolocationAPI } from "../../services/API/geolocation";
-import {
-  getPlaceDetail,
-  reverseGeocode,
-  searchNearbyTouristPlaces,
-} from "../../services/API/google";
-import { fetchWeatherData } from "../../services/API/openWeatherMap";
+
 import { getCityFromCoords } from "../../utils/helpers";
 import HomePage from "../pages/homepage/Homepage";
 
@@ -176,6 +171,7 @@ const StartApp = () => {
     if (cityState === null) {
       loadCity();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   //   TODO typing

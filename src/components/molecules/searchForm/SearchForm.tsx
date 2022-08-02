@@ -21,7 +21,7 @@ import { fetchWeatherData } from "../../../services/API/openWeatherMap";
 function SearchForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [predictions, setPredictions] = useState<TAutocompleteArray>([]);
-  const [hasError, setHasError] = useState(false);
+
   const [inputCity, setInputCity] = useState("");
   const [autocompleteOn, setAutocompleteOn] = useState(false);
 
@@ -34,7 +34,6 @@ function SearchForm() {
         setPredictions(await getAutocompleteCity(input));
       } catch (e) {
         console.log(e);
-        setHasError(true);
       } finally {
         setIsLoading(false);
       }
@@ -49,7 +48,7 @@ function SearchForm() {
       const { lat, lng } = cityResults.geometry.location;
       const latitude = lat();
       const longitude = lng();
-      
+
       dispatchCityState({
         type: SET_CITY_DATA,
         payload: {
