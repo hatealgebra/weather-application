@@ -178,12 +178,11 @@ const StartApp = () => {
   const loadCity = async () => {
     try {
       const response: any = await geolocationAPI();
-      console.log(response);
       const { latitude, longitude } = response.coords;
       getCityFromCoords(latitude, longitude, dispatchCityState);
     } catch (e: any) {
       console.log(e);
-      if (e.message === "User denied Geolocation") {
+      if (e.code === 1 || e.code === 2) {
         const latitude = 50.073658;
         const longitude = 14.4185;
         getCityFromCoords(latitude, longitude, dispatchCityState);
