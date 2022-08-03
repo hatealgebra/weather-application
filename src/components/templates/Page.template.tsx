@@ -12,8 +12,6 @@ import { Content, HeaderStyled } from "./page.template.styled";
 function PageTemplate({ children }: PageTemplateProps) {
   const windowSize = useWindowSize();
 
-  console.log(process.env);
-
   return (
     <AppContainer>
       <HeaderStyled>

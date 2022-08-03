@@ -13,6 +13,7 @@ import Link from "../../atoms/link/Link";
 import AboutModal from "../../molecules/aboutModal/AboutModal";
 
 // TODO modal about for desktop
+//  TODO Implement body-scroll-lock
 
 function Header({ isTouchDevice }: HeaderProps) {
   const [showMenu, setShowMenu] = useState(false);

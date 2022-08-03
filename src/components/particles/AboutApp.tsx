@@ -8,6 +8,7 @@ const AboutAppContainer = styled.div`
   max-width: 700px;
   margin: auto;
   gap: 20px;
+  padding: 10px;
 `;
 
 const AboutApp = () => {

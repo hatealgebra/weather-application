@@ -17,6 +17,7 @@ import Review from "../../molecules/review/Review";
 import { GrClose } from "react-icons/gr";
 import { FlexContainer, Box } from "../../atoms/block/Block";
 import { getMap } from "../../../services/API/google/mapInfoWindow";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 function Modal({ active, data, setShowModal }: ModalProps) {
   const {
@@ -32,8 +33,6 @@ function Modal({ active, data, setShowModal }: ModalProps) {
     vicinity,
   } = data;
 
-  console.log(data);
-
   const closeModal = () => {
     setShowModal((prevState) => {
       const newState = { ...prevState, status: false };
@@ -42,10 +41,6 @@ function Modal({ active, data, setShowModal }: ModalProps) {
   };
 
   const { lat, lng } = geometry.location;
-
-  useEffect(() => {
-    getMap(lat, lng);
-  }, [lat, lng]);
 
   return (
     <StyledPlaceModalBackground data-testid="placeModal" active={active}>

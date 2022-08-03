@@ -1,10 +1,11 @@
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import React, { SetStateAction } from "react";
 import { GrClose } from "react-icons/gr";
 import styled from "styled-components";
 import Button from "../../atoms/button/Button";
 import AboutApp from "../../particles/AboutApp";
 
-const ModalContainerStyled = styled.div<{ isOpen: boolean }>`
+const ModalContainerStyled = styled.div<{ isOpen: boolean; ref: any }>`
   display: ${({ isOpen }) => (isOpen ? "block" : "none")};
   position: fixed;
   left: 0;
@@ -33,8 +34,19 @@ const ModalContainerStyled = styled.div<{ isOpen: boolean }>`
 `;
 
 const AboutModal = ({ isOpen, setIsOpenModal }: AboutModalProps) => {
+  const modalRef = React.createRef();
+  React.useEffect(() => {
+    if (modalRef.current) {
+      if (isOpen) {
+        disableBodyScroll(modalRef.current);
+      } else {
+        enableBodyScroll(modalRef.current);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen]);
   return (
-    <ModalContainerStyled isOpen={isOpen}>
+    <ModalContainerStyled isOpen={isOpen} ref={modalRef}>
       <Button
         onClick={() => setIsOpenModal(false)}
         appearance="tertiary"

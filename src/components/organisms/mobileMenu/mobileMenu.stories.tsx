@@ -3,8 +3,13 @@ import { action } from "@storybook/addon-actions";
 import MobileMenu from "./MobileMenu";
 
 export const DefaultMobileMenu = () => {
+  const ref = React.createRef();
   return (
-    <MobileMenu showMenu={true} setShowMenu={action("Menu was closed!")} />
+    <MobileMenu
+      ref={ref}
+      showMenu={true}
+      setShowMenu={action("Menu was closed!")}
+    />
   );
 };
 

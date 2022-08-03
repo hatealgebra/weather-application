@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const StyledPlaceModalBackground = styled.div<{ active?: boolean }>`
+export const StyledPlaceModalBackground = styled.div<{
+  active?: boolean;
+}>`
   overflow: scroll;
   position: fixed;
   display: flex;

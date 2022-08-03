@@ -11,10 +11,23 @@ import { StyledMenuContainer } from "./mobileMenu.styled";
 import { GrClose } from "react-icons/gr";
 import { ButtonRow, FlexContainer } from "../../atoms/block/Block";
 import AboutApp from "../../particles/AboutApp";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
+  const mobileMenuRef = React.createRef();
+
+  React.useEffect(() => {
+    if (mobileMenuRef.current) {
+      if (showMenu) {
+        disableBodyScroll(mobileMenuRef.current);
+      } else {
+        enableBodyScroll(mobileMenuRef.current);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showMenu]);
   return (
-    <StyledMenuContainer showMenu={showMenu}>
+    <StyledMenuContainer ref={mobileMenuRef} showMenu={showMenu}>
       <StyledHeaderWrapper>
         <Logo />
         <FlexContainer>
