@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction, useEffect } from "react";
+import React, { Dispatch, SetStateAction } from "react";
 
 import {
   StyledModalPhoto,
@@ -16,8 +16,6 @@ import Rating from "../../atoms/rating/Rating";
 import Review from "../../molecules/review/Review";
 import { GrClose } from "react-icons/gr";
 import { FlexContainer, Box } from "../../atoms/block/Block";
-import { getMap } from "../../../services/API/google/mapInfoWindow";
-import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 function Modal({ active, data, setShowModal }: ModalProps) {
   const {
@@ -39,8 +37,6 @@ function Modal({ active, data, setShowModal }: ModalProps) {
       return Object.assign({}, newState);
     });
   };
-
-  const { lat, lng } = geometry.location;
 
   return (
     <StyledPlaceModalBackground data-testid="placeModal" active={active}>
