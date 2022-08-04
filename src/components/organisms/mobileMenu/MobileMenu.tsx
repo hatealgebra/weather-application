@@ -14,7 +14,7 @@ import AboutApp from "../../particles/AboutApp";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
-  const mobileMenuRef = React.createRef();
+  const mobileMenuRef = React.useRef(null);
 
   React.useEffect(() => {
     if (mobileMenuRef.current) {
@@ -24,8 +24,7 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
         enableBodyScroll(mobileMenuRef.current);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showMenu]);
+  }, [showMenu, mobileMenuRef]);
   return (
     <StyledMenuContainer ref={mobileMenuRef} showMenu={showMenu}>
       <StyledHeaderWrapper>

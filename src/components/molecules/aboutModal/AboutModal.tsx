@@ -34,7 +34,7 @@ const ModalContainerStyled = styled.div<{ isOpen: boolean; ref: any }>`
 `;
 
 const AboutModal = ({ isOpen, setIsOpenModal }: AboutModalProps) => {
-  const modalRef = React.createRef();
+  const modalRef = React.useRef(null);
   React.useEffect(() => {
     if (modalRef.current) {
       if (isOpen) {
@@ -43,8 +43,7 @@ const AboutModal = ({ isOpen, setIsOpenModal }: AboutModalProps) => {
         enableBodyScroll(modalRef.current);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isOpen]);
+  }, [isOpen, modalRef]);
   return (
     <ModalContainerStyled isOpen={isOpen} ref={modalRef}>
       <Button
