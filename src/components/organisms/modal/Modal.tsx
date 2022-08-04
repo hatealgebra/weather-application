@@ -22,7 +22,6 @@ function Modal({ active, data, setShowModal }: ModalProps) {
     name,
     rating,
     rating_total,
-    geometry,
     website,
     photos,
     formatted_address,
