@@ -16,7 +16,3 @@ describe("section rendering", () => {
     expect(text).toHaveTextContent(/hello world/i);
   });
 });
-
-describe("today section rendering", () => {
-  test("today section row", () => {});
-});

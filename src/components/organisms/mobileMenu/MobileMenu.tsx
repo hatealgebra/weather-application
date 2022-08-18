@@ -26,7 +26,11 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
     }
   }, [showMenu, mobileMenuRef]);
   return (
-    <StyledMenuContainer ref={mobileMenuRef} showMenu={showMenu}>
+    <StyledMenuContainer
+      data-testid="mobile-menu"
+      ref={mobileMenuRef}
+      showMenu={showMenu}
+    >
       <StyledHeaderWrapper>
         <Logo />
         <FlexContainer>
@@ -52,7 +56,7 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
         {/* <Link onClick={() => true} isButton>
           About
         </Link> */}
-        <Link isButton href="https://wwww.pavel-vondra.com">
+        <Link isButton href="https://pavel-vondra.com">
           Portfolio
         </Link>
         {/* <Link isButton onClick={() => alert("Settings coming soon!")}>

@@ -10,7 +10,6 @@ function AppSection({
   noPadding,
   className,
 }: AppSectionProps) {
-  // Weather types
   return (
     <>
       <Section noPadding={noPadding} className={className}>

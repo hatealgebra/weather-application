@@ -20,8 +20,6 @@ export const StyledTodayContainer = styled(Section)`
   }
 `;
 
-// TODO Places container overflow with out padding, netflix like
-
 export const StyledPlacesContainer = styled.div`
   display: flex;
   flex-wrap: nowrap;

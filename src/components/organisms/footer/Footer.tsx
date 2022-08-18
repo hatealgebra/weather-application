@@ -45,5 +45,3 @@ function Footer() {
 }
 
 export default Footer;
-
-//  TODO write test

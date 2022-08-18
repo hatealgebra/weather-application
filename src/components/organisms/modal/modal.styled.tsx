@@ -50,8 +50,8 @@ export const StyledPlaceModalContainer = styled.div`
       & > * {
         margin: 5px 0 15px 0px;
       }
-      ${({ theme }) => theme.breakpoint.laptop} {
-        padding: 10px 30px;
+      ${({ theme }) => theme.breakpoint.tablet} {
+        padding: 5%;
       }
     }
     &__close-btn {

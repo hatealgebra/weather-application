@@ -17,7 +17,6 @@ import Review from "../../molecules/review/Review";
 import { GrClose } from "react-icons/gr";
 import { FlexContainer, Box } from "../../atoms/block/Block";
 import { getMap } from "../../../services/API/google/mapInfoWindow";
-import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 function Modal({ active, data, setShowModal }: ModalProps) {
   const {
@@ -90,7 +89,9 @@ function Modal({ active, data, setShowModal }: ModalProps) {
               <h4>Opening hours</h4>
               <StyledOpening>
                 {opening_hours &&
-                  opening_hours.weekday_text.map((day) => <li>{day}</li>)}
+                  opening_hours.weekday_text.map((day) => (
+                    <div key={day}>{day}</div>
+                  ))}
                 {!opening_hours && "No opening hours avalaible."}
               </StyledOpening>
             </Box>

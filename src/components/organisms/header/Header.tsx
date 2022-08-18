@@ -12,9 +12,6 @@ import { FaMoon } from "react-icons/fa";
 import Link from "../../atoms/link/Link";
 import AboutModal from "../../molecules/aboutModal/AboutModal";
 
-// TODO modal about for desktop
-//  TODO Implement body-scroll-lock
-
 function Header({ isTouchDevice }: HeaderProps) {
   const [showMenu, setShowMenu] = useState(false);
   const [isOpenModal, setIsOpenModal] = useState(false);
@@ -31,10 +28,10 @@ function Header({ isTouchDevice }: HeaderProps) {
             onClick={() => setShowMenu(true)}
             noBorder
           >
-            <GiHamburgerMenu />
+            <GiHamburgerMenu data-testid="hamburger-icon" />
           </Button>
         ) : (
-          <FlexContainer>
+          <FlexContainer className="flex-items-align--center">
             <Button
               onClick={() => alert("Still working on.")}
               noBorder
