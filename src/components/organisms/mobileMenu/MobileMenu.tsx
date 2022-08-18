@@ -74,6 +74,3 @@ export interface MobileMenuProps {
 }
 
 export default MobileMenu;
-
-// TODO settings button? Layout of buttons?
-// TODO Write test

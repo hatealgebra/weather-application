@@ -137,5 +137,3 @@ export interface ModalProps {
 }
 
 export default Modal;
-
-//  TODO write tests

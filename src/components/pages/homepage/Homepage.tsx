@@ -11,8 +11,6 @@ import AppSection from "../../organisms/appSection/AppSection";
 import TodaySection from "../../organisms/appSection/TodaySection";
 import PhotoContainer from "../../molecules/photoContainer/PhotoContainer";
 
-// TODO When app loads, from the geolocation or default
-
 function HomePage() {
   const { cityState } = useContext(CityContext);
 

@@ -23,8 +23,8 @@ export const showPhoto = async (
 // GOOGLE
 
 /**
-//  TODO Comment this properly
- * * Turns GPS location to google reponse with responses that are at that area
+ *
+ * * Turns GPS coordinations to the locality & political results and chooses the first propable result from autcomplete predictions
  *
  * @param {number} lat
  * @param {number} lng

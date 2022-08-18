@@ -24,7 +24,7 @@ export const FooterContainer = styled.footer`
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer data-testid="footer">
       <p>Made with &#129505; & &#9749; by Paul. </p>
       <div className="footer__social">
         <a href="https://github.com/hatealgebra" className="footer__anchor">

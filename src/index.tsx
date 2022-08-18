@@ -21,4 +21,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// TODO Write tests
+// TODO Create snapshots and visual testing

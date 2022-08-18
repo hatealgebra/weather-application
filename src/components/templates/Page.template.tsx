@@ -5,10 +5,6 @@ import Footer from "../organisms/footer/Footer";
 import Header from "../organisms/header/Header";
 import { Content, HeaderStyled } from "./page.template.styled";
 
-// TODO about in the mobile menu
-// TODO about in modal
-//  TODO test write
-
 function PageTemplate({ children }: PageTemplateProps) {
   const windowSize = useWindowSize();
 
