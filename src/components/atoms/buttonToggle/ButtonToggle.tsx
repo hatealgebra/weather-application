@@ -1,4 +1,3 @@
-import { bool, func } from "prop-types";
 import React, { Dispatch, SetStateAction } from "react";
 import { StyledToggleButton } from "./buttonToggle.styled";
 
@@ -8,7 +7,7 @@ function ButtonToggle({ toggleOn, setToggleOn }: ButtonToggleProps) {
       onClick={() => setToggleOn((prevState) => !prevState)}
       status={toggleOn || false}
     >
-      <div className="toggle-circle" data-testid="toggle-btn"></div>
+      <div className="toggle-circle" data-testid="toggle-btn" />
     </StyledToggleButton>
   );
 }

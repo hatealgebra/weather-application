@@ -51,7 +51,7 @@ const messageReducer = (
   }
 };
 
-export const MsgProvider = ({ children }: { children: React.ReactNode }) => {
+export const MsgProvider = ({ children }: { children?: React.ReactNode }) => {
   const [state, dispatch] = useReducer(messageReducer, initialState);
   return (
     <MsgContext.Provider value={{ state, dispatch }}>

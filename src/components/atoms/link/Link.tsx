@@ -9,6 +9,7 @@ function Link({
   noBorder,
   onClick,
   color,
+  newTab,
   ...props
 }: LinkProps) {
   if (isButton) {
@@ -19,13 +20,18 @@ function Link({
         appearance="tertiary"
         href={href}
         noBorder={noBorder}
+        target={(newTab && "_blank") || "__self"}
       >
         {children}
       </StyledButton>
     );
   }
   return (
-    <StyledLink color={color} href={href}>
+    <StyledLink
+      color={color}
+      href={href}
+      target={(newTab && "_blank") || "_self"}
+    >
       {children}
     </StyledLink>
   );
@@ -38,6 +44,7 @@ export interface LinkProps {
   color?: string;
   noBorder?: boolean;
   onClick?: CallableFunction;
+  newTab?: boolean;
 }
 
 export default Link;

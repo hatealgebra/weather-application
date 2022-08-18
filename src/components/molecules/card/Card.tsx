@@ -20,7 +20,6 @@ import { getPlaceDetail } from "../../../services/API/google";
 import { FlexContainer } from "../../atoms/block/Block";
 import { changeGetUrlPlace } from "../../../utils/city.utils";
 
-// component that shows interesting place from the city and it is clickable
 // fixme card design
 function Card({
   cityDispatch,

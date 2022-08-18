@@ -46,7 +46,7 @@ describe("Form interactions", () => {
 // describe("Tests based on delivered data", () => {
 //   test("results for input", async () => {
 //     setupTest(<Default />);
-//     userEvent.type(screen.getByRole("textbox"), "pr");
+//     userEvent.type(screen.getByRole("textbox"), "");
 //     const listitem = await screen.findByRole("listitem");
 //   });
 // });

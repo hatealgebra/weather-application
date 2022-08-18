@@ -20,6 +20,11 @@ const StorybookGlobalWrapper = (storyFn) => (
   </ThemeProvider>
 );
 
+addDecorator((StoryFn) => (
+  <ThemeProvider theme={theme}>
+    <StoryFn />
+  </ThemeProvider>
+));
 addDecorator(StorybookGlobalWrapper);
 
 export const parameters = {

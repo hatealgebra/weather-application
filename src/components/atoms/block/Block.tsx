@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const AppContainer = styled.div`
+  position: relative;
   margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
   width: 100%;
+  overflow: visible;
   max-width: 1300px;
-  position: relative;
 `;
 
 export const Section = styled.section<{

@@ -9,7 +9,7 @@ let map: google.maps.Map;
  * @param  {number|CallableFunction} lat = latitude
  * @param  {number|CallableFunction} lng = longitude
  */
-//  FIXME Typing of the parameters
+
 export function getMap(lat: any, lng: any): void {
   let place;
   if (typeof lat !== "number" && typeof lng !== "number") {

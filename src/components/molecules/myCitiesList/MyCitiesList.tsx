@@ -14,6 +14,8 @@ import ListItem from "../../atoms/listItem/ListItem";
 import themeDefault from "../../particles/themeDefault";
 import { StyledMyCitiesList } from "./myCitiesList.styled";
 
+// TODO Implement My Cities functionality
+
 function MyCitiesList() {
   const { myCitiesState, dispatchMyCitiesState } = useContext(MyCitiesContext);
 

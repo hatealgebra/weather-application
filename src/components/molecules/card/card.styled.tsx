@@ -54,7 +54,6 @@ export const StyledCardContainer = styled.div`
 `;
 
 export const StyledPlacePhoto = styled.img`
-  cursor: pointer;
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
   width: 100%;

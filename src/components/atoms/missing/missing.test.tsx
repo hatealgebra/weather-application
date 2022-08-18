@@ -1,7 +1,5 @@
 import React from "react";
 
-import { screen } from "@testing-library/react";
-
 import setupTest from "../../../utils/test.utils";
 import { NoResult } from "./missing.stories";
 

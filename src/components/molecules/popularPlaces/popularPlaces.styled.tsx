@@ -8,6 +8,7 @@ export const StyledPlacesContainer = styled.div`
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 0 5% 1% 0;
+
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   /* Hide scrollbar for other browsers */

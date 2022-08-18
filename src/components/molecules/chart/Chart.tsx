@@ -14,7 +14,6 @@ import { AreaChartContainer } from "./chart.styled";
 import ChartLabel from "./ChartLabel";
 
 /**
- * TODO Write Tests
  *
  * @param {*} { dataset } Deconstructed dataset for the chart
  * @return {*} Chart component based on the passed dataset

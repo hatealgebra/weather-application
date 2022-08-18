@@ -45,14 +45,18 @@ const AboutModal = ({ isOpen, setIsOpenModal }: AboutModalProps) => {
     }
   }, [isOpen, modalRef]);
   return (
-    <ModalContainerStyled isOpen={isOpen} ref={modalRef}>
+    <ModalContainerStyled
+      data-testid="about-modal"
+      isOpen={isOpen}
+      ref={modalRef}
+    >
       <Button
         onClick={() => setIsOpenModal(false)}
         appearance="tertiary"
         containsIcon
         size="small"
       >
-        <GrClose />
+        <GrClose title="about-modal__close-button" />
       </Button>
       <AboutApp />
     </ModalContainerStyled>

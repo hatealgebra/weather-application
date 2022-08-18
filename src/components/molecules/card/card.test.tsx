@@ -1,13 +1,16 @@
 import React from "react";
 import { screen } from "@testing-library/react";
-// import userEvent from "@testing-library/user-event";
 
 import setupTest from "../../../utils/test.utils";
 import Card from "./Card";
+import { initialize } from "@googlemaps/jest-mocks";
 
 describe("Place card", () => {
+  const mockFn = jest.fn();
+  beforeAll(() => {
+    initialize();
+  });
   beforeEach(() => {
-    const mockFn = jest.fn();
     setupTest(
       <Card
         place_id="this is id"

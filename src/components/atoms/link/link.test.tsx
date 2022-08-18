@@ -1,10 +1,9 @@
 import React from "react";
-import { screen } from "@testing-library/react";
 
 import { ButtonLink, UnderlineLink } from "./link.stories";
 import setupTest from "../../../utils/test.utils";
 
-describe("testing links", () => {
+describe("underline link", () => {
   test("if link has correct href", () => {
     const { getByRole } = setupTest(<UnderlineLink />);
     expect(getByRole("link")).toHaveAttribute("href", "#");
@@ -13,14 +12,13 @@ describe("testing links", () => {
     const { getByRole } = setupTest(<UnderlineLink />);
     expect(getByRole("link")).toHaveTextContent(/link/i);
   });
-});
-
-describe("link variants", () => {
-  test("underline link", () => {
+  test("underline decoration", () => {
     const { getByRole } = setupTest(<UnderlineLink />);
     expect(getByRole("link")).toHaveStyle("text-decoration: underline");
   });
+});
 
+describe("button link variant", () => {
   test("button link", () => {
     const { getByRole } = setupTest(<ButtonLink />);
     expect(getByRole("link")).toHaveAttribute("href", "#");

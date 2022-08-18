@@ -75,7 +75,7 @@ const cityReducer = (
   }
 };
 
-export const CityProvider = ({ children }: { children: React.ReactNode }) => {
+export const CityProvider = ({ children }: { children?: React.ReactNode }) => {
   const [cityState, dispatchCityState] = useReducer(cityReducer, initialState);
   return (
     <CityContext.Provider value={{ cityState, dispatchCityState }}>

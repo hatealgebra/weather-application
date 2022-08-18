@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import ButtonToggle from "./ButtonToggle";
 
 export const PillToggle = () => {
-  const [toggleOn, setToggleOn] = useState(false);
-
+  const [toggleOn, setToggleOn] = React.useState(false);
   return <ButtonToggle toggleOn={toggleOn} setToggleOn={setToggleOn} />;
 };
 

@@ -174,8 +174,7 @@ const StartApp = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  //   TODO typing
-  const loadCity = async () => {
+  const loadCity = async (): Promise<void> => {
     try {
       const response: any = await geolocationAPI();
       const { latitude, longitude } = response.coords;

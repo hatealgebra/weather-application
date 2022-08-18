@@ -7,7 +7,7 @@ export const HeaderStyled = styled.header`
   width: 100%;
   box-sizing: border-box;
   position: fixed;
-
+  left: 0;
   overflow-y: visible;
 `;
 

@@ -1,9 +1,15 @@
 import React from "react";
 import { screen } from "@testing-library/react";
 
-import { AutocompleteItem, LoadingItem, MyCityItem } from "./listItem.stories";
+import {
+  AutocompleteItem,
+  DisabledItem,
+  LoadingItem,
+  MyCityItem,
+} from "./listItem.stories";
 import ListItem from "./ListItem";
 import setupTest from "../../../utils/test.utils";
+import userEvent from "@testing-library/user-event";
 
 describe("Checks list item rendering", () => {
   test("list  item exists", () => {
@@ -27,6 +33,12 @@ describe("tests state of the list item", () => {
     setupTest(<LoadingItem />);
     expect(screen.getByText(/loading center/i)).toHaveStyle("cursor: progress");
   });
+  test("item is disabeld", () => {
+    const { getByRole } = setupTest(
+      <DisabledItem {...DisabledItem.args}>Nothing</DisabledItem>
+    );
+    expect(getByRole("listitem")).toHaveStyle("cursor: not-allowed");
+  });
 });
 
 describe("test autocomplete item", () => {
@@ -43,5 +55,18 @@ describe("test my cities item", () => {
     setupTest(<MyCityItem />);
     const item = screen.getByRole("listitem");
     expect(item).toHaveTextContent(/brussel/i);
+  });
+});
+
+describe("item mouseover interactivty", () => {
+  test("hover styling", () => {
+    const { getByRole } = setupTest(
+      <ListItem onClick={() => "he"}>List Item</ListItem>
+    );
+    const listItem = getByRole("listitem");
+    userEvent.hover(listItem);
+    expect(listItem).toHaveStyle({
+      cursor: "pointer",
+    });
   });
 });

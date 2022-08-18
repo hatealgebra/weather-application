@@ -37,4 +37,4 @@ export interface ReviewProps {
 
 export default Review;
 
-// TODO add test for component
+// FIXME Tests are suitable more for visual and snapshot

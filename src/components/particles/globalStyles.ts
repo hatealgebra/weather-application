@@ -113,5 +113,9 @@ max-width: 500px;
   font-weight: 600;
 }
 
+.flex-items-align--center{
+  align-items:center;
+}
+
 
 `;
