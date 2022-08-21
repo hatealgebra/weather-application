@@ -7,6 +7,8 @@ import { MsgProvider } from "../src/context/MsgContext";
 import { CityProviderMock } from "../src/context/CityContext";
 import { MyCitiesProviderMock } from "../src/context/MyCitiesContext";
 import { withThemesProvider } from "storybook-addon-styled-component-theme";
+import { initialize, mswDecorator } from "msw-storybook-addon";
+import { OWHandler } from "../src/mocks/handlers";
 
 const StorybookGlobalWrapper = (storyFn) => (
   <MsgProvider>
@@ -19,7 +21,12 @@ const StorybookGlobalWrapper = (storyFn) => (
   </MsgProvider>
 );
 
+// Initialize MSW
+initialize();
+
+// Provide the MSW addon decorator globally
 const themes = [themeDefault, darkTheme];
+addDecorator(mswDecorator);
 addDecorator(StorybookGlobalWrapper);
 addDecorator(withThemesProvider(themes), ThemeProvider);
 
@@ -29,6 +36,11 @@ export const parameters = {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
+    },
+  },
+  msw: {
+    handlers: {
+      openWeatherMap: OWHandler,
     },
   },
 };

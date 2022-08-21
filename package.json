@@ -21,6 +21,7 @@
     "body-scroll-lock": "^4.0.0-beta.0",
     "dateformat": "^5.0.3",
     "ejs": "^3.1.8",
+    "msw-storybook-addon": "^1.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -94,5 +95,8 @@
   },
   "resolutions": {
     "react-test-renderer": "^18.1.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

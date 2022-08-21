@@ -16,11 +16,9 @@ import Rating from "../../atoms/rating/Rating";
 import Review from "../../molecules/review/Review";
 import { FlexContainer, Box } from "../../atoms/block/Block";
 import { getMap } from "../../../services/API/google/mapInfoWindow";
-import { useTheme } from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
 
 function Modal({ active, data, setShowModal }: ModalProps) {
-  const theme = useTheme();
   const {
     name,
     rating,
