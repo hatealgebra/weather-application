@@ -10,13 +10,10 @@ import { AiOutlineClose } from "react-icons/ai";
 import { ButtonRow, FlexContainer } from "../../atoms/block/Block";
 import AboutApp from "../../particles/AboutApp";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
-import { useTheme } from "styled-components";
-import themeDefault from "../../particles/Themes";
 import ButtonThemeToggle from "../../atoms/button/ButtonThemeToggle";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
   const mobileMenuRef = React.useRef(null);
-  const theme = useTheme() as typeof themeDefault;
 
   React.useEffect(() => {
     if (mobileMenuRef.current) {
