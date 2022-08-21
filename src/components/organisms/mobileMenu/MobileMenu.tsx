@@ -43,7 +43,7 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
             noBorder
             onClick={() => setShowMenu(false)}
           >
-            <AiOutlineClose fontSize="1.3em" color={theme.color.text} />
+            <AiOutlineClose color="black" />
           </Button>
         </FlexContainer>
       </StyledHeaderWrapper>
