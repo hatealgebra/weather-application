@@ -4,7 +4,6 @@ import { EmptyStar, FullStar } from "./rating.styled";
 import { IoAccessibility } from "react-icons/io5";
 
 import { StyledRatingContainer } from "./rating.styled";
-import themeDefault from "../../particles/themeDefault";
 
 /**
  *
@@ -30,7 +29,7 @@ export const showPopularity = (total: number, color: string) => {
     if (i + 1 <= nrFigures) {
       return (
         <IoAccessibility
-          color={color || themeDefault.color.primary}
+          color={color}
           key={i}
           title="figure"
           data-testid="full-figure"

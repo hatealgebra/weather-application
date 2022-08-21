@@ -14,11 +14,13 @@ import blueBackground from "../../../assets/images/blue-background.jpg";
 
 import Rating from "../../atoms/rating/Rating";
 import Review from "../../molecules/review/Review";
-import { GrClose } from "react-icons/gr";
 import { FlexContainer, Box } from "../../atoms/block/Block";
 import { getMap } from "../../../services/API/google/mapInfoWindow";
+import { useTheme } from "styled-components";
+import { AiOutlineClose } from "react-icons/ai";
 
 function Modal({ active, data, setShowModal }: ModalProps) {
+  const theme = useTheme();
   const {
     name,
     rating,
@@ -49,13 +51,13 @@ function Modal({ active, data, setShowModal }: ModalProps) {
     <StyledPlaceModalBackground data-testid="placeModal" active={active}>
       <StyledPlaceModalContainer>
         <Button
-          className="modal__close-btb"
+          className="modal__close-btn"
           onClick={() => closeModal()}
           appearance="tertiary"
           containsIcon
           size="small"
         >
-          <GrClose />
+          <AiOutlineClose fontSize="1.3em" color="black" />
         </Button>
 
         <StyledModalPhoto
@@ -98,7 +100,9 @@ function Modal({ active, data, setShowModal }: ModalProps) {
           </FlexContainer>
           <Box>
             <h4>Direction</h4>
-            <Caption>{formatted_address}</Caption>
+            <Caption className="force-text-color--theme">
+              {formatted_address}
+            </Caption>
             <StyledPlaceMap></StyledPlaceMap>
           </Box>
           <Box className="modal__reviews">

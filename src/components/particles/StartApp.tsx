@@ -3,7 +3,7 @@ import styled from "styled-components";
 import CityContext from "../../context/CityContext";
 import { geolocationAPI } from "../../services/API/geolocation";
 
-import { getCityFromCoords } from "../../utils/helpers";
+import { getCityFromCoords } from "../../helpers/helpers";
 import HomePage from "../pages/homepage/Homepage";
 
 const LoadingScreen = styled.div<{ isLoading: boolean }>`

@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledAutoComplete } from "./autoComplete.styled";
 import ListItem from "../../atoms/listItem/ListItem";
-import themeDefault from "../../particles/themeDefault";
+import themeDefault from "../../particles/Themes";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Caption from "../../atoms/caption/Caption";
 import Missing from "../../atoms/missing/Missing";

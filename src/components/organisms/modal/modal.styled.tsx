@@ -24,7 +24,8 @@ export const StyledPlaceModalContainer = styled.div`
   border-radius: 0px;
   box-shadow: ${({ theme }) => theme.shadow.blackShadow};
   position: absolute;
-  background-color: white;
+  background-color: ${({ theme }) => theme.color.body};
+  color: ${({ theme }) => theme.color.text}
   width: 100%;
   top: 0;
   bottom: 0;
@@ -56,6 +57,7 @@ export const StyledPlaceModalContainer = styled.div`
     }
     &__close-btn {
       align-self: center;
+      background-color: "white"
     }
   }
   ${({ theme }) => theme.breakpoint.landscapeTablet} {
@@ -141,7 +143,7 @@ export const StyledOpening = styled.li`
   margin-top: 10px;
   font-style: italic;
 
-  color: black;
+  color: ${({ theme }) => theme.color.text};
   svg {
     margin-right: 10px;
   }

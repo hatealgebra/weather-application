@@ -13,7 +13,7 @@ export const FooterContainer = styled.footer`
         vertical-align: middle;
         font-size: 20px;
         margin: 0 10px;
-        color: ${({ theme }) => theme.color.labelGrey};
+        color: ${({ theme }) => theme.name === "DARK" && theme.color.primary};
       }
     }
   }

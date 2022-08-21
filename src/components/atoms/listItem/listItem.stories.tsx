@@ -6,14 +6,14 @@ import Button from "../button/Button";
 import Caption from "../caption/Caption";
 import ListItem, { ListItemProps } from "./ListItem";
 import ButtonToggle from "../buttonToggle/ButtonToggle";
-import themeDefault from "../../particles/themeDefault";
+import theme from "../../particles/Themes";
 import { Story } from "@storybook/react";
 
 const Template: Story<ListItemProps> = (args) => <ListItem {...args} />;
 
 export const BasicItem = Template.bind({});
 BasicItem.args = {
-  left: <FaMapMarkerAlt title="left-icon" color={themeDefault.color.primary} />,
+  left: <FaMapMarkerAlt title="left-icon" color={theme.color.primary} />,
   children: "Center",
   right: "Right",
 };
@@ -29,7 +29,12 @@ export const LoadingItem = () => <ListItem isLoading>Item</ListItem>;
 export const AutocompleteItem = () => (
   <ListItem
     onClick={() => "hey"}
-    left={<FaMapMarkerAlt data-testid="leftIconMarker" />}
+    left={
+      <FaMapMarkerAlt
+        data-testid="leftIconMarker"
+        color={theme.color.primary}
+      />
+    }
   >
     Prague,{<Caption>Czech Republic</Caption>}
   </ListItem>
@@ -54,12 +59,7 @@ export const MyCityItem = () => {
             noBorder
             onClick={action("City was removed from the favourites.")}
           >
-            {
-              <AiFillMinusCircle
-                color={themeDefault.color.warning}
-                fontSize="20px"
-              />
-            }
+            {<AiFillMinusCircle color={theme.color.warning} fontSize="20px" />}
           </Button>
         </>
       }

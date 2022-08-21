@@ -1,31 +1,27 @@
 import { ThemeProvider } from "styled-components";
-import theme from "../src/components/particles/themeDefault";
+import themeDefault, { darkTheme } from "../src/components/particles/Themes";
+import GlobalStyles from "../src/components/particles/globalStyles";
 import { addDecorator } from "@storybook/react";
-import { GlobalStyles } from "../src/components/particles/globalStyles";
 
 import { MsgProvider } from "../src/context/MsgContext";
 import { CityProviderMock } from "../src/context/CityContext";
 import { MyCitiesProviderMock } from "../src/context/MyCitiesContext";
+import { withThemesProvider } from "storybook-addon-styled-component-theme";
 
 const StorybookGlobalWrapper = (storyFn) => (
-  <ThemeProvider theme={theme}>
-    <MsgProvider>
-      <CityProviderMock>
-        <MyCitiesProviderMock>
-          <GlobalStyles />
-          {storyFn()}
-        </MyCitiesProviderMock>
-      </CityProviderMock>
-    </MsgProvider>
-  </ThemeProvider>
+  <MsgProvider>
+    <CityProviderMock>
+      <MyCitiesProviderMock>
+        <GlobalStyles />
+        {storyFn()}
+      </MyCitiesProviderMock>
+    </CityProviderMock>
+  </MsgProvider>
 );
 
-addDecorator((StoryFn) => (
-  <ThemeProvider theme={theme}>
-    <StoryFn />
-  </ThemeProvider>
-));
+const themes = [themeDefault, darkTheme];
 addDecorator(StorybookGlobalWrapper);
+addDecorator(withThemesProvider(themes), ThemeProvider);
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

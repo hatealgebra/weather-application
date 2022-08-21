@@ -8,9 +8,9 @@ import Button from "../../atoms/button/Button";
 import { Logo } from "../../atoms/logo/Logo";
 import MobileMenu from "../mobileMenu/MobileMenu";
 import { FlexContainer } from "../../atoms/block/Block";
-import { FaMoon } from "react-icons/fa";
 import Link from "../../atoms/link/Link";
 import AboutModal from "../../molecules/aboutModal/AboutModal";
+import ButtonThemeToggle from "../../atoms/button/ButtonThemeToggle";
 
 function Header({ isTouchDevice }: HeaderProps) {
   const [showMenu, setShowMenu] = useState(false);
@@ -23,7 +23,6 @@ function Header({ isTouchDevice }: HeaderProps) {
         <SearchForm />
         {isTouchDevice ? (
           <Button
-            containsIcon
             appearance="tertiary"
             onClick={() => setShowMenu(true)}
             noBorder
@@ -32,14 +31,7 @@ function Header({ isTouchDevice }: HeaderProps) {
           </Button>
         ) : (
           <FlexContainer className="flex-items-align--center">
-            <Button
-              onClick={() => alert("Still working on.")}
-              noBorder
-              appearance="tertiary"
-              withIcon={<FaMoon />}
-            >
-              dark mode
-            </Button>
+            <ButtonThemeToggle />
             <Button
               onClick={() => setIsOpenModal(true)}
               noBorder

@@ -1,5 +1,5 @@
 import { css, keyframes } from "styled-components";
-import themeDefault from "./themeDefault";
+import themeDefault from "./Themes";
 
 export const glow = keyframes`
 0%, 100% { opacity: 1; }

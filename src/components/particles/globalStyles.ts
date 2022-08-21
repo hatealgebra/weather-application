@@ -3,9 +3,9 @@ import "@fontsource/oswald";
 import "@fontsource/yellowtail"; // Defaults to weight 400.
 
 import { createGlobalStyle } from "styled-components";
-import theme from "./themeDefault";
+import themeDefault from "./Themes";
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle<{ theme: typeof themeDefault }>`
 
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
@@ -33,17 +33,18 @@ html {font-size: 90%; box-sizing: border-box;}
     font-size: 115%;
 }
 
-}
+
 
 body {
-  background: white;
+  background: ${({ theme }) => theme.color.body};
   font-family: "Poppins";
   font-weight: 400;
   line-height: 1.3;
   padding: 0 !important;
-  color: ${theme.color.black};
+  color: ${({ theme }) => theme.color.text};
   overflow-x:hidden;
-  width: 100%;
+  width: 100%; 
+  transition: ease-out .5s ;
 }
 
 .lock-scroll-body{
@@ -67,18 +68,18 @@ button, a {
 h1 {
   margin-top: 0;
   font-size: 3.2rem;
-  font-weight: ${theme.typography.weight.bold}
+  font-weight: ${({ theme }) => theme.typography.weight.bold}
 
 }
 
 h2 {
-  font-size: ${theme.typography.size.h2};
+  font-size: ${({ theme }) => theme.typography.size.h2};
   font-weight: 100;
   margin: 0.3em auto;
   text-transform: capitalize;
   span {
     display: inline-block;
-    font-weight: ${theme.typography.weight.black};
+    font-weight: ${({ theme }) => theme.typography.weight.black};
     margin-right: 10px;
     text-transform: capitalize;
   }
@@ -86,27 +87,27 @@ h2 {
 
 h3 {font-size: 1.728rem;
 
-font-weight: ${theme.typography.weight.semibold};
+font-weight: ${({ theme }) => theme.typography.weight.semibold};
 }
 
 h4 {font-size: 1.54rem;
-  font-weight: ${theme.typography.weight.semibold};
+  font-weight: ${({ theme }) => theme.typography.weight.semibold};
   
   
 }
 
 h5 {font-size: 1.2rem;
-  font-weight: ${theme.typography.weight.semibold};
+  font-weight: ${({ theme }) => theme.typography.weight.semibold};
 }
 
-p{ font-size: ${theme.typography.size.body};
-color: ${theme.color.black};
+p{ font-size: ${({ theme }) => theme.typography.size.body};
+color: ${({ theme }) => theme.color.text};
 font-weight: 300;
 line-height: 1.8;
 margin: 20px 0;
 max-width: 500px;
 }
-.small, .text_small {font-size: ${theme.typography.size.label};}
+.small, .text_small {font-size: ${({ theme }) => theme.typography.size.label};}
 
 .number{
   font-family: "Oswald";
@@ -117,5 +118,10 @@ max-width: 500px;
   align-items:center;
 }
 
+.force-text-color--theme{
+  color:${({ theme }) => theme.color.text}
+}
 
 `;
+
+export default GlobalStyles;

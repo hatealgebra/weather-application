@@ -1,6 +1,9 @@
 import React from "react";
+import { useTheme } from "styled-components";
+import themeDefault from "../../particles/Themes";
 
 function ChartLabel(props: any) {
+  const theme = useTheme() as typeof themeDefault;
   const { x, y, value } = props;
   const { temp, weather } = value;
   return (
@@ -12,7 +15,7 @@ function ChartLabel(props: any) {
         height={45}
         xlinkHref={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
       />
-      <text x={x - 12} y={y - 10} fontSize="20px">
+      <text x={x - 12} y={y - 10} fontSize="20px" fill={theme.color.text}>
         {`${Math.round(temp)}°`}
       </text>
     </>

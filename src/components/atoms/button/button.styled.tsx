@@ -41,7 +41,7 @@ export const StyledButton = styled.button<ButtonProps>`
     ${({ appearance, theme }) =>
       appearance === "tertiary" ? theme.color.border : "transparent"};
   color: ${({ appearance, theme }) =>
-    appearance === "primary" ? "white" : theme.color.black};
+    appearance === "primary" ? "white" : theme.color.text};
   font-size: ${({ size }) => size === "small" && "small"};
   padding: ${({ size }) => (size === "small" ? "10px 10px" : "12px 15px")};
   &:hover {

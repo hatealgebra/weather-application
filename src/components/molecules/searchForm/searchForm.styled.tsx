@@ -30,18 +30,18 @@ export const StyledSearchInput = styled.div`
   height: auto;
   flex-direction: row;
   align-items: center;
+  background: white;
+  border: transparent;
 `;
 export const StyledAutocompleteWrapper = styled.ul.attrs<{ show?: boolean }>(
   (props) => ({
     "data-testid": "autocomplete-container",
   })
 )<{ show?: boolean }>`
-  top: 1px;
   z-index: 98;
   position: relative;
   max-height: ${(props) => (props.show ? "500px" : "0px")};
-  transition: ease-in 0.4s;
-  border-top: thin solid rgba(0, 0, 0, 0.09);
+  transition: ease-in 0.2s;
   overflow: auto;
   background: white;
 

@@ -11,7 +11,7 @@ import Button from "../../atoms/button/Button";
 import ButtonToggle from "../../atoms/buttonToggle/ButtonToggle";
 
 import ListItem from "../../atoms/listItem/ListItem";
-import themeDefault from "../../particles/themeDefault";
+import themeDefault from "../../particles/Themes";
 import { StyledMyCitiesList } from "./myCitiesList.styled";
 
 // TODO Implement My Cities functionality

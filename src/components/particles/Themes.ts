@@ -1,4 +1,5 @@
 const themeDefault = {
+  name: "DEFAULT",
   fonts: {
     mainFont: `"Poppins", sans-serif`,
     secondaryFont: `"Poppins", sans-serif`,
@@ -34,7 +35,8 @@ const themeDefault = {
     label: "#797D89",
     border: " #E2E8F0",
     input: "#adb5bd",
-    black: "#2D3748",
+    body: "white",
+    text: "#2D3748",
     positive: "#53BE62",
     warning: "#D7263D",
     orange: "#ff8811",
@@ -53,6 +55,23 @@ const themeDefault = {
     laptop: "@media only screen and (min-width: 992px)",
     desktopMedia: "@media only screen and (min-width: 1200px)",
   },
+};
+
+export const darkTheme = {
+  ...themeDefault,
+  name: "DARK",
+  color: {
+    ...themeDefault.color,
+    body: themeDefault.color.text,
+    text: themeDefault.color.body,
+    label: themeDefault.color.border,
+    border: themeDefault.color.label,
+  },
+  // shadow: {
+  //   search_shadow: "0 1px 2px 0 rgba(255, 255, 255, 0.06)",
+  //   border_shadow: "0 0px 1px 0px rgba(255,255,255,.4)",
+  //   big_shadow: "0px 5px 15px 3px rgba(255, 255, 255, .25)",
+  // },
 };
 
 export default themeDefault;

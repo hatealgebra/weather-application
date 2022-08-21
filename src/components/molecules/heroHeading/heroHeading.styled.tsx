@@ -31,7 +31,8 @@ export const StyledBigNumber = styled.span<{ tempLength: number }>`
   font-size: 5.5em;
   line-height: auto;
   font-weight: 600;
-  color: ${({ theme }) => theme.color.secondary};
+  color: ${({ theme }) =>
+    theme.name === "DEFAULT" ? theme.color.secondary : theme.color.primary};
 
   ${({ theme }) => theme.breakpoint.tablet} {
     margin: auto 0;
@@ -51,7 +52,7 @@ export const StyledWeatherText = styled(Caption)`
   border-radius: 30px;
   font-weight: 600;
   background-color: ${({ theme }) => theme.color.border};
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.color.text};
 
   ${({ theme }) => theme.breakpoint.tablet} {
     font-size: 1.1em;

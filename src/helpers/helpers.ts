@@ -1,5 +1,6 @@
 import { Dispatch } from "react";
 import { ICityReducerAction, SET_CITY_DATA } from "../context/CityContext";
+import { ThemeTypes, TOGGLE } from "../context/ThemeContext";
 import {
   getPlaceDetail,
   reverseGeocode,
@@ -30,3 +31,8 @@ export const getCityFromCoords = async (
     },
   });
 };
+
+export const toggleThemes = (theme: ThemeTypes) => ({
+  type: TOGGLE,
+  payload: theme === "DEFAULT" ? "DARK" : "DEFAULT",
+});

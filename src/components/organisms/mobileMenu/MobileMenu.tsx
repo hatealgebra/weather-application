@@ -1,20 +1,22 @@
 import React, { Dispatch } from "react";
 
-import { FaMoon } from "react-icons/fa";
-
 import Button from "../../atoms/button/Button";
 import Link from "../../atoms/link/Link";
 import { Logo } from "../../atoms/logo/Logo";
 import { StyledHeaderWrapper } from "../header/header.styled";
 import { StyledMenuContainer } from "./mobileMenu.styled";
 
-import { GrClose } from "react-icons/gr";
+import { AiOutlineClose } from "react-icons/ai";
 import { ButtonRow, FlexContainer } from "../../atoms/block/Block";
 import AboutApp from "../../particles/AboutApp";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
+import { useTheme } from "styled-components";
+import themeDefault from "../../particles/Themes";
+import ButtonThemeToggle from "../../atoms/button/ButtonThemeToggle";
 
 function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
   const mobileMenuRef = React.useRef(null);
+  const theme = useTheme() as typeof themeDefault;
 
   React.useEffect(() => {
     if (mobileMenuRef.current) {
@@ -34,21 +36,14 @@ function MobileMenu({ showMenu, setShowMenu }: MobileMenuProps) {
       <StyledHeaderWrapper>
         <Logo />
         <FlexContainer>
-          <Button
-            onClick={() => alert("Night mode is coming soon!")}
-            size="small"
-            appearance="secondary"
-            withIcon={<FaMoon />}
-          >
-            Switch mode
-          </Button>
+          <ButtonThemeToggle />
           <Button
             appearance="tertiary"
             containsIcon
             noBorder
             onClick={() => setShowMenu(false)}
           >
-            <GrClose />
+            <AiOutlineClose fontSize="1.3em" color={theme.color.text} />
           </Button>
         </FlexContainer>
       </StyledHeaderWrapper>

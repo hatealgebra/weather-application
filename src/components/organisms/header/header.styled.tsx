@@ -5,10 +5,10 @@ export const StyledHeader = styled.div`
   display: flex;
   flex-direction: column;
   justify-items: stretch;
+  background: ${({ theme }) => theme.color.body};
 `;
 
 export const StyledHeaderWrapper = styled.div<{ border?: boolean }>`
-  background: white;
   position: relative;
   width: 100%;
   height: 60px;

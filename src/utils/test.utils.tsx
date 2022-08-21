@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { render } from "@testing-library/react";
 import { ThemeProvider } from "styled-components";
-import themeDefault from "../components/particles/themeDefault";
+import { darkTheme } from "../components/particles/Themes";
 import { CityProviderMock } from "../context/CityContext";
 
 const ThemeProviderComponent = ({
@@ -9,7 +9,7 @@ const ThemeProviderComponent = ({
 }: {
   children: React.ReactNode;
 }) => {
-  return <ThemeProvider theme={themeDefault}>{children}</ThemeProvider>;
+  return <ThemeProvider theme={darkTheme}>{children}</ThemeProvider>;
 };
 
 const setupTest = (component: ReactElement) => {

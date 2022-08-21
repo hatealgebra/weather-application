@@ -8,8 +8,10 @@ import {
   ResponsiveContainer,
   LabelList,
 } from "recharts";
+import { useTheme } from "styled-components";
 import { getHour } from "../../../utils/commonUtils/common.utils";
 import useWindowSize from "../../../utils/hooks/useWindowSize";
+import themeDefault from "../../particles/Themes";
 import { AreaChartContainer } from "./chart.styled";
 import ChartLabel from "./ChartLabel";
 
@@ -19,6 +21,7 @@ import ChartLabel from "./ChartLabel";
  * @return {*} Chart component based on the passed dataset
  */
 function Chart({ dataset }: ChartProps) {
+  const theme = useTheme() as typeof themeDefault;
   const getData = dataset
     .map((data: ITodayWeather) => ({
       ...data,
@@ -49,6 +52,8 @@ function Chart({ dataset }: ChartProps) {
             interval="preserveStartEnd"
             unit="PM"
             padding={{ left: 15, right: 15 }}
+            tick={{ fill: theme.color.text }}
+            tickLine={{ stroke: theme.color.text }}
           />
           <YAxis
             hide={true}
@@ -65,6 +70,7 @@ function Chart({ dataset }: ChartProps) {
             strokeWidth="1.5"
           >
             <LabelList
+              color="white"
               dataKey="tempAndWeather"
               position="middle"
               content={<ChartLabel />}

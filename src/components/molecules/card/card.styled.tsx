@@ -8,8 +8,10 @@ export const StyledCardContainer = styled.div`
   max-width: 300px;
   /* min-height: auto; */
   flex: 0 0 270px;
+  background: white;
   padding-bottom: 10px;
   border-radius: 5px;
+  color: #2d3748 !important;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   .place {
@@ -38,6 +40,7 @@ export const StyledCardContainer = styled.div`
       display: flex;
       flex-direction: column;
       gap: 5px;
+      color: #2d3748 !important;
     }
     &__caption {
       text-transform: capitalize;
@@ -45,6 +48,7 @@ export const StyledCardContainer = styled.div`
       align-self: center;
       position: relative;
       bottom: 2px;
+      color: #2d3748 !important;
     }
     &__description {
       margin-top: 10px;
