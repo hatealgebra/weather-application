@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+// FIXME: Gap between text and other components seems too big
+
 export const StyledPlaceReview = styled.li`
   display: grid;
   grid-template-areas: "photo username username username" "photo rating date ." "text text text text ";

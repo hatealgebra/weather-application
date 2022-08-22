@@ -18,6 +18,8 @@ import { FlexContainer, Box } from "../../atoms/block/Block";
 import { getMap } from "../../../services/API/google/mapInfoWindow";
 import { AiOutlineClose } from "react-icons/ai";
 
+// FIXME: Review is not visible
+
 function Modal({ active, data, setShowModal }: ModalProps) {
   const {
     name,

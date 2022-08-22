@@ -56,3 +56,5 @@ export interface HeaderProps {
 }
 
 export default Header;
+
+// TODO: Make logo link to portoflio
