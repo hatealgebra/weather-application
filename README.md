@@ -1,16 +1,12 @@
-<div align="center"><h1><strong>Weather Application</strong></h1></div>
+## <div align="center"><h1><strong>Weather Application</strong></h1></div>
 
 ## About this app
-
----
 
 This project supposes to be one of the "lab" projects in my portfolio. Had this idea in while and finally, it was realized.
 
 What this app can do? It shows weather and tourist places based on the city or location. When it starts, it shows mentioned information of the locality where the user/device is located. Users also can search for the city and display its weather and known places. The idea came from my experience, usually, when I'm traveling somewhere I check what weather is going to be there, to prepare my clothes. Sometimes there is a little bit of free time, so it is a good opportunity to see some interesting places. The main purpose of the "app" was for me to educate myself.
 
 ## Project description
-
----
 
 ### **Weather content**
 
@@ -29,8 +25,6 @@ Side-by-side the project the storybook was created for more clear development. C
 
 ## Technologies & Services
 
----
-
 - [Create React App](https://create-react-app.dev) w/ Typescript template
 - Context API
 - [Styled components](https://styled-components.com)
@@ -41,8 +35,6 @@ Side-by-side the project the storybook was created for more clear development. C
 - [React testing library](https://testing-library.com)
 
 ## How to install & run
-
----
 
 In the project directory, you can run:
 
@@ -73,8 +65,6 @@ Open [http://localhost:6006](http://localhost:6006) to view it in the browser
 
 ## How To Use Project
 
---
-
 If Geolocation API in the browser is enabled the nearest city from your location is loaded otherwise Prague is set by default. You can search through the input field desired city. You will then see today's weather, hourly graph and week forecast which you can scroll on smaller devices. The last section is full of POI, which can be opened into the modal where is place info, an interactive map and reviews of the place.
 
 If you run a storybook, you can see a small sample of the design system, which is super nice, because you can see and test components. About testing, unit tests are available, but sadly the storybook and mainly the storyshots, which are supposed to take snapshots of every story, are not compatible with React 18.
@@ -82,8 +72,6 @@ If you run a storybook, you can see a small sample of the design system, which i
 [Live version](https://weather-application-pv.netlify.app)
 
 ## Credits
-
----
 
 Photos from Unsplash:
 
