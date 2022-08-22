@@ -1,4 +1,4 @@
-## <div align="center"><h1><strong>Weather Application</strong></h1></div>
+# <div align="center"><h1><strong>Weather Application</strong></h1></div>
 
 ## About this app
 
