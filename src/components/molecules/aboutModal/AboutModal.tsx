@@ -16,12 +16,17 @@ const ModalContainerStyled = styled.div<{ isOpen: boolean; ref: any }>`
   height: 100%;
   z-index: 99;
   background: white;
+  color: black !important;
   padding: 50px 5% 20px 5%;
   box-shadow: ${({ theme }) => theme.shadow.border_shadow};
   button {
     position: absolute;
     right: 10px;
     top: 10px;
+  }
+
+  p {
+    color: black;
   }
 
   ${({ theme }) => theme.breakpoint.tablet} {
