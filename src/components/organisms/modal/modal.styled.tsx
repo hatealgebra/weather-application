@@ -32,7 +32,7 @@ export const StyledPlaceModalContainer = styled.div`
   margin: auto;
   padding-bottom: 2em;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 
   & > button {
     position: absolute;

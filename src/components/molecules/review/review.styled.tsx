@@ -32,7 +32,7 @@ export const StyledPlaceReview = styled.li`
       align-self: center;
     }
     &__text {
-      padding: 15px 10px 0px 5px;
+      padding: 0px 10px 0px 5px;
       grid-area: text;
     }
   }

@@ -5,7 +5,6 @@ const Caption = styled.span.attrs((props) => ({
 }))`
   text-transform: capitalize;
   font-weight: 500;
-  color: #797d89;
 `;
 
 export default Caption;

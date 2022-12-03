@@ -107,7 +107,8 @@ line-height: 1.8;
 margin: 20px 0;
 max-width: 500px;
 }
-.small, .text_small {font-size: ${({ theme }) => theme.typography.size.label};}
+.small, .text_small {font-size: ${({ theme }) =>
+  theme.typography.size.label};   color: ${({ theme }) => theme.color.text};}
 
 .number{
   font-family: "Oswald";
